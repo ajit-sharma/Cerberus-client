@@ -226,8 +226,7 @@ public class Main {
             // do not start web server.
             System.out.println("-parseonly is true, exiting..");
             System.exit(0);
-        }
-             
+        }    
         
         QueryListener listener = new QueryListener();
         listener.setModel(model);

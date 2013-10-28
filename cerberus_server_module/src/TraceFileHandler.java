@@ -19,7 +19,8 @@ public class TraceFileHandler {
 
 	}
 
-	public boolean filechecker() {
+	//변환을 위한 파일이 있는지 확인한다. 
+	private boolean filechecker() {
 		try {
 			FileReader filereader = new FileReader(filename+extension);
 			return true;
@@ -31,8 +32,9 @@ public class TraceFileHandler {
 		}
 	}
 
-	public void convert() {
-		
+	
+	//.trace파일을 텍스트의 형태로 변환하여 저장한다. 
+	public void convert() {	
 	
 		if (filechecker()) {
 			
@@ -45,15 +47,17 @@ public class TraceFileHandler {
 				Scanner scanner = new Scanner(br);
 				scanner.useDelimiter(System.getProperty("line.separator"));
 				while (scanner.hasNext())
+				{					
 					out.println(scanner.next());
+					//System.out.println(scanner.next());
+					//System.out.println();
+				}
 				scanner.close();
 				br.close();
 
 			} catch (IOException e) {
 				e.printStackTrace();
 				System.exit(1); //명령어가 없으면 종료.
-				// TODO Auto-generated catch block
-				
 			}
 		}
 	}

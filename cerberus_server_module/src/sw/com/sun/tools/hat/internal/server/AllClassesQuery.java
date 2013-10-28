@@ -39,6 +39,7 @@ import sw.com.sun.tools.hat.internal.server.QueryHandler;
 import java.util.Iterator;
 
 import sw.com.sun.tools.hat.internal.model.*;
+import sw.gson.MainObject;
 
 /**
  *
@@ -56,7 +57,7 @@ class AllClassesQuery extends QueryHandler {
         this.oqlSupported = oqlSupported;
     }
 
-    public void run() {
+    public MainObject run(MainObject mainobject) {
         if (excludePlatform) {
             startHtml("All Classes (excluding platform)");
         } else {
@@ -149,6 +150,8 @@ class AllClassesQuery extends QueryHandler {
         out.println("</ul>");
 
         endHtml();
+        
+        return mainobject;
     }
 
 

@@ -34,6 +34,8 @@ package sw.com.sun.tools.hat.internal.server;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 import sw.com.sun.tools.hat.internal.model.JavaClass;
 import sw.gson.HistoObject;
@@ -48,11 +50,10 @@ import com.google.gson.GsonBuilder;
  *
  */
 public class HistogramQuery extends QueryHandler {
-    public void run() {
-    	MainObject mainobject = new MainObject();
-    	HistoObject histo = new HistoObject();;
-    	Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
-    	Writer writer = new Writer();
+	private Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
+	private HistoObject histo = new HistoObject();
+	
+    public MainObject run(MainObject mainobject) {
     	
         JavaClass[] classes = snapshot.getClassesArray();
         Comparator<JavaClass> comparator;
@@ -104,16 +105,14 @@ public class HistogramQuery extends QueryHandler {
             out.println(clazz.getTotalInstanceSize());
             out.println("</td></tr>");
             if(clazz.getTotalInstanceSize() > 0)
+            {
             	mainobject.setHisto(histo, clazz.toString(),clazz.getInstancesCount(false),clazz.getTotalInstanceSize());
-            
-       }
-        String jsonString = gson.toJson(mainobject);
-    	//System.out.println(jsonString);
-    	writer.write("histo",jsonString);
-    	
+            	if(clazz.toString().compareTo("class java.lang.Object") != 0)
+            		classId.put(clazz.getIdString(), clazz.toString());
+            }             
+       }       
         out.println("</table>");
-
         endHtml();
+        return mainobject;
     }
-
 }

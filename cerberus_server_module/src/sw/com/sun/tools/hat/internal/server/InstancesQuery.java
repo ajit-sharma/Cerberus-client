@@ -32,13 +32,16 @@
 
 package sw.com.sun.tools.hat.internal.server;
 
-import sw.com.sun.tools.hat.internal.model.JavaClass;
-import sw.com.sun.tools.hat.internal.model.JavaHeapObject;
-import sw.com.sun.tools.hat.internal.server.QueryHandler;
-
 import java.util.Enumeration;
 
-import sw.com.sun.tools.hat.internal.model.*;
+import sw.com.sun.tools.hat.internal.model.JavaClass;
+import sw.com.sun.tools.hat.internal.model.JavaHeapObject;
+import sw.gson.AllInstance;
+import sw.gson.Classes;
+import sw.gson.MainObject;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  *
@@ -51,6 +54,9 @@ class InstancesQuery extends QueryHandler {
     private boolean includeSubclasses;
     private boolean newObjects;
 
+	private AllInstance inst = new AllInstance();
+	private Classes classes = new Classes();
+
     public InstancesQuery(boolean includeSubclasses) {
         this.includeSubclasses = includeSubclasses;
     }
@@ -60,8 +66,9 @@ class InstancesQuery extends QueryHandler {
         this.newObjects = newObjects;
     }
 
-    public void run() {
+    public MainObject run(MainObject mainobject) {
         JavaClass clazz = snapshot.findClass(query);
+        
         String instancesOf;
         if (newObjects)
             instancesOf = "New instances of ";
@@ -74,6 +81,7 @@ class InstancesQuery extends QueryHandler {
         }
         if (clazz == null) {
             error("Class not found");
+           // System.out.println("oooo");
         } else {
             out.print("<strong>");
             printClass(clazz);
@@ -81,17 +89,30 @@ class InstancesQuery extends QueryHandler {
             Enumeration objects = clazz.getInstances(includeSubclasses);
             long totalSize = 0;
             long instances = 0;
+            
+            
+            //mainobject.initClass(classes, clazz.getName());
+            classes.init(clazz.getName());
             while (objects.hasMoreElements()) {
                 JavaHeapObject obj = (JavaHeapObject) objects.nextElement();
                 if (newObjects && !obj.isNew())
                     continue;
-                printThing(obj);
+                
+               // printThing(obj);
+                
+                classes.addInstance(inst, ((JavaHeapObject) obj).getIdString(), obj.getClazz().getName() ,obj.getSize());
+                
+                //System.out.println("#");
                 out.println("<br>");
                 totalSize += obj.getSize();
                 instances++;
-            }
+            }	
+            mainobject.setClass(classes);
+            //mainobject.setClass(classes);
+//            System.out.println();
             out.println("<h2>Total of " + instances + " instances occupying " + totalSize + " bytes.</h2>");
-        }
+        }		
         endHtml();
+        return mainobject;
     }
 }

@@ -33,6 +33,13 @@
 package sw.com.sun.tools.hat.internal.server;
 
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import sw.com.sun.tools.hat.internal.model.JavaClass;
 import sw.com.sun.tools.hat.internal.model.JavaField;
@@ -44,12 +51,10 @@ import sw.com.sun.tools.hat.internal.model.Root;
 import sw.com.sun.tools.hat.internal.model.Snapshot;
 import sw.com.sun.tools.hat.internal.model.StackFrame;
 import sw.com.sun.tools.hat.internal.model.StackTrace;
-
-import java.net.URLEncoder;
-import java.io.UnsupportedEncodingException;
-
-import sw.com.sun.tools.hat.internal.model.*;
 import sw.com.sun.tools.hat.internal.util.Misc;
+import sw.gson.AllInstance;
+import sw.gson.MainObject;
+import sw.gson.Writer;
 
 /**
  *
@@ -58,15 +63,33 @@ import sw.com.sun.tools.hat.internal.util.Misc;
 
 
 abstract class QueryHandler {
-
+	
     protected String urlStart;
     protected String query;
     protected PrintWriter out;
     protected Snapshot snapshot;
+    protected Map<String,String> classId;
 
-    abstract void run();
+	
 
+    abstract MainObject run(MainObject mainobject);
+    
 
+    
+//    void initMainObject()
+//    {
+//    	mainobject = new MainObject();
+//    	gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
+//    	writer = new Writer();
+//    }
+    
+    void initIdMap(){
+    	classId = new HashMap<String, String>();
+    }
+    Map<String, String> getIdMap(){
+    	return this.classId;
+    }
+    
     void setUrlStart(String s) {
         urlStart = s;
     }
@@ -140,13 +163,45 @@ abstract class QueryHandler {
                 printThingAnchorTag(id);
             }
             print(thing.toString());
-            System.out.println(thing.toString());
+            ///////System.out.println(thing.toString());
             
             if (id != -1) {
                 if (ho.isNew())
                     out.println("[new]</strong>");
                 out.print(" (" + ho.getSize() + " bytes)");
-                System.out.println(" (" + ho.getSize() + " bytes)");
+                /////System.out.println(" (" + ho.getSize() + " bytes)");
+                out.println("</a>");
+            }
+        } else {
+            print(thing.toString());
+            System.out.println(thing.toString());
+        }
+    }
+    
+    protected void printThing(JavaThing thing, MainObject mainobject, AllInstance inst) {
+        if (thing == null) {
+            out.print("null");
+            return;
+        }
+        if (thing instanceof JavaHeapObject) {
+            JavaHeapObject ho = (JavaHeapObject) thing;
+            long id = ho.getId();
+            if (id != -1L) {
+                if (ho.isNew())
+                out.println("<strong>");
+                printThingAnchorTag(id);
+            }
+            print(thing.toString());
+            //System.out.println(thing.toString());
+            
+            if (id != -1) {
+                if (ho.isNew())
+                    out.println("[new]</strong>");
+                out.print(" (" + ho.getSize() + " bytes)");
+                //System.out.println(" (" + ho.getSize() + " bytes)");
+                
+//                System.out.println(((JavaHeapObject) thing).getIdString() + "	" + ho.getClazz().getName() + "		" + ho.getSize());
+//                
                 out.println("</a>");
             }
         } else {
