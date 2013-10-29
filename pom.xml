@@ -6,6 +6,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sdk</name>
 
+	<repositories>
+	    <repository>
+		    <id>achartengine</id>
+		    <name>Public AChartEngine repository</name>
+		    <url>https://repository-achartengine.forge.cloudbees.com/snapshot/</url>
+		</repository>
+	</repositories>
+	
+	
 	<dependencies>
 
 		<dependency>
@@ -46,6 +55,20 @@
 	      <version>2.2.4</version>
 	      <scope>compile</scope>
 	    </dependency>
+	    
+	    <!-- powertutor support lib -->
+	    <dependency>
+		    <groupId>org.achartengine</groupId>
+		    <artifactId>achartengine</artifactId>
+		    <version>1.1.0</version>
+		    <scope>compile</scope>
+		</dependency>
+		
+	    <dependency>
+			<groupId>com.jayway.maven.plugins.android.generation1.plugins</groupId>
+			<artifactId>maven-aidl-plugin</artifactId>
+			<version>1.0.2</version>
+		</dependency>
 	</dependencies>
 
 
