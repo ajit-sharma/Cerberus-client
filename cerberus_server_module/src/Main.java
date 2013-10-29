@@ -228,12 +228,12 @@ public class Main {
             System.exit(0);
         }    
         
-        QueryListener listener = new QueryListener();
-        listener.setModel(model);
-        Thread t = new Thread(listener, "Query Listener");
-        t.setPriority(Thread.NORM_PRIORITY+1);
-        t.start();
-        
+//        QueryListener listener = new QueryListener();
+//        listener.setModel(model);
+//        Thread t = new Thread(listener, "Query Listener");
+//        t.setPriority(Thread.NORM_PRIORITY+1);
+//        t.start();
+//        
 //        System.out.println("Started HTTP server on port " + portNumber);
 //        System.out.println("Server is ready.");
         System.out.println("Parsing Completed");
