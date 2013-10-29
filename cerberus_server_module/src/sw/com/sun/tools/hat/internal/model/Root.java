@@ -54,7 +54,7 @@ public class Root {
 
     private long id;            // ID of the JavaThing we refer to
     private long refererId;     // Thread or Class responsible for this, or 0
-    private int index = -1;             // Index in Snapshot.roots
+    private int index = -1;             // IndexNode in Snapshot.roots
     private int type;
     private String description;
     private JavaHeapObject referer = null;

@@ -9,8 +9,24 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.Vector;
 
+import sw.gson.trace.ChildFactory;
+import sw.gson.trace.ChildNode;
+import sw.gson.trace.ChildNode2;
+import sw.gson.trace.GsonTrace;
+import sw.gson.trace.IndexFactory;
+import sw.gson.trace.IndexNode;
+import sw.gson.trace.IndexNode2;
+import sw.gson.trace.MainClass;
 import sw.gson.trace.MainTrace;
-import sw.gson.trace.MethodNode;
+import sw.gson.trace.MainTree;
+import sw.gson.trace.MethodForClass;
+import sw.gson.trace.ParentFactory;
+import sw.gson.trace.ParentNode;
+import sw.gson.trace.ParentNode2;
+import sw.gson.trace.exclNode;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class TraceFileHandler {
 
@@ -24,10 +40,23 @@ public class TraceFileHandler {
 	private int separator;
 	private MainTrace Mtrace ;
 	private int wordcnt;
-	private MethodNode MNode;
+	//private MethodForTree MNode;
 	private Vector<String> strvec;
 	private boolean another;
-    
+	private MethodForClass MethodObj;
+	private MainClass ClassObj;
+	private GsonTrace MGson;
+	private Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls()
+			.create();
+	private ParentFactory Parent;
+	private ParentFactory Parent2;
+	private ChildFactory Child2;
+	private ChildFactory Child;
+	private ChildFactory excl;
+	private IndexFactory Index;
+	private IndexFactory Index2;
+	private MainTree Node;
+	
 	public void TraceFileHandler() {
 
 	}
@@ -52,8 +81,23 @@ public class TraceFileHandler {
 		if (filechecker()) {
 			
 			try {
+				MGson = new GsonTrace();
+				//MGson.initMaintrace();
+				
 				Mtrace = new MainTrace();
-				MNode = new MethodNode();
+//				MNode = new MethodForTree();
+				MethodObj = new MethodForClass();
+				ClassObj = new MainClass();
+				
+			//	Node = new MainTree();
+				Parent = new ParentNode();
+				Child = new ChildNode();
+				Index = new IndexNode();
+				Parent2 = new ParentNode2();
+				Child2 = new ChildNode2();
+				Index2 = new IndexNode2();
+				excl = new exclNode();
+				
 				strvec  = new Vector<String>();
 				File f1 = new File(filename+conv_extension);
 				out = new PrintWriter(new FileWriter(f1, false)); 
@@ -77,7 +121,9 @@ public class TraceFileHandler {
 						else if (separator == 2)
 							for (int i = 0; i < 5; i++)
 								line = scanner.next();
-						
+						else if (separator == 3)
+							for (int i = 0; i < 5; i++)
+								line = scanner.next();
 						
 					} else {
 						words = line.split(" ");
@@ -100,119 +146,127 @@ public class TraceFileHandler {
 								else
 								{
 									sentence.append(words[i]+" ");
-									
-								}
-								//Mtrace.setAll(Integer.parseInt(words[0]), Double.parseDouble(words[1]), Double.parseDouble(words[3]));										
+								}									
 							}
 							
 							// Parsing Part 2
 							//Inclusive elapsed times for each method and its parents and children,
 							//sorted by inclusive time.
-							
 							else if(!words[i].isEmpty() && separator == 2) {
 								if(words[i].compareTo("----------------------------------------------------") == 0) {
 									wordcnt = 0;
 									another = false;
-									MNode = new MethodNode();
-									System.out.println();
-									System.out.println();
+									
+									
+									//주석은 제거해야 PART2가 출력된다!!
+									if(Node != null)
+										MGson.setTree(Node);
+									Node = new MainTree();
+									Parent = new ParentNode();
+									Child = new ChildNode();
+									Index = new IndexNode();
+									Parent2 = new ParentNode2();
+									Child2 = new ChildNode2();
+									Index2 = new IndexNode2();
+									excl = new exclNode();
 								} 
 								else if(words[i].compareTo("+++++++++++++++++++++++++") == 0) {
-									
 									wordcnt = 0;
 									another = true;									
-									System.out.println("+++++++++++++++++++++++++");
-								
+//									System.out.println("+++++++++++++++++++++++++");
 								}
 								else {									
-									
 									strvec.add(words[i]);
-									
-									
-								}//else if "----...---"					
-								
-							
+								}//else if "----...---"		
 							}//end else if part2
 							
+							// Parsing Part 3
+							else if(!words[i].isEmpty() && separator == 3) {
+								if(words[i].compareTo("---------------------------------------------") == 0)
+								{
+									System.out.println();
+								}
+								else
+								{
+									strvec.add(words[i]);
+								}
+							}
 						}//end for ( printing line )
 						
 						
 						
 						if(separator == 1)
-							Mtrace.setName(sentence.toString());		
+						{
+							Mtrace.setName(sentence.toString());
+							
+							// 주석을 제거해야 JSON이 찍힌다!!!!!!!!!!!!!!!!!!!!!
+							MGson.setMaintrace(Mtrace);
+							Mtrace = new MainTrace();
+						}
 						
 						// Parsing Part 2
 						//Inclusive elapsed times for each method and its parents and children,
 						//sorted by inclusive time.
 						else if(separator == 2)
 						{
-							//System.out.println(strvec.size());
-							if(strvec.size() == 6) // Parent or Child or Main
+							if(strvec.size() == 6) // ParentNode or ChildNode or Main
 							{
 								if(strvec.firstElement().contains("["))//MAIN
 								{
-									MNode.ascendWhois();
-									MNode.setMain(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
-									System.out.println(strvec.toString());
-									//System.out.print(strvec.firstElement());
-									MNode.ascendWhois();
+									Node.ascendWhois();
+									Index.setMain(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
+									Node.setIndex(Index);
+									Node.ascendWhois();
 								}
-								else//Parent or Child
+								else//ParentNode or ChildNode
 								{
-									if(MNode.getWhois() == 0)//PARENT
+									if(Node.getWhois() == 0)//PARENT
 									{
-										MNode.setParent(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
-										System.out.println(strvec.toString());
-//										System.out.print("[PARENT] ");
+										Parent.setParent(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
+										Node.setParent(Parent);
 									}
 									
-									else if(MNode.getWhois() == 2)//CHILD
+									else if(Node.getWhois() == 2)//CHILD
 									{
-										MNode.setParent(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
-										System.out.println(strvec.toString());
-//										System.out.print("[CHILED] ");
+										Child.setChild(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4),strvec.get(5));
+										Node.setChild(Child);
 									}
 								}
 							}	//
-							else if(strvec.size() == 5) // MAIN or A-Parent or A-Child
+							else if(strvec.size() == 5) // MAIN or A-ParentNode or A-ChildNode
 							{
 								if (another) {
-									if (MNode.getWhois() == 0)// A-PARENT
+									if (Node.getWhois() == 0)// A-PARENT
 									{
-										MNode.setaParent(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
-										System.out.println(strvec.toString());
-										//System.out.println(strvec.toString());
+										Parent2.setParent2(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
+										Node.setParent(Parent2);
 									}
 
-									else if (MNode.getWhois() == 2)// A-CHILD
+									else if (Node.getWhois() == 2)// A-CHILD
 									{
-										MNode.setaParent(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
-										System.out.println(strvec.toString());
-//										System.out.print("[A-CHILD] ");
+										Child2.setChild2(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
+										Node.setChild(Child2);
 									}
 								}
 								else
 								{
 									if(strvec.firstElement().contains("["))//MAIN
 									{
-										MNode.ascendWhois();
-										MNode.setMain(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
-										//System.out.print(strvec.firstElement());
-//										System.out.print("[main] ");
-										System.out.println(strvec.toString());
-										MNode.ascendWhois();
+										Node.ascendWhois();
+										Index2.setMain(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
+										Node.ascendWhois();
 									}
-									else//Parent or Child
+									else//ParentNode or ChildNode
 									{
-										if(MNode.getWhois() == 0)//PARENT??????????????
+										if(Node.getWhois() == 0)//PARENT??????????????
 										{
-											System.out.println(strvec.toString());
-//											System.out.print("[PARENT] ");
+											Parent2.setParent2(strvec.get(0),strvec.get(1),strvec.get(2),strvec.get(3),strvec.get(4));
+											Node.setParent(Parent2);
 										}
 										
-										else if(MNode.getWhois() == 2)//CHILD????????????????
+										else if(Node.getWhois() == 2)//CHILD????????????????
 										{
-											System.out.println(strvec.toString());
+//											System.out.println(strvec.toString());
 //											System.out.print("[CHILED] ");
 										}
 									}
@@ -221,33 +275,40 @@ public class TraceFileHandler {
 							}
 							else if(strvec.size() == 3)//EXCL
 							{
-								MNode.setExcl(strvec.get(0),strvec.get(1),strvec.get(2));
-								System.out.println(strvec.toString());
+								excl.setMain(strvec.get(0),strvec.get(1),strvec.get(2));
+								Node.setChild(excl);
 							}
-							MNode.setMethodname(sentence.toString());
-							if(MNode.getWhois() == 1)
-								MNode.ascendWhois();
-							//System.out.println();
+							
+							
+						}//end if of part 2
+						else if (separator ==3)
+						{
+							if(strvec.size() == 5)
+							{
+								ClassObj.setClass(Integer.parseInt(strvec.get(0)), Double.parseDouble(strvec.get(1)), Double.parseDouble(strvec.get(2)), strvec.get(3), strvec.get(4));
+							}
+							else if(strvec.size() == 8)
+							{
+								MethodObj.setMethod(Integer.parseInt(strvec.get(0)), Integer.parseInt(strvec.get(1)), Double.parseDouble(strvec.get(2)),
+										Double.parseDouble(strvec.get(3)), strvec.get(4) , strvec.get(5) + strvec.get(6) + strvec.get(7));
+								ClassObj.setMethod(MethodObj);
+							}		
+							MGson.setClassMethod(ClassObj);
+							ClassObj = new MainClass();
+							
 						}
-						
-						
 						sentence.delete(0, sentence.length());
 						strvec.clear();
-						//System.out.print(sentence.toString());	
-						
-						//if(separator == 1)
-							//System.out.println();
 						
 					}
-					// out.println(line);
-					//System.out.println(scanner.next());
-//					if(separator == 2)
-//						System.out.println();				
 					
 				}//end while - printing a line completed
 				scanner.close();
 				br.close();
-
+				
+				String jsonString = gson.toJson(MGson);
+				System.out.println(jsonString);
+				
 			} catch (IOException e) {
 				e.printStackTrace();
 				System.exit(1); //명령어가 없으면 종료.

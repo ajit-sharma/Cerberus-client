@@ -2,10 +2,11 @@ package sw.gson.trace;
 
 public class MainTrace {
 
+	private String method_name;
 	private int sec;
 	private double self;
 	private double total;
-	private String method_name;
+
 	
 	public MainTrace(){
 		this.sec = 0;
@@ -42,10 +43,6 @@ public class MainTrace {
 	public void setName(String _name) {
 		this.method_name = _name;
 	}	
-	
-	
-	
-	
 	
 	
 }
