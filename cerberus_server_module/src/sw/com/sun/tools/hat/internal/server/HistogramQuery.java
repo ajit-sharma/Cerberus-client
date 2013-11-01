@@ -53,6 +53,8 @@ public class HistogramQuery extends QueryHandler {
 	private Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
 	private HistoObject histo = new HistoObject();
 	
+//	int cnt = 0;
+	
     public MainObject run(MainObject mainobject) {
     	
         JavaClass[] classes = snapshot.getClassesArray();
@@ -108,7 +110,13 @@ public class HistogramQuery extends QueryHandler {
             {
             	mainobject.setHisto(histo, clazz.toString(),clazz.getInstancesCount(false),clazz.getTotalInstanceSize());
             	if(clazz.toString().compareTo("class java.lang.Object") != 0)
+            	{
+//            		cnt++;
+//            		System.out.println(cnt);
+//            		System.out.println(clazz.toString());
             		classId.put(clazz.getIdString(), clazz.toString());
+            		
+            	}
             }             
        }       
         out.println("</table>");

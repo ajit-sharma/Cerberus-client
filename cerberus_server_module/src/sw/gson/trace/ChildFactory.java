@@ -7,5 +7,6 @@ public interface ChildFactory {
 			String _usecs, String _name, String _name2);
 	public void setMain(String _index, String _total,
 			String _usecs);
+	public int getIndex();
 
 }

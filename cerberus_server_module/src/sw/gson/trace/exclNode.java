@@ -26,4 +26,9 @@ public class exclNode implements ChildFactory{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	@Override
+	public int getIndex() {
+		return Integer.parseInt(this.index.substring(1, this.index.length()-1));
+	}
 }

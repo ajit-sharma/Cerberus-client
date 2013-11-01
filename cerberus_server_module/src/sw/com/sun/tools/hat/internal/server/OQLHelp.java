@@ -35,6 +35,7 @@ package sw.com.sun.tools.hat.internal.server;
 import java.io.*;
 
 import sw.com.sun.tools.hat.internal.server.QueryHandler;
+import sw.gson.MainObject;
 
 /**
  * This handles Object Query Language (OQL) help.
@@ -62,4 +63,10 @@ class OQLHelp extends QueryHandler {
             out.println("</pre>");
         }
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

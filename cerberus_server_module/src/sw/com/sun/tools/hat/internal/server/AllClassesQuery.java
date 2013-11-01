@@ -32,14 +32,16 @@
 
 package sw.com.sun.tools.hat.internal.server;
 
-import sw.com.sun.tools.hat.internal.model.JavaClass;
-import sw.com.sun.tools.hat.internal.server.PlatformClasses;
-import sw.com.sun.tools.hat.internal.server.QueryHandler;
-
 import java.util.Iterator;
 
-import sw.com.sun.tools.hat.internal.model.*;
+import sw.cerberus.util.TraceFileHandler;
+import sw.com.sun.tools.hat.internal.model.JavaClass;
 import sw.gson.MainObject;
+import sw.gson.trace.UserPkg;
+import sw.gson.trace.UserPkgMain;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  *
@@ -52,6 +54,11 @@ class AllClassesQuery extends QueryHandler {
     boolean excludePlatform;
     boolean oqlSupported;
 
+    private Gson usrgson = new GsonBuilder().setPrettyPrinting().serializeNulls()
+			.create();
+    private UserPkgMain usrpkgmain= new UserPkgMain();
+    private UserPkg usrpkg = new UserPkg();
+    
     public AllClassesQuery(boolean excludePlatform, boolean oqlSupported) {
         this.excludePlatform = excludePlatform;
         this.oqlSupported = oqlSupported;
@@ -83,17 +90,43 @@ class AllClassesQuery extends QueryHandler {
                 pkg = name.substring(0, pos);
             }
             if (!pkg.equals(lastPackage)) {
+            	 if(usrpkg != null)
+                 {
+         			usrpkgmain.setUserPkg(usrpkg);
+         			usrpkg = new UserPkg();
+         		}
                 out.print("<h2>Package ");
                 print(pkg);
+               // System.out.println(pkg); // pkg
+                
+                usrpkg.setPackage(pkg);
                 out.println("</h2>");
             }
             lastPackage = pkg;
             printClass(clazz);
+            
+          //  System.out.println(clazz.toString());
+            usrpkg.setCls(clazz.toString().substring(6));
+            
+            
             if (clazz.getId() != -1) {
                 out.print(" [" + clazz.getIdString() + "]");
             }
             out.println("<br>");
-        }
+        }  
+        
+        if(usrpkg != null)
+        {
+			usrpkgmain.setUserPkg(usrpkg);
+			usrpkg = new UserPkg();
+			String jsonString = usrgson.toJson(usrpkgmain);
+			
+			//.trace 파일에 대한 변환작업 수행 ///////////////////////
+	        TraceFileHandler fhandle = new TraceFileHandler();
+	        fhandle.convert(usrpkgmain);
+	        ///////////////////////////////////////////////////
+			//System.out.println(jsonString);
+		}
 
         out.println("<h2>Other Queries</h2>");
         out.println("<ul>");

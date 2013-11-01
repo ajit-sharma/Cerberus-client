@@ -35,6 +35,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+import sw.cerberus.util.HprofConverter;
 import sw.com.sun.tools.hat.internal.model.ReachableExcludesImpl;
 import sw.com.sun.tools.hat.internal.model.Snapshot;
 import sw.com.sun.tools.hat.internal.server.QueryListener;
@@ -44,49 +45,12 @@ import sw.com.sun.tools.hat.internal.server.QueryListener;
  * @author      Bill Foote
  */
 
-
 public class Main {
 
     private static String VERSION_STRING = "jhat version 2.0";
 	private static String filename = "dump";
 	private static String extension = ".hprof";
 	private static String convfilename = "conv-dump";
-//
-//    private static void usage(String message) {
-//        if ( message != null ) {
-//            System.err.println("ERROR: " + message);
-//        }
-//        System.err.println("Usage:  jhat [-stack <bool>] [-refs <bool>] [-port <port>] [-baseline <file>] [-debug <int>] [-version] [-h|-help] <file>");
-//        System.err.println();
-//        System.err.println("\t-J<flag>          Pass <flag> directly to the runtime system. For");
-//        System.err.println("\t\t\t  example, -J-mx512m to use a maximum heap size of 512MB");
-//        System.err.println("\t-stack false:     Turn off tracking object allocation call stack.");
-//        System.err.println("\t-refs false:      Turn off tracking of references to objects");
-//        System.err.println("\t-port <port>:     Set the port for the HTTP server.  Defaults to 7000");
-//        System.err.println("\t-exclude <file>:  Specify a file that lists data members that should");
-//        System.err.println("\t\t\t  be excluded from the reachableFrom query.");
-//        System.err.println("\t-baseline <file>: Specify a baseline object dump.  Objects in");
-//        System.err.println("\t\t\t  both heap dumps with the same ID and same class will");
-//        System.err.println("\t\t\t  be marked as not being \"new\".");
-//        System.err.println("\t-debug <int>:     Set debug level.");
-//        System.err.println("\t\t\t    0:  No debug output");
-//        System.err.println("\t\t\t    1:  Debug hprof file parsing");
-//        System.err.println("\t\t\t    2:  Debug hprof file parsing, no server");
-//        System.err.println("\t-version          Report version number");
-//        System.err.println("\t-h|-help          Print this help and exit");
-//        System.err.println("\t<file>            The file to read");
-//        System.err.println();
-//        System.err.println("For a dump file that contains multiple heap dumps,");
-//        System.err.println("you may specify which dump in the file");
-//        System.err.println("by appending \"#<number>\" to the file name, i.e. \"foo.hprof#3\".");
-//        System.err.println();
-//        System.err.println("All boolean options default to \"true\"");
-//        System.err.println("All boolean options default to \"true\"");
-//        System.err.println("All boolean options default to \"true\"");
-//        System.err.println("All boolean options default to \"true\"");
-//        System.exit(1);
-//    }
-
     //
     // Convert s to a boolean.  If it's invalid, abort the program.
     //
@@ -103,12 +67,6 @@ public class Main {
 
     public static void main(String[] args) {
     	
-//        if (args.length < 1) {
-//        	//args[0] = "dump.hprof";
-//        	//args[0] = "/Users/gonnabe88/conv-dump.hprof";
-//            //usage("No arguments supplied");
-//        }
-
         boolean parseonly = false;
      //   int portNumber = 7006;
         boolean callStack = true;
@@ -125,50 +83,8 @@ public class Main {
         HprofConverter hconvert = new HprofConverter();
         hconvert.convert();
         ///////////////////////////////////////////////////
-        //.trace 파일에 대한 변환작업 수행 ///////////////////////
-        TraceFileHandler fhandle = new TraceFileHandler();
-        fhandle.convert();
-        ///////////////////////////////////////////////////
+      
         
-        
-        
-//        for (int i = 0; ; i += 2) {
-//            if (i > (args.length - 1)) {
-//                usage("Option parsing error");
-//            }
-//            if ("-version".equals(args[i])) {
-//                System.out.print(VERSION_STRING);
-//                System.out.println(" (java version " + System.getProperty("java.version") + ")");
-//                System.exit(0);
-//            }
-//
-//            if ("-h".equals(args[i]) || "-help".equals(args[i])) {
-//                usage(null);
-//            }
-//
-//            if (i == (args.length - 1)) {
-//                break;
-//            }
-//            String key = args[i];
-//            String value = args[i+1];
-//            if ("-stack".equals(key)) {
-//                callStack = booleanValue(value);
-//            } else if ("-refs".equals(key)) {
-//                calculateRefs = booleanValue(value);
-//            } else if ("-port".equals(key)) {
-//                portNumber = Integer.parseInt(value, 10);
-//            } else if ("-exclude".equals(key)) {
-//                excludeFileName = value;
-//            } else if ("-baseline".equals(key)) {
-//                baselineDump = value;
-//            } else if ("-debug".equals(key)) {
-//                debugLevel = Integer.parseInt(value, 10);
-//            } else if ("-parseonly".equals(key)) {
-//                // Undocumented option. To be used for testing purpose only
-//                parseonly = booleanValue(value);
-//            }
-//        }
-        //String fileName = args[args.length - 1];
         String fileName = convfilename+extension;
         Snapshot model = null;
         File excludeFile = null;
@@ -217,6 +133,7 @@ public class Main {
             model.markNewRelativeTo(baseline);
             baseline = null;    // Guard against conservative GC
         }
+        
         if ( debugLevel == 2 ) {
             System.out.println("No server, -debug 2 was used.");
             System.exit(0);
@@ -228,14 +145,16 @@ public class Main {
             System.exit(0);
         }    
         
-//        QueryListener listener = new QueryListener();
-//        listener.setModel(model);
-//        Thread t = new Thread(listener, "Query Listener");
-//        t.setPriority(Thread.NORM_PRIORITY+1);
-//        t.start();
-//        
-//        System.out.println("Started HTTP server on port " + portNumber);
-//        System.out.println("Server is ready.");
+        
+        //HPROF 분석 시작  
+        
+        QueryListener listener = new QueryListener();
+        listener.setModel(model);
+        Thread t = new Thread(listener, "Query Listener");
+        t.setPriority(Thread.NORM_PRIORITY+1);
+        t.start();        
+        
+       
         System.out.println("Parsing Completed");
     }
 }

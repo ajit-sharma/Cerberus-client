@@ -1,0 +1,5360 @@
+{
+  "histogram": [
+    {
+      "ClassName": "class byte[]",
+      "InstanceCnt": 1877,
+      "TotalSize": 12954714
+    },
+    {
+      "ClassName": "class char[]",
+      "InstanceCnt": 13319,
+      "TotalSize": 687206
+    },
+    {
+      "ClassName": "class java.lang.Class",
+      "InstanceCnt": 3425,
+      "TotalSize": 548000
+    },
+    {
+      "ClassName": "class java.lang.String",
+      "InstanceCnt": 14478,
+      "TotalSize": 347472
+    },
+    {
+      "ClassName": "class long[]",
+      "InstanceCnt": 520,
+      "TotalSize": 215216
+    },
+    {
+      "ClassName": "class java.util.HashMap$HashMapEntry",
+      "InstanceCnt": 5445,
+      "TotalSize": 130680
+    },
+    {
+      "ClassName": "class int[]",
+      "InstanceCnt": 2759,
+      "TotalSize": 128484
+    },
+    {
+      "ClassName": "class java.lang.String[]",
+      "InstanceCnt": 2324,
+      "TotalSize": 79196
+    },
+    {
+      "ClassName": "class android.widget.TextView",
+      "InstanceCnt": 76,
+      "TotalSize": 54112
+    },
+    {
+      "ClassName": "class java.lang.Object[]",
+      "InstanceCnt": 975,
+      "TotalSize": 51212
+    },
+    {
+      "ClassName": "class java.util.HashMap$HashMapEntry[]",
+      "InstanceCnt": 164,
+      "TotalSize": 48616
+    },
+    {
+      "ClassName": "class java.lang.Integer",
+      "InstanceCnt": 3025,
+      "TotalSize": 36300
+    },
+    {
+      "ClassName": "class android.widget.LinearLayout",
+      "InstanceCnt": 46,
+      "TotalSize": 25576
+    },
+    {
+      "ClassName": "class android.graphics.Paint",
+      "InstanceCnt": 293,
+      "TotalSize": 24612
+    },
+    {
+      "ClassName": "class java.util.LinkedList$Link",
+      "InstanceCnt": 1072,
+      "TotalSize": 21440
+    },
+    {
+      "ClassName": "class java.util.Hashtable$HashtableEntry",
+      "InstanceCnt": 879,
+      "TotalSize": 21096
+    },
+    {
+      "ClassName": "class java.lang.ref.FinalizerReference",
+      "InstanceCnt": 583,
+      "TotalSize": 20988
+    },
+    {
+      "ClassName": "class android.graphics.drawable.NinePatchDrawable",
+      "InstanceCnt": 297,
+      "TotalSize": 20196
+    },
+    {
+      "ClassName": "class android.text.TextPaint",
+      "InstanceCnt": 180,
+      "TotalSize": 20160
+    },
+    {
+      "ClassName": "class android.graphics.Rect",
+      "InstanceCnt": 822,
+      "TotalSize": 19728
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.CPU$CpuStateKeeper",
+      "InstanceCnt": 228,
+      "TotalSize": 19152
+    },
+    {
+      "ClassName": "class java.lang.ref.WeakReference",
+      "InstanceCnt": 762,
+      "TotalSize": 18288
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.Counter$SingleCounter",
+      "InstanceCnt": 408,
+      "TotalSize": 16320
+    },
+    {
+      "ClassName": "class android.graphics.RectF",
+      "InstanceCnt": 674,
+      "TotalSize": 16176
+    },
+    {
+      "ClassName": "class android.graphics.Bitmap",
+      "InstanceCnt": 309,
+      "TotalSize": 14832
+    },
+    {
+      "ClassName": "class java.lang.Double",
+      "InstanceCnt": 924,
+      "TotalSize": 14784
+    },
+    {
+      "ClassName": "class android.widget.FrameLayout",
+      "InstanceCnt": 27,
+      "TotalSize": 14688
+    },
+    {
+      "ClassName": "class java.lang.StringBuilder",
+      "InstanceCnt": 734,
+      "TotalSize": 14680
+    },
+    {
+      "ClassName": "class android.app.ActivityManager$RunningAppProcessInfo",
+      "InstanceCnt": 254,
+      "TotalSize": 14224
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTop$UidPowerView",
+      "InstanceCnt": 24,
+      "TotalSize": 13824
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Node",
+      "InstanceCnt": 420,
+      "TotalSize": 13440
+    },
+    {
+      "ClassName": "class org.achartengine.chart.ClickableArea",
+      "InstanceCnt": 420,
+      "TotalSize": 13440
+    },
+    {
+      "ClassName": "class android.widget.ImageView",
+      "InstanceCnt": 27,
+      "TotalSize": 12312
+    },
+    {
+      "ClassName": "class org.apache.harmony.luni.util.TwoKeyHashMap$Entry",
+      "InstanceCnt": 432,
+      "TotalSize": 12096
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.HistoryBuffer$HistoryDatum",
+      "InstanceCnt": 577,
+      "TotalSize": 11540
+    },
+    {
+      "ClassName": "class java.nio.CharSequenceAdapter",
+      "InstanceCnt": 283,
+      "TotalSize": 11320
+    },
+    {
+      "ClassName": "class java.util.HashMap",
+      "InstanceCnt": 213,
+      "TotalSize": 10224
+    },
+    {
+      "ClassName": "class android.location.GpsSatellite",
+      "InstanceCnt": 255,
+      "TotalSize": 10200
+    },
+    {
+      "ClassName": "class android.widget.LinearLayout$LayoutParams",
+      "InstanceCnt": 185,
+      "TotalSize": 9620
+    },
+    {
+      "ClassName": "class android.widget.Button",
+      "InstanceCnt": 12,
+      "TotalSize": 8544
+    },
+    {
+      "ClassName": "class org.apache.harmony.luni.util.TwoKeyHashMap$Entry[]",
+      "InstanceCnt": 9,
+      "TotalSize": 8324
+    },
+    {
+      "ClassName": "class int[][]",
+      "InstanceCnt": 92,
+      "TotalSize": 8064
+    },
+    {
+      "ClassName": "class android.graphics.drawable.BitmapDrawable",
+      "InstanceCnt": 123,
+      "TotalSize": 7872
+    },
+    {
+      "ClassName": "class android.view.View[]",
+      "InstanceCnt": 158,
+      "TotalSize": 7684
+    },
+    {
+      "ClassName": "class java.lang.String[][]",
+      "InstanceCnt": 5,
+      "TotalSize": 7052
+    },
+    {
+      "ClassName": "class android.widget.RelativeLayout",
+      "InstanceCnt": 13,
+      "TotalSize": 7020
+    },
+    {
+      "ClassName": "class java.util.ArrayList",
+      "InstanceCnt": 343,
+      "TotalSize": 6860
+    },
+    {
+      "ClassName": "class android.text.BoringLayout",
+      "InstanceCnt": 75,
+      "TotalSize": 6600
+    },
+    {
+      "ClassName": "class android.graphics.drawable.StateListDrawable$StateListState",
+      "InstanceCnt": 62,
+      "TotalSize": 6448
+    },
+    {
+      "ClassName": "class java.util.Hashtable$HashtableEntry[]",
+      "InstanceCnt": 18,
+      "TotalSize": 6168
+    },
+    {
+      "ClassName": "class android.graphics.drawable.NinePatchDrawable$NinePatchState",
+      "InstanceCnt": 187,
+      "TotalSize": 5984
+    },
+    {
+      "ClassName": "class java.security.Provider$Service",
+      "InstanceCnt": 146,
+      "TotalSize": 5840
+    },
+    {
+      "ClassName": "class java.util.LinkedHashMap$LinkedEntry",
+      "InstanceCnt": 172,
+      "TotalSize": 5504
+    },
+    {
+      "ClassName": "class android.graphics.drawable.StateListDrawable",
+      "InstanceCnt": 62,
+      "TotalSize": 5456
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$DecorView",
+      "InstanceCnt": 9,
+      "TotalSize": 5436
+    },
+    {
+      "ClassName": "class java.util.zip.ZipEntry",
+      "InstanceCnt": 79,
+      "TotalSize": 5372
+    },
+    {
+      "ClassName": "class android.graphics.NinePatch",
+      "InstanceCnt": 187,
+      "TotalSize": 5236
+    },
+    {
+      "ClassName": "class android.graphics.drawable.BitmapDrawable$BitmapState",
+      "InstanceCnt": 122,
+      "TotalSize": 4880
+    },
+    {
+      "ClassName": "class org.ccil.cowan.tagsoup.ElementType",
+      "InstanceCnt": 108,
+      "TotalSize": 4752
+    },
+    {
+      "ClassName": "class java.lang.Boolean",
+      "InstanceCnt": 390,
+      "TotalSize": 4680
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.Counter",
+      "InstanceCnt": 136,
+      "TotalSize": 4352
+    },
+    {
+      "ClassName": "class java.lang.Long",
+      "InstanceCnt": 257,
+      "TotalSize": 4112
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.UidInfo",
+      "InstanceCnt": 78,
+      "TotalSize": 4056
+    },
+    {
+      "ClassName": "class java.math.BigInteger",
+      "InstanceCnt": 84,
+      "TotalSize": 4032
+    },
+    {
+      "ClassName": "class android.graphics.Bitmap$BitmapFinalizer",
+      "InstanceCnt": 309,
+      "TotalSize": 3708
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Threeg$ThreegStateKeeper",
+      "InstanceCnt": 41,
+      "TotalSize": 3608
+    },
+    {
+      "ClassName": "class java.io.ObjectStreamField",
+      "InstanceCnt": 112,
+      "TotalSize": 3584
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.CPU$CpuData",
+      "InstanceCnt": 89,
+      "TotalSize": 3560
+    },
+    {
+      "ClassName": "class android.view.ViewStub",
+      "InstanceCnt": 9,
+      "TotalSize": 3420
+    },
+    {
+      "ClassName": "class org.achartengine.GraphicalView",
+      "InstanceCnt": 8,
+      "TotalSize": 3392
+    },
+    {
+      "ClassName": "class android.graphics.drawable.Drawable[]",
+      "InstanceCnt": 63,
+      "TotalSize": 3344
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.ASN1ObjectIdentifier",
+      "InstanceCnt": 278,
+      "TotalSize": 3336
+    },
+    {
+      "ClassName": "class java.lang.Byte",
+      "InstanceCnt": 256,
+      "TotalSize": 3072
+    },
+    {
+      "ClassName": "class java.lang.Short",
+      "InstanceCnt": 256,
+      "TotalSize": 3072
+    },
+    {
+      "ClassName": "class android.content.res.Configuration",
+      "InstanceCnt": 28,
+      "TotalSize": 3024
+    },
+    {
+      "ClassName": "class float[]",
+      "InstanceCnt": 56,
+      "TotalSize": 2900
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.Counter$SingleCounter[]",
+      "InstanceCnt": 136,
+      "TotalSize": 2720
+    },
+    {
+      "ClassName": "class android.util.TypedValue",
+      "InstanceCnt": 73,
+      "TotalSize": 2628
+    },
+    {
+      "ClassName": "class android.text.Layout$Directions[]",
+      "InstanceCnt": 16,
+      "TotalSize": 2624
+    },
+    {
+      "ClassName": "class android.view.View$ListenerInfo",
+      "InstanceCnt": 45,
+      "TotalSize": 2520
+    },
+    {
+      "ClassName": "class android.view.animation.Transformation",
+      "InstanceCnt": 126,
+      "TotalSize": 2520
+    },
+    {
+      "ClassName": "class android.widget.ListView",
+      "InstanceCnt": 2,
+      "TotalSize": 2312
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow",
+      "InstanceCnt": 9,
+      "TotalSize": 2304
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl",
+      "InstanceCnt": 4,
+      "TotalSize": 2256
+    },
+    {
+      "ClassName": "class android.graphics.PointF",
+      "InstanceCnt": 134,
+      "TotalSize": 2144
+    },
+    {
+      "ClassName": "class android.util.SparseArray",
+      "InstanceCnt": 89,
+      "TotalSize": 2136
+    },
+    {
+      "ClassName": "class android.graphics.Matrix",
+      "InstanceCnt": 177,
+      "TotalSize": 2124
+    },
+    {
+      "ClassName": "class android.widget.TextView$IClipboardDataPasteEventImpl$1",
+      "InstanceCnt": 88,
+      "TotalSize": 2112
+    },
+    {
+      "ClassName": "class android.text.BoringLayout$Metrics",
+      "InstanceCnt": 64,
+      "TotalSize": 2048
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.XYMultipleSeriesRenderer",
+      "InstanceCnt": 7,
+      "TotalSize": 1848
+    },
+    {
+      "ClassName": "class android.view.WindowManager$LayoutParams",
+      "InstanceCnt": 13,
+      "TotalSize": 1820
+    },
+    {
+      "ClassName": "class double[]",
+      "InstanceCnt": 60,
+      "TotalSize": 1776
+    },
+    {
+      "ClassName": "class android.widget.RelativeLayout$LayoutParams",
+      "InstanceCnt": 26,
+      "TotalSize": 1768
+    },
+    {
+      "ClassName": "class org.ccil.cowan.tagsoup.AttributesImpl",
+      "InstanceCnt": 108,
+      "TotalSize": 1728
+    },
+    {
+      "ClassName": "class android.graphics.drawable.ColorDrawable",
+      "InstanceCnt": 42,
+      "TotalSize": 1680
+    },
+    {
+      "ClassName": "class java.lang.Character",
+      "InstanceCnt": 140,
+      "TotalSize": 1680
+    },
+    {
+      "ClassName": "class android.view.ViewGroup$3",
+      "InstanceCnt": 126,
+      "TotalSize": 1512
+    },
+    {
+      "ClassName": "class java.lang.Character$UnicodeBlock",
+      "InstanceCnt": 126,
+      "TotalSize": 1512
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.SystemInfo$UidCacheEntry",
+      "InstanceCnt": 47,
+      "TotalSize": 1504
+    },
+    {
+      "ClassName": "class java.util.LinkedList",
+      "InstanceCnt": 75,
+      "TotalSize": 1500
+    },
+    {
+      "ClassName": "class android.widget.FrameLayout$LayoutParams",
+      "InstanceCnt": 31,
+      "TotalSize": 1488
+    },
+    {
+      "ClassName": "class android.content.pm.ApplicationInfo",
+      "InstanceCnt": 11,
+      "TotalSize": 1452
+    },
+    {
+      "ClassName": "class android.view.View$ScrollabilityCache",
+      "InstanceCnt": 20,
+      "TotalSize": 1440
+    },
+    {
+      "ClassName": "class android.widget.TextView$IClipboardDataPasteEventImpl",
+      "InstanceCnt": 88,
+      "TotalSize": 1408
+    },
+    {
+      "ClassName": "class android.widget.ScrollView",
+      "InstanceCnt": 2,
+      "TotalSize": 1384
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.HistoryBuffer$UidData",
+      "InstanceCnt": 68,
+      "TotalSize": 1360
+    },
+    {
+      "ClassName": "class android.graphics.drawable.LayerDrawable$ChildDrawable",
+      "InstanceCnt": 42,
+      "TotalSize": 1344
+    },
+    {
+      "ClassName": "class android.widget.EdgeEffect",
+      "InstanceCnt": 10,
+      "TotalSize": 1280
+    },
+    {
+      "ClassName": "class android.graphics.drawable.TransitionDrawable",
+      "InstanceCnt": 12,
+      "TotalSize": 1248
+    },
+    {
+      "ClassName": "class java.util.LinkedHashMap",
+      "InstanceCnt": 21,
+      "TotalSize": 1176
+    },
+    {
+      "ClassName": "class java.util.Locale",
+      "InstanceCnt": 49,
+      "TotalSize": 1176
+    },
+    {
+      "ClassName": "class android.content.ComponentName",
+      "InstanceCnt": 72,
+      "TotalSize": 1152
+    },
+    {
+      "ClassName": "class android.app.ContextImpl",
+      "InstanceCnt": 11,
+      "TotalSize": 1144
+    },
+    {
+      "ClassName": "class android.content.Intent",
+      "InstanceCnt": 19,
+      "TotalSize": 1140
+    },
+    {
+      "ClassName": "class android.media.MediaFile$MediaFileType",
+      "InstanceCnt": 68,
+      "TotalSize": 1088
+    },
+    {
+      "ClassName": "class android.os.Message",
+      "InstanceCnt": 19,
+      "TotalSize": 1064
+    },
+    {
+      "ClassName": "class java.util.UUID",
+      "InstanceCnt": 19,
+      "TotalSize": 1064
+    },
+    {
+      "ClassName": "class android.text.StaticLayout",
+      "InstanceCnt": 12,
+      "TotalSize": 1056
+    },
+    {
+      "ClassName": "class java.lang.Byte[]",
+      "InstanceCnt": 1,
+      "TotalSize": 1032
+    },
+    {
+      "ClassName": "class java.lang.Integer[]",
+      "InstanceCnt": 1,
+      "TotalSize": 1032
+    },
+    {
+      "ClassName": "class java.lang.Long[]",
+      "InstanceCnt": 1,
+      "TotalSize": 1032
+    },
+    {
+      "ClassName": "class java.lang.Short[]",
+      "InstanceCnt": 1,
+      "TotalSize": 1032
+    },
+    {
+      "ClassName": "class android.location.GpsSatellite[]",
+      "InstanceCnt": 1,
+      "TotalSize": 1028
+    },
+    {
+      "ClassName": "class java.math.BigInt",
+      "InstanceCnt": 84,
+      "TotalSize": 1008
+    },
+    {
+      "ClassName": "class java.math.BigDecimal",
+      "InstanceCnt": 25,
+      "TotalSize": 1000
+    },
+    {
+      "ClassName": "class java.lang.Thread",
+      "InstanceCnt": 12,
+      "TotalSize": 960
+    },
+    {
+      "ClassName": "class android.view.View$AttachInfo",
+      "InstanceCnt": 4,
+      "TotalSize": 928
+    },
+    {
+      "ClassName": "class android.content.pm.ActivityInfo",
+      "InstanceCnt": 9,
+      "TotalSize": 900
+    },
+    {
+      "ClassName": "class android.util.DisplayMetrics",
+      "InstanceCnt": 15,
+      "TotalSize": 900
+    },
+    {
+      "ClassName": "class android.text.style.MetricAffectingSpan[]",
+      "InstanceCnt": 44,
+      "TotalSize": 884
+    },
+    {
+      "ClassName": "class android.graphics.drawable.ColorDrawable$ColorState",
+      "InstanceCnt": 44,
+      "TotalSize": 880
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger",
+      "InstanceCnt": 3,
+      "TotalSize": 840
+    },
+    {
+      "ClassName": "class android.app.FragmentManagerImpl",
+      "InstanceCnt": 9,
+      "TotalSize": 828
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneLayoutInflater",
+      "InstanceCnt": 18,
+      "TotalSize": 792
+    },
+    {
+      "ClassName": "class java.lang.CharSequence[]",
+      "InstanceCnt": 9,
+      "TotalSize": 784
+    },
+    {
+      "ClassName": "class java.util.regex.Pattern",
+      "InstanceCnt": 38,
+      "TotalSize": 760
+    },
+    {
+      "ClassName": "class android.widget.RelativeLayout$DependencyGraph$Node",
+      "InstanceCnt": 26,
+      "TotalSize": 728
+    },
+    {
+      "ClassName": "class android.text.style.CharacterStyle[]",
+      "InstanceCnt": 30,
+      "TotalSize": 712
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerViewer$1",
+      "InstanceCnt": 1,
+      "TotalSize": 696
+    },
+    {
+      "ClassName": "class android.os.BinderProxy",
+      "InstanceCnt": 34,
+      "TotalSize": 680
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$PanelFeatureState",
+      "InstanceCnt": 6,
+      "TotalSize": 672
+    },
+    {
+      "ClassName": "class android.hardware.Sensor",
+      "InstanceCnt": 15,
+      "TotalSize": 660
+    },
+    {
+      "ClassName": "class java.util.WeakHashMap$Entry[]",
+      "InstanceCnt": 9,
+      "TotalSize": 648
+    },
+    {
+      "ClassName": "class android.graphics.drawable.LayerDrawable$ChildDrawable[]",
+      "InstanceCnt": 19,
+      "TotalSize": 624
+    },
+    {
+      "ClassName": "class android.view.GestureDetector$SurfaceTouchSharingData",
+      "InstanceCnt": 4,
+      "TotalSize": 624
+    },
+    {
+      "ClassName": "class java.lang.reflect.Method",
+      "InstanceCnt": 11,
+      "TotalSize": 616
+    },
+    {
+      "ClassName": "class java.util.HashMap$KeySet",
+      "InstanceCnt": 51,
+      "TotalSize": 612
+    },
+    {
+      "ClassName": "class java.io.ObjectStreamField[]",
+      "InstanceCnt": 20,
+      "TotalSize": 608
+    },
+    {
+      "ClassName": "class android.widget.TabWidget",
+      "InstanceCnt": 1,
+      "TotalSize": 592
+    },
+    {
+      "ClassName": "class android.widget.TabHost",
+      "InstanceCnt": 1,
+      "TotalSize": 580
+    },
+    {
+      "ClassName": "class android.graphics.drawable.TransitionDrawable$TransitionState",
+      "InstanceCnt": 12,
+      "TotalSize": 576
+    },
+    {
+      "ClassName": "class android.os.Bundle",
+      "InstanceCnt": 18,
+      "TotalSize": 576
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.utils.ObjectIdentifier",
+      "InstanceCnt": 18,
+      "TotalSize": 576
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.XYSeriesRenderer",
+      "InstanceCnt": 7,
+      "TotalSize": 560
+    },
+    {
+      "ClassName": "class android.content.res.ColorStateList",
+      "InstanceCnt": 27,
+      "TotalSize": 540
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.DERObjectIdentifier",
+      "InstanceCnt": 45,
+      "TotalSize": 540
+    },
+    {
+      "ClassName": "class java.lang.Character[]",
+      "InstanceCnt": 1,
+      "TotalSize": 520
+    },
+    {
+      "ClassName": "class java.lang.Character$UnicodeBlock[]",
+      "InstanceCnt": 1,
+      "TotalSize": 512
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ActivityClientRecord",
+      "InstanceCnt": 4,
+      "TotalSize": 496
+    },
+    {
+      "ClassName": "class java.lang.Object",
+      "InstanceCnt": 61,
+      "TotalSize": 488
+    },
+    {
+      "ClassName": "class android.view.GestureDetector",
+      "InstanceCnt": 4,
+      "TotalSize": 480
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTop$UidPowerView$1",
+      "InstanceCnt": 24,
+      "TotalSize": 480
+    },
+    {
+      "ClassName": "class java.lang.Class[]",
+      "InstanceCnt": 30,
+      "TotalSize": 480
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.utils.ObjectIdentifier[]",
+      "InstanceCnt": 10,
+      "TotalSize": 480
+    },
+    {
+      "ClassName": "class libcore.icu.LocaleData",
+      "InstanceCnt": 3,
+      "TotalSize": 468
+    },
+    {
+      "ClassName": "class android.os.BatteryStats$BitDescription",
+      "InstanceCnt": 19,
+      "TotalSize": 456
+    },
+    {
+      "ClassName": "class android.view.GestureDetector$TwistRecognizer",
+      "InstanceCnt": 4,
+      "TotalSize": 448
+    },
+    {
+      "ClassName": "class org.achartengine.chart.CubicLineChart",
+      "InstanceCnt": 7,
+      "TotalSize": 448
+    },
+    {
+      "ClassName": "class org.achartengine.model.Point",
+      "InstanceCnt": 28,
+      "TotalSize": 448
+    },
+    {
+      "ClassName": "class android.text.style.LeadingMarginSpan[]",
+      "InstanceCnt": 37,
+      "TotalSize": 440
+    },
+    {
+      "ClassName": "class android.widget.AbsListView$LayoutParams",
+      "InstanceCnt": 10,
+      "TotalSize": 440
+    },
+    {
+      "ClassName": "class java.lang.reflect.Constructor",
+      "InstanceCnt": 10,
+      "TotalSize": 440
+    },
+    {
+      "ClassName": "class android.os.Handler",
+      "InstanceCnt": 18,
+      "TotalSize": 432
+    },
+    {
+      "ClassName": "class android.view.Display",
+      "InstanceCnt": 9,
+      "TotalSize": 432
+    },
+    {
+      "ClassName": "class org.apache.harmony.luni.util.TwoKeyHashMap",
+      "InstanceCnt": 9,
+      "TotalSize": 432
+    },
+    {
+      "ClassName": "class android.widget.ScrollBarDrawable",
+      "InstanceCnt": 5,
+      "TotalSize": 420
+    },
+    {
+      "ClassName": "class java.io.ObjectStreamClass",
+      "InstanceCnt": 4,
+      "TotalSize": 416
+    },
+    {
+      "ClassName": "class android.widget.OverScroller$SplineOverScroller",
+      "InstanceCnt": 6,
+      "TotalSize": 408
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Type[]",
+      "InstanceCnt": 19,
+      "TotalSize": 404
+    },
+    {
+      "ClassName": "class android.graphics.Interpolator",
+      "InstanceCnt": 20,
+      "TotalSize": 400
+    },
+    {
+      "ClassName": "class android.graphics.LinearGradient",
+      "InstanceCnt": 20,
+      "TotalSize": 400
+    },
+    {
+      "ClassName": "class android.content.res.TypedArray",
+      "InstanceCnt": 11,
+      "TotalSize": 396
+    },
+    {
+      "ClassName": "class java.util.Hashtable",
+      "InstanceCnt": 11,
+      "TotalSize": 396
+    },
+    {
+      "ClassName": "class java.util.Random",
+      "InstanceCnt": 14,
+      "TotalSize": 392
+    },
+    {
+      "ClassName": "class org.achartengine.util.IndexXYMap",
+      "InstanceCnt": 7,
+      "TotalSize": 392
+    },
+    {
+      "ClassName": "class android.view.GestureDetector$PalmSweepRecognizer",
+      "InstanceCnt": 4,
+      "TotalSize": 368
+    },
+    {
+      "ClassName": "class org.achartengine.model.XYSeries",
+      "InstanceCnt": 7,
+      "TotalSize": 364
+    },
+    {
+      "ClassName": "class android.content.res.Resources$Theme",
+      "InstanceCnt": 18,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class android.graphics.PorterDuff$Mode",
+      "InstanceCnt": 18,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class android.graphics.Typeface",
+      "InstanceCnt": 18,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class boolean[]",
+      "InstanceCnt": 24,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class java.util.Vector",
+      "InstanceCnt": 15,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class java.util.WeakHashMap",
+      "InstanceCnt": 9,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.SimpleSeriesRenderer",
+      "InstanceCnt": 6,
+      "TotalSize": 360
+    },
+    {
+      "ClassName": "class android.graphics.drawable.ScaleDrawable",
+      "InstanceCnt": 8,
+      "TotalSize": 352
+    },
+    {
+      "ClassName": "class org.achartengine.TouchHandler",
+      "InstanceCnt": 8,
+      "TotalSize": 352
+    },
+    {
+      "ClassName": "class android.graphics.drawable.LayerDrawable$LayerState",
+      "InstanceCnt": 7,
+      "TotalSize": 336
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Threeg$ThreegData",
+      "InstanceCnt": 7,
+      "TotalSize": 336
+    },
+    {
+      "ClassName": "class java.math.BigInteger[]",
+      "InstanceCnt": 3,
+      "TotalSize": 324
+    },
+    {
+      "ClassName": "class android.graphics.drawable.ScaleDrawable$ScaleState",
+      "InstanceCnt": 8,
+      "TotalSize": 320
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$TrackballAxis",
+      "InstanceCnt": 8,
+      "TotalSize": 320
+    },
+    {
+      "ClassName": "class android.graphics.drawable.RotateDrawable$RotateState",
+      "InstanceCnt": 6,
+      "TotalSize": 312
+    },
+    {
+      "ClassName": "class java.io.File",
+      "InstanceCnt": 26,
+      "TotalSize": 312
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerViewer$ValueCollector",
+      "InstanceCnt": 7,
+      "TotalSize": 308
+    },
+    {
+      "ClassName": "class org.achartengine.chart.ScatterChart",
+      "InstanceCnt": 7,
+      "TotalSize": 308
+    },
+    {
+      "ClassName": "class android.app.ApplicationPackageManager$ResourceName",
+      "InstanceCnt": 18,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class android.graphics.PorterDuffXfermode",
+      "InstanceCnt": 18,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class android.net.Uri$HierarchicalUri",
+      "InstanceCnt": 6,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class java.lang.VMThread",
+      "InstanceCnt": 18,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class org.achartengine.tools.Zoom",
+      "InstanceCnt": 8,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Implicit",
+      "InstanceCnt": 12,
+      "TotalSize": 288
+    },
+    {
+      "ClassName": "class java.util.ArrayDeque",
+      "InstanceCnt": 14,
+      "TotalSize": 280
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerViewer",
+      "InstanceCnt": 1,
+      "TotalSize": 276
+    },
+    {
+      "ClassName": "class java.util.jar.Attributes$Name",
+      "InstanceCnt": 23,
+      "TotalSize": 276
+    },
+    {
+      "ClassName": "class android.media.AudioManager",
+      "InstanceCnt": 6,
+      "TotalSize": 264
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerPie",
+      "InstanceCnt": 1,
+      "TotalSize": 264
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTop",
+      "InstanceCnt": 1,
+      "TotalSize": 264
+    },
+    {
+      "ClassName": "class android.util.SparseIntArray",
+      "InstanceCnt": 13,
+      "TotalSize": 260
+    },
+    {
+      "ClassName": "class android.widget.RelativeLayout$DependencyGraph",
+      "InstanceCnt": 13,
+      "TotalSize": 260
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView",
+      "InstanceCnt": 1,
+      "TotalSize": 260
+    },
+    {
+      "ClassName": "class android.content.res.StringBlock",
+      "InstanceCnt": 8,
+      "TotalSize": 256
+    },
+    {
+      "ClassName": "class android.text.SpanSet",
+      "InstanceCnt": 8,
+      "TotalSize": 256
+    },
+    {
+      "ClassName": "class java.lang.ThreadLocal$Values",
+      "InstanceCnt": 8,
+      "TotalSize": 256
+    },
+    {
+      "ClassName": "class android.view.Window$LocalWindowManager",
+      "InstanceCnt": 9,
+      "TotalSize": 252
+    },
+    {
+      "ClassName": "class java.lang.reflect.Field",
+      "InstanceCnt": 7,
+      "TotalSize": 252
+    },
+    {
+      "ClassName": "class java.nio.charset.CharsetEncoderICU",
+      "InstanceCnt": 3,
+      "TotalSize": 252
+    },
+    {
+      "ClassName": "class java.util.HashSet",
+      "InstanceCnt": 21,
+      "TotalSize": 252
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ResourcesKey",
+      "InstanceCnt": 12,
+      "TotalSize": 240
+    },
+    {
+      "ClassName": "class android.graphics.drawable.RotateDrawable",
+      "InstanceCnt": 6,
+      "TotalSize": 240
+    },
+    {
+      "ClassName": "class android.os.Parcel",
+      "InstanceCnt": 12,
+      "TotalSize": 240
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTabs",
+      "InstanceCnt": 1,
+      "TotalSize": 240
+    },
+    {
+      "ClassName": "class java.util.logging.Logger",
+      "InstanceCnt": 4,
+      "TotalSize": 240
+    },
+    {
+      "ClassName": "class android.os.ParcelUuid",
+      "InstanceCnt": 19,
+      "TotalSize": 228
+    },
+    {
+      "ClassName": "class android.view.KeyEvent",
+      "InstanceCnt": 3,
+      "TotalSize": 228
+    },
+    {
+      "ClassName": "class android.view.Choreographer$CallbackRecord",
+      "InstanceCnt": 7,
+      "TotalSize": 224
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.Help",
+      "InstanceCnt": 1,
+      "TotalSize": 224
+    },
+    {
+      "ClassName": "class org.achartengine.tools.Pan",
+      "InstanceCnt": 8,
+      "TotalSize": 224
+    },
+    {
+      "ClassName": "class android.app.ApplicationPackageManager",
+      "InstanceCnt": 11,
+      "TotalSize": 220
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$ApplicationContentResolver",
+      "InstanceCnt": 11,
+      "TotalSize": 220
+    },
+    {
+      "ClassName": "class android.util.LongSparseArray",
+      "InstanceCnt": 9,
+      "TotalSize": 216
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$InputMethodCallback",
+      "InstanceCnt": 9,
+      "TotalSize": 216
+    },
+    {
+      "ClassName": "class com.android.i18n.phonenumbers.Phonemetadata$PhoneMetadata",
+      "InstanceCnt": 1,
+      "TotalSize": 216
+    },
+    {
+      "ClassName": "class java.util.logging.Level",
+      "InstanceCnt": 9,
+      "TotalSize": 216
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Align[]",
+      "InstanceCnt": 16,
+      "TotalSize": 208
+    },
+    {
+      "ClassName": "class android.graphics.Point",
+      "InstanceCnt": 13,
+      "TotalSize": 208
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneFallbackEventHandler",
+      "InstanceCnt": 4,
+      "TotalSize": 208
+    },
+    {
+      "ClassName": "class java.util.WeakHashMap$Entry",
+      "InstanceCnt": 5,
+      "TotalSize": 200
+    },
+    {
+      "ClassName": "class android.graphics.Region",
+      "InstanceCnt": 16,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.media.AudioManager$FocusEventHandlerDelegate$1",
+      "InstanceCnt": 6,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.net.NetworkInfo$DetailedState",
+      "InstanceCnt": 12,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.sec.clipboard.ClipboardExManager",
+      "InstanceCnt": 4,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.text.SpannedString",
+      "InstanceCnt": 8,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.view.ViewTreeObserver$InternalInsetsInfo",
+      "InstanceCnt": 8,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.view.inputmethod.EditorInfo",
+      "InstanceCnt": 3,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Threeg",
+      "InstanceCnt": 1,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class float[][]",
+      "InstanceCnt": 4,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class java.nio.ReadWriteHeapByteBuffer",
+      "InstanceCnt": 4,
+      "TotalSize": 192
+    },
+    {
+      "ClassName": "class android.app.ActivityThread",
+      "InstanceCnt": 1,
+      "TotalSize": 188
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Wifi",
+      "InstanceCnt": 1,
+      "TotalSize": 184
+    },
+    {
+      "ClassName": "class android.view.ViewGroup$TouchTarget",
+      "InstanceCnt": 9,
+      "TotalSize": 180
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$DialogMenuCallback",
+      "InstanceCnt": 9,
+      "TotalSize": 180
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.GPS",
+      "InstanceCnt": 1,
+      "TotalSize": 180
+    },
+    {
+      "ClassName": "class android.view.Surface",
+      "InstanceCnt": 4,
+      "TotalSize": 176
+    },
+    {
+      "ClassName": "class android.view.Surface$CompatibleCanvas",
+      "InstanceCnt": 4,
+      "TotalSize": 176
+    },
+    {
+      "ClassName": "class android.view.ViewTreeObserver",
+      "InstanceCnt": 4,
+      "TotalSize": 176
+    },
+    {
+      "ClassName": "class java.util.Collections$UnmodifiableRandomAccessList",
+      "InstanceCnt": 11,
+      "TotalSize": 176
+    },
+    {
+      "ClassName": "class java.util.Properties",
+      "InstanceCnt": 4,
+      "TotalSize": 176
+    },
+    {
+      "ClassName": "class android.content.res.Resources",
+      "InstanceCnt": 2,
+      "TotalSize": 168
+    },
+    {
+      "ClassName": "class android.text.style.StyleSpan",
+      "InstanceCnt": 14,
+      "TotalSize": 168
+    },
+    {
+      "ClassName": "class java.util.HashMap$EntrySet",
+      "InstanceCnt": 14,
+      "TotalSize": 168
+    },
+    {
+      "ClassName": "class android.net.Uri$PathPart",
+      "InstanceCnt": 8,
+      "TotalSize": 160
+    },
+    {
+      "ClassName": "class android.widget.ImageView$ScaleType",
+      "InstanceCnt": 8,
+      "TotalSize": 160
+    },
+    {
+      "ClassName": "class java.math.RoundingMode",
+      "InstanceCnt": 8,
+      "TotalSize": 160
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.CPU",
+      "InstanceCnt": 1,
+      "TotalSize": 152
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.LCD",
+      "InstanceCnt": 1,
+      "TotalSize": 152
+    },
+    {
+      "ClassName": "class android.app.LocalActivityManager$LocalActivityRecord",
+      "InstanceCnt": 3,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class android.media.AudioManager$1",
+      "InstanceCnt": 6,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class android.text.SpannableStringBuilder",
+      "InstanceCnt": 3,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$W",
+      "InstanceCnt": 6,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class android.view.animation.DecelerateInterpolator",
+      "InstanceCnt": 12,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.IterationData",
+      "InstanceCnt": 12,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.Recycler",
+      "InstanceCnt": 9,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class java.text.DecimalFormatSymbols",
+      "InstanceCnt": 2,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class org.achartengine.chart.PieSegment",
+      "InstanceCnt": 6,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.fortress.Engine",
+      "InstanceCnt": 9,
+      "TotalSize": 144
+    },
+    {
+      "ClassName": "class android.content.res.XmlBlock",
+      "InstanceCnt": 5,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class android.view.MotionEvent",
+      "InstanceCnt": 5,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews$ReflectionAction",
+      "InstanceCnt": 5,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Audio",
+      "InstanceCnt": 1,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class java.lang.Throwable",
+      "InstanceCnt": 5,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Explicit",
+      "InstanceCnt": 7,
+      "TotalSize": 140
+    },
+    {
+      "ClassName": "class android.app.Notification",
+      "InstanceCnt": 1,
+      "TotalSize": 136
+    },
+    {
+      "ClassName": "class android.text.TextLine",
+      "InstanceCnt": 2,
+      "TotalSize": 136
+    },
+    {
+      "ClassName": "class java.util.SimpleTimeZone",
+      "InstanceCnt": 2,
+      "TotalSize": 136
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.DefaultRenderer",
+      "InstanceCnt": 1,
+      "TotalSize": 136
+    },
+    {
+      "ClassName": "class java.io.FileDescriptor",
+      "InstanceCnt": 11,
+      "TotalSize": 132
+    },
+    {
+      "ClassName": "class java.lang.ref.ReferenceQueue",
+      "InstanceCnt": 11,
+      "TotalSize": 132
+    },
+    {
+      "ClassName": "class java.text.NumberFormat$Field",
+      "InstanceCnt": 11,
+      "TotalSize": 132
+    },
+    {
+      "ClassName": "class android.content.res.CompatibilityInfo$Translator",
+      "InstanceCnt": 4,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class android.graphics.drawable.GradientDrawable$Orientation",
+      "InstanceCnt": 8,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class android.hardware.SensorEvent[]",
+      "InstanceCnt": 1,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class android.text.style.ParagraphStyle[]",
+      "InstanceCnt": 11,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$InvalidateOnAnimationRunnable",
+      "InstanceCnt": 4,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$WindowInputEventReceiver",
+      "InstanceCnt": 4,
+      "TotalSize": 128
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Wifi$WifiStateKeeper",
+      "InstanceCnt": 1,
+      "TotalSize": 124
+    },
+    {
+      "ClassName": "class android.content.res.CompatibilityInfo",
+      "InstanceCnt": 5,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class android.graphics.Region$Op",
+      "InstanceCnt": 6,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class android.os.Binder",
+      "InstanceCnt": 6,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class android.os.DVFSHelper",
+      "InstanceCnt": 2,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Wifi$WifiData",
+      "InstanceCnt": 2,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$1",
+      "InstanceCnt": 2,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class java.util.ArrayList$ArrayListIterator",
+      "InstanceCnt": 5,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class libcore.icu.NativeDecimalFormat",
+      "InstanceCnt": 3,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class org.achartengine.chart.PointStyle",
+      "InstanceCnt": 6,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.fortress.Engine$ServiceCacheEntry",
+      "InstanceCnt": 6,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.AbstractSessionContext$1",
+      "InstanceCnt": 2,
+      "TotalSize": 120
+    },
+    {
+      "ClassName": "class android.graphics.Paint$FontMetricsInt",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.net.NetworkInfo$DetailedState[]",
+      "InstanceCnt": 2,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.net.Uri$StringUri",
+      "InstanceCnt": 2,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.sec.clipboard.ClipboardExManager$1",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.view.GestureDetector$GestureHandler",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.view.GestureDetector$PalmTouchRecognizer",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$ViewRootHandler",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.view.WindowLeaked",
+      "InstanceCnt": 4,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.view.inputmethod.InputMethodManager",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.jce.provider.BouncyCastleProvider",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class com.google.android.gles_jni.GLImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.HistoryBuffer",
+      "InstanceCnt": 7,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class java.lang.ThreadLocal",
+      "InstanceCnt": 7,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.DRLCertFactory",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.crypto.CryptoProvider",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.JSSEProvider",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.OpenSSLProvider",
+      "InstanceCnt": 1,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 112
+    },
+    {
+      "ClassName": "class android.app.FragmentManagerImpl$1",
+      "InstanceCnt": 9,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class android.graphics.drawable.AnimationDrawable$AnimationState",
+      "InstanceCnt": 1,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class android.os.StrictMode$InstanceTracker",
+      "InstanceCnt": 9,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class com.android.internal.telephony.ITelephony$Stub$Proxy",
+      "InstanceCnt": 9,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class dalvik.system.CloseGuard",
+      "InstanceCnt": 9,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class java.util.Formatter",
+      "InstanceCnt": 3,
+      "TotalSize": 108
+    },
+    {
+      "ClassName": "class android.content.res.StringBlock$StyleIDs",
+      "InstanceCnt": 2,
+      "TotalSize": 104
+    },
+    {
+      "ClassName": "class android.sec.enterprise.EnterpriseDeviceManager",
+      "InstanceCnt": 1,
+      "TotalSize": 104
+    },
+    {
+      "ClassName": "class com.android.internal.os.AndroidPrintStream",
+      "InstanceCnt": 2,
+      "TotalSize": 104
+    },
+    {
+      "ClassName": "class java.math.BigDecimal[]",
+      "InstanceCnt": 2,
+      "TotalSize": 104
+    },
+    {
+      "ClassName": "class java.net.URL",
+      "InstanceCnt": 2,
+      "TotalSize": 104
+    },
+    {
+      "ClassName": "class android.text.Layout$TabStops",
+      "InstanceCnt": 5,
+      "TotalSize": 100
+    },
+    {
+      "ClassName": "class android.text.style.BulletSpan",
+      "InstanceCnt": 5,
+      "TotalSize": 100
+    },
+    {
+      "ClassName": "class android.media.AudioManager$FocusEventHandlerDelegate",
+      "InstanceCnt": 6,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.net.NetworkInfo$State",
+      "InstanceCnt": 6,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.os.PowerManager",
+      "InstanceCnt": 6,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.text.MeasuredText",
+      "InstanceCnt": 2,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.text.SpannableString",
+      "InstanceCnt": 4,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.view.View$PerformClick",
+      "InstanceCnt": 8,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.view.View$UnsetPressedState",
+      "InstanceCnt": 8,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$GestureSurfaceTouch",
+      "InstanceCnt": 4,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.io.RandomAccessFile",
+      "InstanceCnt": 3,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.lang.Thread$State",
+      "InstanceCnt": 6,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.text.DecimalFormat",
+      "InstanceCnt": 2,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.util.HashMap$EntryIterator",
+      "InstanceCnt": 3,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.util.HashMap$Values",
+      "InstanceCnt": 8,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Relation",
+      "InstanceCnt": 6,
+      "TotalSize": 96
+    },
+    {
+      "ClassName": "class android.app.LoadedApk",
+      "InstanceCnt": 1,
+      "TotalSize": 92
+    },
+    {
+      "ClassName": "class android.content.pm.ProviderInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 92
+    },
+    {
+      "ClassName": "class android.graphics.drawable.AnimationDrawable",
+      "InstanceCnt": 1,
+      "TotalSize": 92
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ReceiverDispatcher",
+      "InstanceCnt": 2,
+      "TotalSize": 88
+    },
+    {
+      "ClassName": "class android.widget.AbsListView$RecycleBin",
+      "InstanceCnt": 2,
+      "TotalSize": 88
+    },
+    {
+      "ClassName": "class byte[][]",
+      "InstanceCnt": 2,
+      "TotalSize": 88
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.BatteryStats",
+      "InstanceCnt": 1,
+      "TotalSize": 88
+    },
+    {
+      "ClassName": "class java.util.jar.JarFile",
+      "InstanceCnt": 2,
+      "TotalSize": 88
+    },
+    {
+      "ClassName": "class android.graphics.BitmapFactory$Options",
+      "InstanceCnt": 1,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class android.os.BatteryStats$BitDescription[]",
+      "InstanceCnt": 1,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class android.util.FinitePool",
+      "InstanceCnt": 3,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class android.widget.OverScroller",
+      "InstanceCnt": 3,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class java.io.FileOutputStream",
+      "InstanceCnt": 3,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class java.util.concurrent.atomic.AtomicInteger",
+      "InstanceCnt": 7,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class java.util.logging.LogManager$1",
+      "InstanceCnt": 1,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class org.achartengine.model.XYMultipleSeriesDataset",
+      "InstanceCnt": 7,
+      "TotalSize": 84
+    },
+    {
+      "ClassName": "class android.content.res.AssetManager",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.graphics.Bitmap$Config",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.graphics.Matrix$ScaleToFit",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.graphics.Path$FillType",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.graphics.PorterDuff$Mode[]",
+      "InstanceCnt": 1,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.os.DVFSHelper$PackageInfo",
+      "InstanceCnt": 5,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.provider.Settings$NameValueCache",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.text.Layout$Alignment",
+      "InstanceCnt": 5,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$TextDirectionHeuristicInternal",
+      "InstanceCnt": 5,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.text.TextUtils$TruncateAt",
+      "InstanceCnt": 5,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.view.KeyEvent$DispatcherState",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class android.widget.ImageView$ScaleType[]",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.LCD$LcdData",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTop$CounterServiceConnection$1",
+      "InstanceCnt": 4,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class java.lang.Thread$State[]",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class java.lang.ThreadGroup",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class java.util.TreeMap",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.Cache",
+      "InstanceCnt": 2,
+      "TotalSize": 80
+    },
+    {
+      "ClassName": "class java.nio.charset.CharsetDecoderICU",
+      "InstanceCnt": 1,
+      "TotalSize": 76
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$AppBindData",
+      "InstanceCnt": 1,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.os.IPowerManager$Stub$Proxy",
+      "InstanceCnt": 6,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.os.ParcelUuid[]",
+      "InstanceCnt": 2,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.text.NoCopySpan$Concrete",
+      "InstanceCnt": 9,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.view.ViewConfiguration",
+      "InstanceCnt": 1,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$QueuedInputEvent",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.widget.TabHost$IntentContentStrategy",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class android.widget.TabHost$TabSpec",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$PanelFeatureState[]",
+      "InstanceCnt": 6,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.DreamConstants",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.io.OutputStreamWriter",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.lang.ref.SoftReference",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.net.Inet6Address",
+      "InstanceCnt": 2,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.nio.FileChannelImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.util.Collections$UnmodifiableSet",
+      "InstanceCnt": 6,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.util.concurrent.CopyOnWriteArrayList",
+      "InstanceCnt": 6,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class java.util.concurrent.locks.ReentrantLock$NonfairSync",
+      "InstanceCnt": 3,
+      "TotalSize": 72
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.PowerEstimator",
+      "InstanceCnt": 1,
+      "TotalSize": 68
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.UMLoggerService",
+      "InstanceCnt": 1,
+      "TotalSize": 68
+    },
+    {
+      "ClassName": "class java.util.concurrent.ThreadPoolExecutor",
+      "InstanceCnt": 1,
+      "TotalSize": 68
+    },
+    {
+      "ClassName": "class android.content.res.AssetManager$AssetInputStream",
+      "InstanceCnt": 2,
+      "TotalSize": 64
+    },
+    {
+      "ClassName": "class android.os.Parcel[]",
+      "InstanceCnt": 2,
+      "TotalSize": 64
+    },
+    {
+      "ClassName": "class android.text.method.TextKeyListener$Capitalize",
+      "InstanceCnt": 4,
+      "TotalSize": 64
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl[]",
+      "InstanceCnt": 3,
+      "TotalSize": 64
+    },
+    {
+      "ClassName": "class android.view.WindowManager$LayoutParams[]",
+      "InstanceCnt": 3,
+      "TotalSize": 64
+    },
+    {
+      "ClassName": "class android.app.Instrumentation",
+      "InstanceCnt": 1,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Bitmap$Config[]",
+      "InstanceCnt": 2,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Align",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Cap",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Join",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Style",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.graphics.Shader$TileMode",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.net.Inet4Address",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.net.URI$PartEncoder",
+      "InstanceCnt": 5,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.nio.charset.CharsetICU",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.util.Collections$UnmodifiableMap",
+      "InstanceCnt": 5,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.util.Hashtable$EntrySet",
+      "InstanceCnt": 5,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class org.apache.harmony.luni.util.TwoKeyHashMap$ValuesCollectionImpl",
+      "InstanceCnt": 5,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class org.apache.http.HttpVersion",
+      "InstanceCnt": 3,
+      "TotalSize": 60
+    },
+    {
+      "ClassName": "class android.app.IntentReceiverLeaked",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ReceiverDispatcher$Args",
+      "InstanceCnt": 1,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ReceiverDispatcher$InnerReceiver",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class android.app.SharedPreferencesImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class android.view.Choreographer",
+      "InstanceCnt": 1,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$AveragePowerItem",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$CurrentItem",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$InstantPowerItem",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$TempItem",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$VoltageItem",
+      "InstanceCnt": 2,
+      "TotalSize": 56
+    },
+    {
+      "ClassName": "class android.view.InputDevice",
+      "InstanceCnt": 1,
+      "TotalSize": 52
+    },
+    {
+      "ClassName": "class java.text.Format$Field[]",
+      "InstanceCnt": 1,
+      "TotalSize": 52
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ServiceDispatcher",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ServiceDispatcher$InnerConnection",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.content.pm.Signature",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.content.res.XmlBlock[]",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.graphics.Canvas$CanvasFinalizer",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.graphics.Interpolator$Result",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.graphics.Matrix$ScaleToFit[]",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.graphics.Path$FillType[]",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.graphics.Typeface[]",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.os.AsyncTask$Status",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$TriState",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextLine$1",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextLine$2",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextLine$3",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextLine$4",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.text.TextLine$5",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.util.SynchronizedPool",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.Choreographer$CallbackQueue",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.InputChannel",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$2",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$AccessibilityInteractionConnectionManager",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$ConsumeBatchedInputRunnable",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$TraversalRunnable",
+      "InstanceCnt": 4,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.widget.TabHost$LabelIndicatorStrategy",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.widget.TabWidget$TabClickListener",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.widget.TextView$BufferType",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class com.android.internal.telephony.Phone$State",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class com.android.internal.view.IInputConnectionWrapper$SomeArgs",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class dalvik.system.PathClassLoader",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.io.FileInputStream",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.io.PrintStream",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.net.Proxy$Type",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.util.Arrays$ArrayList",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.util.jar.Manifest",
+      "InstanceCnt": 2,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class java.util.zip.Deflater",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.utils.ObjectIdentifier[][]",
+      "InstanceCnt": 1,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class org.kxml2.io.KXmlParser$ValueContext",
+      "InstanceCnt": 3,
+      "TotalSize": 48
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews",
+      "InstanceCnt": 1,
+      "TotalSize": 44
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.GPS$GpsStateKeeper",
+      "InstanceCnt": 1,
+      "TotalSize": 44
+    },
+    {
+      "ClassName": "class java.util.EnumMap",
+      "InstanceCnt": 1,
+      "TotalSize": 44
+    },
+    {
+      "ClassName": "class java.util.logging.ConsoleHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 44
+    },
+    {
+      "ClassName": "class org.apache.commons.logging.impl.WeakHashtable",
+      "InstanceCnt": 1,
+      "TotalSize": 44
+    },
+    {
+      "ClassName": "class android.app.LocalActivityManager",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.graphics.Canvas$EdgeType",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Cap[]",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Join[]",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.graphics.Paint$Style[]",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.graphics.drawable.GradientDrawable$Orientation[]",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.hardware.motion.MotionRecognitionManager",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.location.LocationManager$GpsStatusListenerTransport",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.os.MessageQueue",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.text.method.QwertyKeyListener[]",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.text.method.TextKeyListener[]",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.view.Choreographer$FrameDisplayEventReceiver",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class com.android.internal.view.InputBindResult",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class dalvik.system.DexPathList",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.GPS$GpsData",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class java.lang.RealToString",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class java.math.RoundingMode[]",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class java.security.cert.CertificateFactory",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class java.util.concurrent.LinkedBlockingQueue",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class libcore.util.ZoneInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.TrustedCertificateStore",
+      "InstanceCnt": 2,
+      "TotalSize": 40
+    },
+    {
+      "ClassName": "class android.content.res.StringBlock[]",
+      "InstanceCnt": 2,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class android.content.res.XmlBlock$Parser",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class android.net.LocalSocketImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class com.android.internal.os.ZygoteInit$MethodAndArgsCaller",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$RotationWatcher",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class com.android.internal.view.IInputMethodSession$Stub$Proxy",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerViewer$ValueCollector[]",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger$1",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger$2",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger$3",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger$4",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.UMLogger$CounterServiceConnection",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.SystemInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.io.Console$ConsoleReader",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.io.File[]",
+      "InstanceCnt": 2,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.nio.charset.CodingErrorAction",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.text.AttributedCharacterIterator$Attribute",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit[]",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class java.util.concurrent.locks.ReentrantLock",
+      "InstanceCnt": 3,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.X509CertPathImpl$2",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.TrustManagerImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 36
+    },
+    {
+      "ClassName": "class android.graphics.Region$Op[]",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.location.LocationManager",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.net.NetworkInfo$State[]",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.net.Uri$Part",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.net.Uri$Part$EmptyPart",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.os.StrictMode$6",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.view.accessibility.AccessibilityManager",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.view.inputmethod.BaseInputConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$4",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.widget.ListView$ArrowScrollFocusResult",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class com.android.internal.logging.AndroidHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class com.google.android.gles_jni.EGLContextImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class com.google.android.gles_jni.EGLSurfaceImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.Audio$AudioData",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.IterationData[]",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.ForegroundDetector",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.lang.ClassNotFoundException",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.lang.Daemons$FinalizerDaemon",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.nio.ByteOrder",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.nio.charset.CoderResult",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Relation[]",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class java.util.TreeSet",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class libcore.util.CollectionUtils$1",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.achartengine.chart.PointStyle[]",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.X509CertPathImpl$3",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.ORAddress$2",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.ClientSessionContext",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.ProtocolVersion",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.http.conn.routing.HttpRoute",
+      "InstanceCnt": 1,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.http.conn.routing.RouteInfo$LayerType",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class org.apache.http.conn.routing.RouteInfo$TunnelType",
+      "InstanceCnt": 2,
+      "TotalSize": 32
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$H",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$Profiler",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ProviderClientRecord",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ProviderRefCount",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.app.ServiceConnectionLeaked",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.hardware.input.InputManager",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.location.LocationManager$GpsStatusListenerTransport$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.os.DVFSHelper$PackageInfo[]",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.telephony.PhoneStateListener$2",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.text.AutoText",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.text.Layout$Alignment[]",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.text.TextUtils$TruncateAt[]",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.Choreographer$FrameHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.ContextThemeWrapper",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.FocusFinder",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.PointerIcon",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.WindowManagerImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.accessibility.AccessibilityManager$MyHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.view.inputmethod.InputMethodManager$H",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class com.android.internal.view.IInputConnectionWrapper$MyHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.io.InputStreamReader",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.lang.InternalError",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.lang.NoClassDefFoundError",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.lang.OutOfMemoryError",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.util.concurrent.locks.AbstractQueuedSynchronizer$Node",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.util.zip.DeflaterOutputStream",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class java.util.zip.ZipFile",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.achartengine.chart.PieChart",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.pkcs7.ContentInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x501.AttributeTypeAndValue$2",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.AlgorithmIdentifier$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.BasicConstraints$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Certificate$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.EDIPartyName$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Extension$2",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.ORAddress$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.OtherName$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.SubjectPublicKeyInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.TBSCertificate$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Validity$1",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.ServerSessionContext",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class org.ccil.cowan.tagsoup.HTMLSchema",
+      "InstanceCnt": 1,
+      "TotalSize": 28
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ApplicationThread",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$Idler",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$StopInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.Application",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.IActivityManager$ContentProviderHolder",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ServiceDispatcher$RunConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.ResultInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.content.res.CompatibilityInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.database.DataSetObservable",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.graphics.Insets",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.hardware.input.InputManager$InputDevicesChangedListener",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.os.AsyncTask$InternalHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.os.Looper",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.os.MessageQueue$IdleHandler[]",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.telephony.PhoneStateListener$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.text.Layout$Directions",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$AnyStrong",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.text.method.TextKeyListener$Capitalize[]",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.view.VelocityTracker",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$ResizedInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.view.accessibility.AccessibilityManager$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.view.inputmethod.InputMethodManager$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.widget.AbsListView$4",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class com.android.internal.view.IInputContextCallback$Stub$Proxy",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.DERBoolean",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class com.cerberus.Modules",
+      "InstanceCnt": 3,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class com.google.android.gles_jni.EGLDisplayImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.UMLoggerService$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerPie$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.io.Console$ConsoleWriter",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.lang.Runtime",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.lang.StackTraceElement",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.nio.channels.spi.AbstractInterruptibleChannel$1",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.security.KeyStore",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.text.DecimalFormat$1",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.util.ArrayList[]",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.util.jar.Attributes",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class java.util.logging.ErrorManager",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class libcore.io.MemoryMappedFile",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.achartengine.chart.PieMapper",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1BitString$ASN1NamedBitList",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x501.DirectoryString$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.GeneralName$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Time$1",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.http.HttpHost",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.http.conn.scheme.PlainSocketFactory",
+      "InstanceCnt": 2,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class org.apache.http.conn.ssl.SSLSocketFactory",
+      "InstanceCnt": 1,
+      "TotalSize": 24
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ContextCleanupInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ServiceDispatcher$DeathMonitor",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.graphics.Interpolator$Result[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.graphics.Shader$TileMode[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.hardware.SensorManager$SensorEventPool",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.hardware.SystemSensorManager",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.hardware.scontext.SContextManager",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.location.GpsStatus",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.net.Uri$PathSegments",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.net.wifi.WifiManager",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.os.AsyncTask$Status[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.text.MeasuredText[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$TriState[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.text.TextLine[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.view.Choreographer$CallbackQueue[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.view.FocusFinder$SequentialFocusComparator",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.widget.NumberPicker$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.widget.TextView$BufferType[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class com.android.internal.telephony.Phone$State[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class com.google.android.gles_jni.EGLImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class dalvik.system.DexFile",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class dalvik.system.DexPathList$Element",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class dalvik.system.DexPathList$Element[]",
+      "InstanceCnt": 2,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.LCD$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.UMLoggerService$2",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.UMLoggerService$3",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.util.NotificationService$NotificationForwarder",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.lang.StackTraceElement[]",
+      "InstanceCnt": 2,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.net.InetAddress",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.net.Proxy$Type[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.security.cert.CertPathValidator",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.util.Formatter$CachedDecimalFormat",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Bound[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class java.util.logging.LogManager",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class libcore.icu.TimeZones$ZoneStringsCache",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.achartengine.model.CategorySeries",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1SetOf",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.X509CertPathImpl$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x501.Name$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Extensions$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.GeneralNames$1",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class org.kxml2.io.KXmlParser$ValueContext[]",
+      "InstanceCnt": 1,
+      "TotalSize": 20
+    },
+    {
+      "ClassName": "class android.app.ActivityManager",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$ResultData",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$10",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$11",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$16",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$17",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$18",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$37",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$5",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.LoadedApk$ServiceDispatcher$ConnectionInfo",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.content.pm.Signature[]",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.graphics.Canvas$EdgeType[]",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.hardware.SystemSensorManager$SensorThread",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.net.LocalServerSocket",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.AsyncTask$SerialExecutor",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.CustomFrequencyManager",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.StrictMode$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.StrictMode$2",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.StrictMode$3",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.StrictMode$7",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.os.StrictMode$VmPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.telephony.TelephonyManager",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.text.InputFilter[]",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.Choreographer$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.FocusFinder$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$10",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$11",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$12",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$13",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$4",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$5",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$6",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$7",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$8",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.View$9",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.view.animation.AccelerateDecelerateInterpolator",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews$MemoryUsageCounter",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class com.android.internal.os.LoggingPrintStream$1",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.jce.provider.CertBlacklist",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.jce.provider.PKIXCRLUtil",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class com.android.server.NetworkManagementSocketTagger$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class dalvik.system.BlockGuard$2",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.beans.PropertyChangeSupport",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.io.Console",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.io.ObjectStreamClass$5",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.lang.BootClassLoader",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.lang.Enum$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.lang.IntegralToString$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.lang.RealToString$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.net.Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.BitSet",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.Collections$EmptyMap",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.Formatter$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Bound$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Bound$2",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.TreeMap$Bound$3",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.ConcurrentLinkedQueue",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.ConcurrentLinkedQueue$Node",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.LinkedBlockingQueue$Node",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$2",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$3",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$4",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$5",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$6",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class java.util.concurrent.TimeUnit$7",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class libcore.util.BasicLruCache",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[]",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.lang.annotation.AnnotationMember$DefaultValues",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Any",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1BitString",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Boolean",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1GeneralizedTime",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Integer",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1OctetString",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Oid",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1Oid$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$2",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$3",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$4",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$5",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$6",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1StringType$7",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.ASN1UTCTime",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.asn1.BitString",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.provider.cert.X509CertFactoryImpl",
+      "InstanceCnt": 2,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x501.AttributeTypeAndValue$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.security.x509.Extension$1",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.OpenSSLSocketFactoryImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.http.conn.routing.RouteInfo$LayerType[]",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class org.apache.http.conn.routing.RouteInfo$TunnelType[]",
+      "InstanceCnt": 1,
+      "TotalSize": 16
+    },
+    {
+      "ClassName": "class android.app.ActivityManagerNative$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ActivityManagerProxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$2",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ActivityThread$GcIdler",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ApplicationLoaders",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$12",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$13",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$14",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$15",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$19",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$2",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$20",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$21",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$22",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$23",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$24",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$25",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$26",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$27",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$28",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$29",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$3",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$30",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$31",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$32",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$33",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$34",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$35",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$38",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$39",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$4",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$40",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$41",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$42",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$44",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$45",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$46",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$47",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$48",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$49",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$50",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$51",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$52",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$6",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$7",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$8",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.ContextImpl$9",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.INotificationManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.NotificationManager",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.app.PendingIntent",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.content.ContentProviderProxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.content.IIntentSender$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.content.pm.IPackageManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.graphics.Matrix$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.hardware.input.IInputManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.hardware.motion.IMotionRecognitionService$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.hardware.motion.MotionRecognitionManager$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.location.GpsStatus$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.location.ILocationManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.media.IAudioService$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.net.wifi.IWifiManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.os.AsyncTask$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.os.ICustomFrequencyManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.os.ServiceManagerProxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.os.StrictMode$8",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.os.StrictMode$ThreadPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.sec.clipboard.IClipboardService$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.sec.enterprise.IEDMProxy$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$TextDirectionHeuristicLocale",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.text.style.RelativeSizeSpan",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.text.style.URLSpan",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.AbsSavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.CompatibilityInfoHolder",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.IWindowManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.IWindowSession$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.KeyCharacterMap",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.View$CheckForTap",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.ViewRootImpl$RunQueue",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.WindowManagerImpl$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.view.accessibility.IAccessibilityManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews$BitmapCache",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.widget.TabHost$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.widget.TabHost$2",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.internal.appwidget.IAppWidgetService$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$RotationWatcher$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.internal.view.IInputMethodManager$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.internal.widget.ILockSettings$Stub$Proxy",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.DERSequence",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.DERSet",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class com.sec.android.app.CscFeature",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.components.GPS$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.DreamPowerCalculator",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$2",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$3",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$4",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$5",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$6",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.phone.PhoneSelector$7",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.Help$1",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.MiscView$CounterServiceConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerPie$CounterServiceConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerTop$CounterServiceConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.ui.PowerViewer$CounterServiceConnection",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.lang.Daemons$FinalizerWatchdogDaemon",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.lang.Daemons$ReferenceQueueDaemon",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.net.AddressCache",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.util.Collections$EmptyList",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.util.Currency",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.util.Hashtable$Values",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.util.concurrent.atomic.AtomicBoolean",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class java.util.concurrent.atomic.AtomicReference",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class javax.net.ssl.TrustManager[]",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class libcore.io.BlockGuardOs",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class org.apache.harmony.lang.annotation.AnnotationMember$DefaultValues[]",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.KeyManagerImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.TrustedCertificateIndex",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class org.apache.harmony.xnet.provider.jsse.TrustedCertificateKeyStoreSpi",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class org.apache.http.message.BasicLineParser",
+      "InstanceCnt": 1,
+      "TotalSize": 12
+    },
+    {
+      "ClassName": "class android.accounts.Account$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.animation.FloatEvaluator",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.animation.IntEvaluator",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.app.ActivityManager$RunningAppProcessInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.app.IActivityManager$ContentProviderHolder$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.app.Notification$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.app.PendingIntent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.app.ResultInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.ComponentName$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.ContentValues$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.Intent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.IntentFilter$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ActivityInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ApplicationInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ConfigurationInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.FeatureInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.InstrumentationInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.PackageInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.PathPermission$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.PermissionInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ProviderInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ResolveInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.ServiceInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.pm.Signature$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.res.AssetFileDescriptor$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.res.ColorStateList$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.res.CompatibilityInfo$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.res.Configuration$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.content.res.ObbInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.database.CursorWindow$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleAppName",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleExit",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleHeap",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleHello",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleNativeHeap",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleProfiling",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.ddm.DdmHandleThread",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.Bitmap$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.Point$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.PointF$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.Rect$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.RectF$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.graphics.Region$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.hardware.usb.UsbDevice$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.location.Location$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.net.NetworkInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.net.SSLCertificateSocketFactory$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.net.Uri$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.net.http.AndroidHttpClient$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.nfc.NdefMessage$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.nfc.NdefRecord$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.Bundle$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.Debug$MemoryInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.Message$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.Parcel$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.ParcelFileDescriptor$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.ParcelUuid$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.PatternMatcher$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.StrictMode$5",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.os.Trace$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.sec.enterprise.ApplicationPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.sec.enterprise.PasswordPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.sec.enterprise.RestrictionPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.telephony.ServiceState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.telephony.SignalStrength$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.Editable$Factory",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.Selection$END",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.Selection$START",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.SpanWatcher[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.Spannable$Factory",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.TextDirectionHeuristics$FirstStrong",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.TextUtils$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.method.SingleLineTransformationMethod",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.LineBackgroundSpan[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.LineHeightSpan[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.ReplacementSpan[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.SuggestionSpan$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.SuggestionSpan[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.TabStopSpan[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.text.style.UnderlineSpan",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.util.Log$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.util.secutil.Log$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.AbsSavedState$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.Choreographer$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.GLES20RecordingCanvas$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.InputChannel$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.InputDevice$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.InputEvent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.KeyCharacterMap$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.KeyEvent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.MotionEvent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.PointerIcon$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.Surface$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.VelocityTracker$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.View$BaseSavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.WindowManager$LayoutParams$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.accessibility.AccessibilityEvent$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.animation.LinearInterpolator",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.inputmethod.ComposingText",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.inputmethod.EditorInfo$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.view.inputmethod.ExtractedText$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.AbsListView$SavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$3",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$5",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$6",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.GridLayout$7",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.ProgressBar$SavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.RelativeLayout$DependencyGraph$Node$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.RemoteViews$OnClickHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class android.widget.TextView$SavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.logging.AndroidHandler$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.os.BatteryStatsImpl$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.os.RuntimeInit$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.os.RuntimeInit$UncaughtHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.PhoneWindow$PanelFeatureState$SavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.policy.impl.Policy",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.view.InputBindResult$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.internal.widget.ActionBarView$SavedState$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.asn1.DERNull",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.org.bouncycastle.jce.provider.PKIXCertPathValidatorSpi",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class com.android.server.NetworkManagementSocketTagger",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class dalvik.system.BlockGuard$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class dalvik.system.CloseGuard$DefaultReporter",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class dalvik.system.SocketTagger$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class dalvik.system.VMRuntime",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class edu.umich.PowerTutor.service.LogUploader",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.RuntimePermission",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.String$CaseInsensitiveComparator",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.Throwable[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.annotation.Annotation[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.reflect.Field$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.lang.reflect.Method$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.net.ProxySelectorImpl",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.net.URI$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.net.URLEncoder$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.nio.FileChannelImpl$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.security.Security$SecurityDoor",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.Collections$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.Collections$2",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.Collections$EmptySet",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.TreeMap$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.concurrent.ThreadPoolExecutor$AbortPolicy",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.logging.Handler[]",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.logging.Logger$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.logging.LoggingPermission",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class java.util.logging.SimpleFormatter",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class javax.net.ssl.DefaultHostnameVerifier",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class libcore.icu.TimeZones$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class libcore.io.Posix",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class libcore.net.url.FileHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class libcore.net.url.JarHandler",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.conn.params.ConnManagerParams$1",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.conn.ssl.AllowAllHostnameVerifier",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.conn.ssl.BrowserCompatHostnameVerifier",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.conn.ssl.StrictHostnameVerifier",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.impl.EnglishReasonPhraseCatalog",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.message.BasicHeaderValueParser",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class org.apache.http.message.BasicLineFormatter",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    },
+    {
+      "ClassName": "class sun.misc.Unsafe",
+      "InstanceCnt": 1,
+      "TotalSize": 8
+    }
+  ],
+  "classes": []
+}

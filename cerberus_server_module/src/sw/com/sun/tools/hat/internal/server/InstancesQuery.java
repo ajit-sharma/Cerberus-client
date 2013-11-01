@@ -81,7 +81,6 @@ class InstancesQuery extends QueryHandler {
         }
         if (clazz == null) {
             error("Class not found");
-           // System.out.println("oooo");
         } else {
             out.print("<strong>");
             printClass(clazz);
@@ -90,8 +89,6 @@ class InstancesQuery extends QueryHandler {
             long totalSize = 0;
             long instances = 0;
             
-            
-            //mainobject.initClass(classes, clazz.getName());
             classes.init(clazz.getName());
             while (objects.hasMoreElements()) {
                 JavaHeapObject obj = (JavaHeapObject) objects.nextElement();
@@ -101,15 +98,13 @@ class InstancesQuery extends QueryHandler {
                // printThing(obj);
                 
                 classes.addInstance(inst, ((JavaHeapObject) obj).getIdString(), obj.getClazz().getName() ,obj.getSize());
-                
-                //System.out.println("#");
+               
                 out.println("<br>");
                 totalSize += obj.getSize();
                 instances++;
             }	
             mainobject.setClass(classes);
-            //mainobject.setClass(classes);
-//            System.out.println();
+            
             out.println("<h2>Total of " + instances + " instances occupying " + totalSize + " bytes.</h2>");
         }		
         endHtml();

@@ -10,27 +10,27 @@ public class MainClass {
 	private double self;
 	private String calls_recal;
 	private String name;
-	private ArrayList<MethodForClass> methods;
+	private ArrayList<SubMethod> methods;
 	
 	public MainClass() {
 		
-		this.cycles = cycles;
-		this.total = total;
-		this.self = self;
-		this.calls_recal = calls_recal;
-		this.name = name;
-		this.methods = new ArrayList<MethodForClass>();
+		this.cycles = 0;
+		this.total = 0.0;
+		this.self = 0.0;
+		this.calls_recal = "N/V";
+		this.name = "N/V";
+		this.methods = new ArrayList<SubMethod>();
 	}
 	
 	public MainClass(int cycles, double total, double self,
-			String calls_recal, String name, ArrayList<MethodForClass> methods) {
+			String calls_recal, String name, ArrayList<SubMethod> methods) {
 		super();
 		this.cycles = cycles;
 		this.total = total;
 		this.self = self;
 		this.calls_recal = calls_recal;
 		this.name = name;
-		this.methods  = new ArrayList<MethodForClass>();
+		this.methods  = new ArrayList<SubMethod>();
 	}
 	
 	public void setClass(int cycles, double total, double self, 
@@ -43,9 +43,14 @@ public class MainClass {
 		this.name = name;
 	}
 	
-	public void setMethod(MethodForClass _method)
+	public void setMethod(SubMethod _method)
 	{
 		this.methods.add(_method);
+	}
+	
+	public String getClsName()
+	{
+		return this.name;
 	}
 	
 }

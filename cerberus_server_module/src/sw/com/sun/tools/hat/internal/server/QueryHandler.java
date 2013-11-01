@@ -70,9 +70,7 @@ abstract class QueryHandler {
     protected Snapshot snapshot;
     protected Map<String,String> classId;
 
-	
-
-    abstract MainObject run(MainObject mainobject);
+	abstract MainObject run(MainObject mainobject);
     
 
     
@@ -84,7 +82,7 @@ abstract class QueryHandler {
 //    }
     
     void initIdMap(){
-    	classId = new HashMap<String, String>();
+    	this.classId = new HashMap<String, String>();
     }
     Map<String, String> getIdMap(){
     	return this.classId;

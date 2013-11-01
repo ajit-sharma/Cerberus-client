@@ -36,11 +36,11 @@ import sw.com.sun.tools.hat.internal.model.*;
 import sw.com.sun.tools.hat.internal.oql.*;
 import sw.com.sun.tools.hat.internal.util.ArraySorter;
 import sw.com.sun.tools.hat.internal.util.Comparer;
-
 import sw.com.sun.tools.hat.internal.oql.OQLEngine;
 import sw.com.sun.tools.hat.internal.oql.OQLException;
 import sw.com.sun.tools.hat.internal.oql.ObjectVisitor;
 import sw.com.sun.tools.hat.internal.server.QueryHandler;
+import sw.gson.MainObject;
 
 /**
  * This handles Object Query Language (OQL) queries.
@@ -115,4 +115,10 @@ class OQLQuery extends QueryHandler {
     }
 
     private OQLEngine engine;
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

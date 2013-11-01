@@ -59,7 +59,8 @@ import com.google.gson.GsonBuilder;
 
 public class HttpReader implements Runnable {
 
-	private static String filename = "Heap-Analysis";
+	private static String filename_histo = "histo_hprof";
+	private static String filename_class = "class_hprof";
 	private MainObject mainobject = new MainObject();
 
 	private Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls()
@@ -88,38 +89,20 @@ public class HttpReader implements Runnable {
 	public void run() {
 		InputStream in = null;
 		try {
-			// in = new BufferedInputStream(socket.getInputStream());
-			// out = new PrintWriter(new BufferedWriter(
-			// new OutputStreamWriter(
-			// socket.getOutputStream())));
+			
 			File f1 = new File(".tmp");
-			// File f2 = new File("histo.html");
 			out = new PrintWriter(new FileWriter(f1, false));
-			// out2 = new PrintWriter(new FileWriter(f2, false));
-			// //out3 = new OutputStream();
-			// //ostream = new OutputStreamWriter(out3);
-			// out = new PrintWriter(ostream);
-			// out2 = new PrintWriter(ostream);
 
 			out.println("HTTP/1.0 200 OK");
 			out.println("Cache-Control: no-cache");
 			out.println("Pragma: no-cache");
 			out.println();
-			// if (in.read() != 'G' || in.read() != 'E'
-			// || in.read() != 'T' || in.read() != ' ') {
-			// outputError("Protocol error");
-			// }
+			
 			int data;
 			StringBuffer queryBuf = new StringBuffer();
-			// while ((data = in.read()) != -1 && data != ' ') {
-			// char ch = (char) data;
-			// queryBuf.append(ch);
-			// }
 			String query = queryBuf.toString();
 			query = java.net.URLDecoder.decode(query, "UTF-8");
 			QueryHandler handler = null;
-
-			//
 
 			if (snapshot == null) {
 				outputError("The heap snapshot is still being read.");
@@ -229,39 +212,45 @@ public class HttpReader implements Runnable {
 			handler.setSnapshot(snapshot);
 			mainobject = handler.run(mainobject);
 
+			String jsonString = gson.toJson(mainobject);
+			writer.write(filename_histo, jsonString);
+			writer = new Writer();
+			gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
+			mainobject = new MainObject();
+			
 			ClassId = handler.getIdMap();
 			Iterator<String> iterator = ClassId.keySet().iterator();
 
 			// 히스토그램에서 가장 높은 순위에 랭크된 클래스 부터 시작해서 해당 클래스의 인스턴스정보를 가져온다.
-			System.out.println("Writing " + ClassId.size());
+			System.out.println("Processing " + ClassId.size() + " Classes");
 			int cnt = 0;
 			while (iterator.hasNext()) {				
 				String key = (String) iterator.next();
 				
-				System.out.println(cnt++ + "/" + ClassId.size() + "	"
-						+ ClassId.get(key) + "	" + key);
 				handler = new InstancesQuery(true);
 				handler.setUrlStart("../");
 				handler.setQuery(key);
 				handler.setOutput(out);
 				handler.setSnapshot(snapshot);
 				mainobject = handler.run(mainobject);
-				// System.out.println(cnt++ +"/" + ClassId.size() + "	" +
-				// ClassId.get(key) + "	" + key);
 			}
 
-			String jsonString = gson.toJson(mainobject);
-			System.out.println(jsonString);
-			writer.write(filename, jsonString);
-
-			// if (handler != null) {
-			// handler.setOutput(out);
-			// handler.setSnapshot(snapshot);
-			// handler.run();
-			// } else {
-			// outputError("Query '" + query + "' not implemented");
-			// }
-
+			jsonString = gson.toJson(mainobject);
+			writer.write(filename_class, jsonString);
+			writer = new Writer();
+			gson = new GsonBuilder().setPrettyPrinting().serializeNulls()
+					.create();
+			mainobject = new MainObject();
+			
+			
+			
+//			handler = new AllClassesQuery(true, engine != null);
+//			handler.setUrlStart("");
+//			handler.setQuery("");
+//			handler.setOutput(out);
+//			handler.setSnapshot(snapshot);
+//			mainobject = handler.run(mainobject);
+//			
 			System.out.println("End");
 
 		} catch (IOException ex) {

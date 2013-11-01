@@ -40,6 +40,7 @@ import sw.com.sun.tools.hat.internal.server.QueryHandler;
 import java.util.*;
 
 import sw.com.sun.tools.hat.internal.model.*;
+import sw.gson.MainObject;
 
 /**
  * References by type summary
@@ -141,4 +142,10 @@ public class RefsByTypeQuery extends QueryHandler {
         }
         out.println("</table>");
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

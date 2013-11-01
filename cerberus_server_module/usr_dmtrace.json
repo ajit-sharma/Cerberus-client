@@ -1,0 +1,3802 @@
+{
+  "METHOD_SEC": [
+    {
+      "method_name": "[2] edu/umich/PowerTutor/components/CPU.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 137183,
+      "self": 4.81,
+      "total": 12.46
+    },
+    {
+      "method_name": "[4] edu/umich/PowerTutor/service/PowerEstimator.run ()V ",
+      "sec": 73704,
+      "self": 2.58,
+      "total": 17.72
+    },
+    {
+      "method_name": "[7] edu/umich/PowerTutor/util/SystemInfo.getPidUsrSysTime (I[J)Z ",
+      "sec": 40001,
+      "self": 1.4,
+      "total": 36.11
+    },
+    {
+      "method_name": "[11] edu/umich/PowerTutor/components/Threeg.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 21390,
+      "self": 0.75,
+      "total": 53.85
+    },
+    {
+      "method_name": "[94] edu/umich/PowerTutor/util/Counter$SingleCounter.add (JJ)V ",
+      "sec": 21093,
+      "self": 0.74,
+      "total": 54.59
+    },
+    {
+      "method_name": "[59] edu/umich/PowerTutor/util/Counter.add (J)V ",
+      "sec": 19564,
+      "self": 0.69,
+      "total": 57.39
+    },
+    {
+      "method_name": "[123] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getUsrPerc ()D ",
+      "sec": 14331,
+      "self": 0.5,
+      "total": 64.65
+    },
+    {
+      "method_name": "[80] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.updateState (JJJJ)V ",
+      "sec": 14153,
+      "self": 0.5,
+      "total": 65.65
+    },
+    {
+      "method_name": "[36] edu/umich/PowerTutor/util/HistoryBuffer.add (IJI)V ",
+      "sec": 13038,
+      "self": 0.46,
+      "total": 67.96
+    },
+    {
+      "method_name": "[135] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getSysPerc ()D ",
+      "sec": 12276,
+      "self": 0.43,
+      "total": 69.73
+    },
+    {
+      "method_name": "[111] edu/umich/PowerTutor/phone/DreamPowerCalculator.getCpuPower (Ledu/umich/PowerTutor/components/CPU$CpuData;)D ",
+      "sec": 12016,
+      "self": 0.42,
+      "total": 70.58
+    },
+    {
+      "method_name": "[163] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isStale (J)Z ",
+      "sec": 11843,
+      "self": 0.42,
+      "total": 71.41
+    },
+    {
+      "method_name": "[177] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getUid ()I ",
+      "sec": 10830,
+      "self": 0.38,
+      "total": 72.99
+    },
+    {
+      "method_name": "[179] edu/umich/PowerTutor/util/Counter$SingleCounter.wind (J)V ",
+      "sec": 10607,
+      "self": 0.37,
+      "total": 74.12
+    },
+    {
+      "method_name": "[38] edu/umich/PowerTutor/util/SystemInfo.readLongFromFile (Ljava/lang/String;)J ",
+      "sec": 9630,
+      "self": 0.34,
+      "total": 75.88
+    },
+    {
+      "method_name": "[22] edu/umich/PowerTutor/util/SystemInfo.getUidForPid (I)I ",
+      "sec": 8554,
+      "self": 0.3,
+      "total": 78.42
+    },
+    {
+      "method_name": "[202] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isAlive (J)Z ",
+      "sec": 8521,
+      "self": 0.3,
+      "total": 78.72
+    },
+    {
+      "method_name": "[9] edu/umich/PowerTutor/util/ForegroundDetector.getForegroundUid ()I ",
+      "sec": 8355,
+      "self": 0.29,
+      "total": 79.31
+    },
+    {
+      "method_name": "[33] edu/umich/PowerTutor/util/SystemInfo.getAppId (ILandroid/content/pm/PackageManager;)Ljava/lang/String; ",
+      "sec": 8160,
+      "self": 0.29,
+      "total": 79.88
+    },
+    {
+      "method_name": "[139] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.isStale ()Z ",
+      "sec": 7446,
+      "self": 0.26,
+      "total": 80.41
+    },
+    {
+      "method_name": "[220] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.absorb (Ledu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V ",
+      "sec": 7283,
+      "self": 0.26,
+      "total": 80.67
+    },
+    {
+      "method_name": "[113] edu/umich/PowerTutor/service/IterationData.recycle ()V ",
+      "sec": 6192,
+      "self": 0.22,
+      "total": 82.99
+    },
+    {
+      "method_name": "[182] edu/umich/PowerTutor/util/Recycler.recycle (Ljava/lang/Object;)V ",
+      "sec": 6108,
+      "self": 0.21,
+      "total": 83.42
+    },
+    {
+      "method_name": "[242] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.updateIteration (JJ)V ",
+      "sec": 5951,
+      "self": 0.21,
+      "total": 84.05
+    },
+    {
+      "method_name": "[171] edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object; ",
+      "sec": 5184,
+      "self": 0.18,
+      "total": 84.62
+    },
+    {
+      "method_name": "[209] edu/umich/PowerTutor/components/CPU.predictAppUidState (Ledu/umich/PowerTutor/components/CPU$CpuData;DDD)V ",
+      "sec": 5076,
+      "self": 0.18,
+      "total": 84.98
+    },
+    {
+      "method_name": "[260] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isInitialized ()Z ",
+      "sec": 4650,
+      "self": 0.16,
+      "total": 85.48
+    },
+    {
+      "method_name": "[97] edu/umich/PowerTutor/phone/PhoneSelector$3.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 4382,
+      "self": 0.15,
+      "total": 86.58
+    },
+    {
+      "method_name": "[159] edu/umich/PowerTutor/components/CPU$CpuData.obtain ()Ledu/umich/PowerTutor/components/CPU$CpuData; ",
+      "sec": 4135,
+      "self": 0.15,
+      "total": 87.47
+    },
+    {
+      "method_name": "[157] edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V ",
+      "sec": 4102,
+      "self": 0.14,
+      "total": 87.61
+    },
+    {
+      "method_name": "[39] edu/umich/PowerTutor/components/Threeg.readLongFromFile (Ljava/lang/String;)J ",
+      "sec": 3740,
+      "self": 0.13,
+      "total": 88.72
+    },
+    {
+      "method_name": "[290] edu/umich/PowerTutor/phone/DreamConstants.cpuFreqs ()[D ",
+      "sec": 3658,
+      "self": 0.13,
+      "total": 88.98
+    },
+    {
+      "method_name": "[1] edu/umich/PowerTutor/components/PowerComponent.run ()V ",
+      "sec": 3253,
+      "self": 0.11,
+      "total": 89.47
+    },
+    {
+      "method_name": "[228] edu/umich/PowerTutor/service/UMLoggerService.showNotification ()V ",
+      "sec": 2839,
+      "self": 0.1,
+      "total": 90.0
+    },
+    {
+      "method_name": "[239] edu/umich/PowerTutor/util/Counter.\u003cinit\u003e ()V ",
+      "sec": 2812,
+      "self": 0.1,
+      "total": 90.1
+    },
+    {
+      "method_name": "[183] edu/umich/PowerTutor/components/CPU$CpuData.recycle ()V ",
+      "sec": 2791,
+      "self": 0.1,
+      "total": 90.19
+    },
+    {
+      "method_name": "[314] edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry.getAppId ()Ljava/lang/String; ",
+      "sec": 2707,
+      "self": 0.09,
+      "total": 90.39
+    },
+    {
+      "method_name": "[246] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.updateState (JJJJIIII)V ",
+      "sec": 2578,
+      "self": 0.09,
+      "total": 90.66
+    },
+    {
+      "method_name": "[326] edu/umich/PowerTutor/service/PowerData.setCachedPower (I)V ",
+      "sec": 2555,
+      "self": 0.09,
+      "total": 90.84
+    },
+    {
+      "method_name": "[334] edu/umich/PowerTutor/phone/DreamPowerCalculator.upperBound ([DD)I ",
+      "sec": 2469,
+      "self": 0.09,
+      "total": 91.1
+    },
+    {
+      "method_name": "[350] edu/umich/PowerTutor/phone/DreamConstants.cpuPowerRatios ()[D ",
+      "sec": 2231,
+      "self": 0.08,
+      "total": 91.92
+    },
+    {
+      "method_name": "[368] edu/umich/PowerTutor/util/Counter$SingleCounter.\u003cinit\u003e ()V ",
+      "sec": 2035,
+      "self": 0.07,
+      "total": 92.45
+    },
+    {
+      "method_name": "[310] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.\u003cinit\u003e (ILedu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V ",
+      "sec": 1838,
+      "self": 0.06,
+      "total": 93.26
+    },
+    {
+      "method_name": "[390] edu/umich/PowerTutor/service/PowerData.getCachedPower ()I ",
+      "sec": 1738,
+      "self": 0.06,
+      "total": 93.5
+    },
+    {
+      "method_name": "[37] edu/umich/PowerTutor/util/SystemInfo.getAppIdNoCache (ILandroid/content/pm/PackageManager;)Ljava/lang/String; ",
+      "sec": 1689,
+      "self": 0.06,
+      "total": 93.56
+    },
+    {
+      "method_name": "[402] edu/umich/PowerTutor/components/CPU$CpuData.init (DDD)V ",
+      "sec": 1624,
+      "self": 0.06,
+      "total": 93.68
+    },
+    {
+      "method_name": "[412] edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry.clearIfExpired ()V ",
+      "sec": 1544,
+      "self": 0.05,
+      "total": 93.9
+    },
+    {
+      "method_name": "[289] edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V ",
+      "sec": 1340,
+      "self": 0.05,
+      "total": 94.2
+    },
+    {
+      "method_name": "[262] edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 1052,
+      "self": 0.04,
+      "total": 94.71
+    },
+    {
+      "method_name": "[184] edu/umich/PowerTutor/util/HistoryBuffer$UidData.\u003cinit\u003e ()V ",
+      "sec": 1040,
+      "self": 0.04,
+      "total": 94.75
+    },
+    {
+      "method_name": "[473] edu/umich/PowerTutor/components/CPU$CpuStateKeeper.\u003cinit\u003e (I)V ",
+      "sec": 944,
+      "self": 0.03,
+      "total": 94.95
+    },
+    {
+      "method_name": "[477] edu/umich/PowerTutor/service/IterationData.getUidPowerData ()Landroid/util/SparseArray; ",
+      "sec": 927,
+      "self": 0.03,
+      "total": 95.05
+    },
+    {
+      "method_name": "[483] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.isInitialized ()Z ",
+      "sec": 897,
+      "self": 0.03,
+      "total": 95.12
+    },
+    {
+      "method_name": "[433] edu/umich/PowerTutor/components/CPU$CpuData.\u003cinit\u003e ()V ",
+      "sec": 886,
+      "self": 0.03,
+      "total": 95.18
+    },
+    {
+      "method_name": "[8] edu/umich/PowerTutor/components/LCD.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 886,
+      "self": 0.03,
+      "total": 95.21
+    },
+    {
+      "method_name": "[506] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getUplinkBytes ()J ",
+      "sec": 799,
+      "self": 0.03,
+      "total": 95.5
+    },
+    {
+      "method_name": "[174] edu/umich/PowerTutor/components/Threeg$ThreegData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 746,
+      "self": 0.03,
+      "total": 95.61
+    },
+    {
+      "method_name": "[525] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getDownlinkBytes ()J ",
+      "sec": 727,
+      "self": 0.03,
+      "total": 95.72
+    },
+    {
+      "method_name": "[526] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getPowerState ()I ",
+      "sec": 724,
+      "self": 0.03,
+      "total": 95.74
+    },
+    {
+      "method_name": "[201] edu/umich/PowerTutor/components/Wifi.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 719,
+      "self": 0.03,
+      "total": 95.82
+    },
+    {
+      "method_name": "[282] edu/umich/PowerTutor/components/GPS.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 693,
+      "self": 0.02,
+      "total": 95.87
+    },
+    {
+      "method_name": "[532] edu/umich/PowerTutor/util/HistoryBuffer$HistoryDatum.\u003cinit\u003e ()V ",
+      "sec": 672,
+      "self": 0.02,
+      "total": 95.99
+    },
+    {
+      "method_name": "[151] edu/umich/PowerTutor/components/CPU$CpuData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 657,
+      "self": 0.02,
+      "total": 96.05
+    },
+    {
+      "method_name": "[158] edu/umich/PowerTutor/components/GPS$GpsData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 628,
+      "self": 0.02,
+      "total": 96.12
+    },
+    {
+      "method_name": "[548] edu/umich/PowerTutor/util/HistoryBuffer$HistoryDatum.init (JI)V ",
+      "sec": 619,
+      "self": 0.02,
+      "total": 96.17
+    },
+    {
+      "method_name": "[496] edu/umich/PowerTutor/phone/DreamPowerCalculator.getLcdPower (Ledu/umich/PowerTutor/components/LCD$LcdData;)D ",
+      "sec": 593,
+      "self": 0.02,
+      "total": 96.27
+    },
+    {
+      "method_name": "[568] edu/umich/PowerTutor/components/PowerComponent.getData (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 547,
+      "self": 0.02,
+      "total": 96.43
+    },
+    {
+      "method_name": "[187] edu/umich/PowerTutor/components/LCD$LcdData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 538,
+      "self": 0.02,
+      "total": 96.47
+    },
+    {
+      "method_name": "[71] edu/umich/PowerTutor/phone/PhoneSelector.generateComponents (Landroid/content/Context;Ljava/util/List;Ljava/util/List;)V ",
+      "sec": 538,
+      "self": 0.02,
+      "total": 96.49
+    },
+    {
+      "method_name": "[233] edu/umich/PowerTutor/components/Audio.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData; ",
+      "sec": 530,
+      "self": 0.02,
+      "total": 96.56
+    },
+    {
+      "method_name": "[575] edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V ",
+      "sec": 521,
+      "self": 0.02,
+      "total": 96.6
+    },
+    {
+      "method_name": "[160] edu/umich/PowerTutor/util/SystemInfo.getUsrSysTotalTime ([J)Z ",
+      "sec": 387,
+      "self": 0.01,
+      "total": 97.21
+    },
+    {
+      "method_name": "[281] edu/umich/PowerTutor/service/UMLoggerService.\u003cinit\u003e ()V ",
+      "sec": 350,
+      "self": 0.01,
+      "total": 97.38
+    },
+    {
+      "method_name": "[479] edu/umich/PowerTutor/components/LCD$LcdData.obtain ()Ledu/umich/PowerTutor/components/LCD$LcdData; ",
+      "sec": 337,
+      "self": 0.01,
+      "total": 97.49
+    },
+    {
+      "method_name": "[243] edu/umich/PowerTutor/components/Wifi$WifiData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 331,
+      "self": 0.01,
+      "total": 97.53
+    },
+    {
+      "method_name": "[513] edu/umich/PowerTutor/components/Threeg$ThreegData.obtain ()Ledu/umich/PowerTutor/components/Threeg$ThreegData; ",
+      "sec": 306,
+      "self": 0.01,
+      "total": 97.67
+    },
+    {
+      "method_name": "[447] edu/umich/PowerTutor/phone/PhoneSelector$2.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 299,
+      "self": 0.01,
+      "total": 97.75
+    },
+    {
+      "method_name": "[77] edu/umich/PowerTutor/util/SystemInfo.getPids ([I)[I ",
+      "sec": 297,
+      "self": 0.01,
+      "total": 97.76
+    },
+    {
+      "method_name": "[247] edu/umich/PowerTutor/components/CPU.readCpuFreq (Ledu/umich/PowerTutor/util/SystemInfo;)D ",
+      "sec": 266,
+      "self": 0.01,
+      "total": 97.89
+    },
+    {
+      "method_name": "[248] edu/umich/PowerTutor/components/Audio$AudioData.writeLogDataInfo (Ljava/io/OutputStreamWriter;)V ",
+      "sec": 260,
+      "self": 0.01,
+      "total": 97.91
+    },
+    {
+      "method_name": "[197] edu/umich/PowerTutor/components/GPS.\u003cinit\u003e (Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V ",
+      "sec": 240,
+      "self": 0.01,
+      "total": 98.0
+    },
+    {
+      "method_name": "[583] edu/umich/PowerTutor/phone/DreamPowerCalculator.getThreeGPower (Ledu/umich/PowerTutor/components/Threeg$ThreegData;)D ",
+      "sec": 239,
+      "self": 0.01,
+      "total": 98.01
+    },
+    {
+      "method_name": "[291] edu/umich/PowerTutor/util/SystemInfo.getUids ([I)[I ",
+      "sec": 236,
+      "self": 0.01,
+      "total": 98.05
+    },
+    {
+      "method_name": "[566] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.updateTimesLocked ()V ",
+      "sec": 234,
+      "self": 0.01,
+      "total": 98.06
+    },
+    {
+      "method_name": "[67] edu/umich/PowerTutor/service/PowerEstimator.\u003cinit\u003e (Ledu/umich/PowerTutor/service/UMLoggerService;)V ",
+      "sec": 223,
+      "self": 0.01,
+      "total": 98.14
+    },
+    {
+      "method_name": "[65] edu/umich/PowerTutor/service/UMLoggerService.onCreate ()V ",
+      "sec": 223,
+      "self": 0.01,
+      "total": 98.14
+    },
+    {
+      "method_name": "[119] edu/umich/PowerTutor/phone/PhoneSelector.getConstants (Landroid/content/Context;)Ledu/umich/PowerTutor/phone/PhoneConstants; ",
+      "sec": 216,
+      "self": 0.01,
+      "total": 98.17
+    },
+    {
+      "method_name": "[130] edu/umich/PowerTutor/phone/DreamConstants.\u003cinit\u003e (Landroid/content/Context;)V ",
+      "sec": 207,
+      "self": 0.01,
+      "total": 98.25
+    },
+    {
+      "method_name": "[510] edu/umich/PowerTutor/components/LCD$LcdData.recycle ()V ",
+      "sec": 203,
+      "self": 0.01,
+      "total": 98.26
+    },
+    {
+      "method_name": "[330] edu/umich/PowerTutor/service/PowerEstimator.openLog (Z)V ",
+      "sec": 198,
+      "self": 0.01,
+      "total": 98.28
+    },
+    {
+      "method_name": "[574] edu/umich/PowerTutor/components/Wifi$WifiData.obtain ()Ledu/umich/PowerTutor/components/Wifi$WifiData; ",
+      "sec": 187,
+      "self": 0.01,
+      "total": 98.34
+    },
+    {
+      "method_name": "[369] edu/umich/PowerTutor/util/NotificationService.\u003cclinit\u003e ()V ",
+      "sec": 183,
+      "self": 0.01,
+      "total": 98.36
+    },
+    {
+      "method_name": "[761] edu/umich/PowerTutor/util/SystemInfo.getInstance ()Ledu/umich/PowerTutor/util/SystemInfo; ",
+      "sec": 183,
+      "self": 0.01,
+      "total": 98.37
+    },
+    {
+      "method_name": "[263] edu/umich/PowerTutor/components/Wifi.\u003cinit\u003e (Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V ",
+      "sec": 182,
+      "self": 0.01,
+      "total": 98.38
+    },
+    {
+      "method_name": "[545] edu/umich/PowerTutor/components/GPS$GpsData.obtain ()Ledu/umich/PowerTutor/components/GPS$GpsData; ",
+      "sec": 181,
+      "self": 0.01,
+      "total": 98.4
+    },
+    {
+      "method_name": "[285] edu/umich/PowerTutor/components/LCD.\u003cinit\u003e (Landroid/content/Context;)V ",
+      "sec": 179,
+      "self": 0.01,
+      "total": 98.41
+    },
+    {
+      "method_name": "[524] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.getStateTimesLocked ()[D ",
+      "sec": 169,
+      "self": 0.01,
+      "total": 98.48
+    },
+    {
+      "method_name": "[578] edu/umich/PowerTutor/components/Audio$AudioData.obtain ()Ledu/umich/PowerTutor/components/Audio$AudioData; ",
+      "sec": 168,
+      "self": 0.01,
+      "total": 98.49
+    },
+    {
+      "method_name": "[533] edu/umich/PowerTutor/phone/PhoneSelector$5.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 166,
+      "self": 0.01,
+      "total": 98.5
+    },
+    {
+      "method_name": "[318] edu/umich/PowerTutor/service/UMLoggerService$2.onReceive (Landroid/content/Context;Landroid/content/Intent;)V ",
+      "sec": 165,
+      "self": 0.01,
+      "total": 98.51
+    },
+    {
+      "method_name": "[270] edu/umich/PowerTutor/util/BatteryStats.getCurrent ()D ",
+      "sec": 161,
+      "self": 0.01,
+      "total": 98.57
+    },
+    {
+      "method_name": "[725] edu/umich/PowerTutor/phone/DreamPowerCalculator.getGpsPower (Ledu/umich/PowerTutor/components/GPS$GpsData;)D ",
+      "sec": 158,
+      "self": 0.01,
+      "total": 98.58
+    },
+    {
+      "method_name": "[372] edu/umich/PowerTutor/components/Threeg.\u003cinit\u003e (Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V ",
+      "sec": 154,
+      "self": 0.01,
+      "total": 98.62
+    },
+    {
+      "method_name": "[637] edu/umich/PowerTutor/components/Wifi$WifiStateKeeper.interfaceOff ()V ",
+      "sec": 152,
+      "self": 0.01,
+      "total": 98.62
+    },
+    {
+      "method_name": "[498] edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V ",
+      "sec": 151,
+      "self": 0.01,
+      "total": 98.63
+    },
+    {
+      "method_name": "[457] edu/umich/PowerTutor/util/SystemInfo.\u003cinit\u003e ()V ",
+      "sec": 151,
+      "self": 0.01,
+      "total": 98.64
+    },
+    {
+      "method_name": "[733] edu/umich/PowerTutor/phone/PhoneSelector$4.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 142,
+      "self": 0.0,
+      "total": 98.69
+    },
+    {
+      "method_name": "[614] edu/umich/PowerTutor/components/Threeg$ThreegData.recycle ()V ",
+      "sec": 137,
+      "self": 0.0,
+      "total": 98.76
+    },
+    {
+      "method_name": "[831] edu/umich/PowerTutor/util/BatteryStats.\u003cclinit\u003e ()V ",
+      "sec": 136,
+      "self": 0.0,
+      "total": 98.76
+    },
+    {
+      "method_name": "[832] edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry.\u003cinit\u003e ()V ",
+      "sec": 135,
+      "self": 0.0,
+      "total": 98.78
+    },
+    {
+      "method_name": "[836] edu/umich/PowerTutor/phone/DreamConstants.lcdBrightness ()D ",
+      "sec": 133,
+      "self": 0.0,
+      "total": 98.8
+    },
+    {
+      "method_name": "[701] edu/umich/PowerTutor/phone/PhoneSelector.hasOled ()Z ",
+      "sec": 132,
+      "self": 0.0,
+      "total": 98.8
+    },
+    {
+      "method_name": "[641] edu/umich/PowerTutor/phone/PhoneSelector$6.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 130,
+      "self": 0.0,
+      "total": 98.81
+    },
+    {
+      "method_name": "[753] edu/umich/PowerTutor/phone/PhoneSelector$7.calculate (Ledu/umich/PowerTutor/service/PowerData;)D ",
+      "sec": 128,
+      "self": 0.0,
+      "total": 98.83
+    },
+    {
+      "method_name": "[845] edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry.setAppId (Ljava/lang/String;)V ",
+      "sec": 128,
+      "self": 0.0,
+      "total": 98.84
+    },
+    {
+      "method_name": "[847] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.\u003cinit\u003e ()V ",
+      "sec": 127,
+      "self": 0.0,
+      "total": 98.85
+    },
+    {
+      "method_name": "[657] edu/umich/PowerTutor/phone/PhoneSelector.getPhoneType ()I ",
+      "sec": 125,
+      "self": 0.0,
+      "total": 98.88
+    },
+    {
+      "method_name": "[859] edu/umich/PowerTutor/phone/DreamConstants.lcdBacklight ()D ",
+      "sec": 120,
+      "self": 0.0,
+      "total": 98.92
+    },
+    {
+      "method_name": "[862] edu/umich/PowerTutor/components/LCD$LcdData.init (IZ)V ",
+      "sec": 118,
+      "self": 0.0,
+      "total": 98.94
+    },
+    {
+      "method_name": "[417] edu/umich/PowerTutor/util/BatteryStats.\u003cinit\u003e ()V ",
+      "sec": 116,
+      "self": 0.0,
+      "total": 98.95
+    },
+    {
+      "method_name": "[384] edu/umich/PowerTutor/service/UMLoggerService$3.onSignalStrengthChanged (I)V ",
+      "sec": 114,
+      "self": 0.0,
+      "total": 98.96
+    },
+    {
+      "method_name": "[252] edu/umich/PowerTutor/service/PowerEstimator.writeToLog (Ljava/lang/String;)V ",
+      "sec": 113,
+      "self": 0.0,
+      "total": 98.97
+    },
+    {
+      "method_name": "[884] edu/umich/PowerTutor/components/Threeg$ThreegData.init (JJJILjava/lang/String;)V ",
+      "sec": 104,
+      "self": 0.0,
+      "total": 99.02
+    },
+    {
+      "method_name": "[636] edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V ",
+      "sec": 100,
+      "self": 0.0,
+      "total": 99.06
+    },
+    {
+      "method_name": "[812] edu/umich/PowerTutor/phone/DreamConstants.threegDchPower (Ljava/lang/String;)D ",
+      "sec": 93,
+      "self": 0.0,
+      "total": 99.12
+    },
+    {
+      "method_name": "[914] edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getPackets ()J ",
+      "sec": 92,
+      "self": 0.0,
+      "total": 99.13
+    },
+    {
+      "method_name": "[764] edu/umich/PowerTutor/util/Counter.\u003cclinit\u003e ()V ",
+      "sec": 91,
+      "self": 0.0,
+      "total": 99.13
+    },
+    {
+      "method_name": "[661] edu/umich/PowerTutor/components/GPS$GpsData.recycle ()V ",
+      "sec": 84,
+      "self": 0.0,
+      "total": 99.2
+    },
+    {
+      "method_name": "[361] edu/umich/PowerTutor/service/UMLoggerService$3.onServiceStateChanged (Landroid/telephony/ServiceState;)V ",
+      "sec": 82,
+      "self": 0.0,
+      "total": 99.21
+    },
+    {
+      "method_name": "[863] edu/umich/PowerTutor/phone/DreamConstants.threegFachPower (Ljava/lang/String;)D ",
+      "sec": 81,
+      "self": 0.0,
+      "total": 99.22
+    },
+    {
+      "method_name": "[945] edu/umich/PowerTutor/components/GPS$GpsData.init ([DI)V ",
+      "sec": 80,
+      "self": 0.0,
+      "total": 99.23
+    },
+    {
+      "method_name": "[673] edu/umich/PowerTutor/components/Audio$AudioData.recycle ()V ",
+      "sec": 79,
+      "self": 0.0,
+      "total": 99.24
+    },
+    {
+      "method_name": "[666] edu/umich/PowerTutor/components/Wifi$WifiData.recycle ()V ",
+      "sec": 79,
+      "self": 0.0,
+      "total": 99.25
+    },
+    {
+      "method_name": "[868] edu/umich/PowerTutor/components/Threeg$ThreegData.\u003cinit\u003e ()V ",
+      "sec": 74,
+      "self": 0.0,
+      "total": 99.28
+    },
+    {
+      "method_name": "[577] edu/umich/PowerTutor/util/ForegroundDetector.\u003cinit\u003e (Landroid/app/ActivityManager;)V ",
+      "sec": 74,
+      "self": 0.0,
+      "total": 99.29
+    },
+    {
+      "method_name": "[970] edu/umich/PowerTutor/phone/DreamPowerCalculator.getWifiPower (Ledu/umich/PowerTutor/components/Wifi$WifiData;)D ",
+      "sec": 73,
+      "self": 0.0,
+      "total": 99.29
+    },
+    {
+      "method_name": "[977] edu/umich/PowerTutor/components/Audio$AudioData.init (Z)V ",
+      "sec": 72,
+      "self": 0.0,
+      "total": 99.3
+    },
+    {
+      "method_name": "[464] edu/umich/PowerTutor/components/Audio.\u003cinit\u003e (Landroid/content/Context;)V ",
+      "sec": 69,
+      "self": 0.0,
+      "total": 99.33
+    },
+    {
+      "method_name": "[1003] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.resetTimesLocked ()V ",
+      "sec": 66,
+      "self": 0.0,
+      "total": 99.35
+    },
+    {
+      "method_name": "[387] edu/umich/PowerTutor/components/PowerComponent.\u003cinit\u003e ()V ",
+      "sec": 65,
+      "self": 0.0,
+      "total": 99.37
+    },
+    {
+      "method_name": "[418] edu/umich/PowerTutor/widget/PowerWidget.updateWidget (Landroid/content/Context;Ledu/umich/PowerTutor/service/PowerEstimator;)V ",
+      "sec": 65,
+      "self": 0.0,
+      "total": 99.37
+    },
+    {
+      "method_name": "[396] edu/umich/PowerTutor/phone/PhoneSelector.getCalculator (Landroid/content/Context;)Ledu/umich/PowerTutor/phone/PhonePowerCalculator; ",
+      "sec": 64,
+      "self": 0.0,
+      "total": 99.39
+    },
+    {
+      "method_name": "[1016] edu/umich/PowerTutor/components/LCD.getComponentName ()Ljava/lang/String; ",
+      "sec": 63,
+      "self": 0.0,
+      "total": 99.41
+    },
+    {
+      "method_name": "[1017] edu/umich/PowerTutor/phone/DreamConstants.gpsStatePower ()[D ",
+      "sec": 63,
+      "self": 0.0,
+      "total": 99.41
+    },
+    {
+      "method_name": "[217] edu/umich/PowerTutor/service/UMLoggerService.onStart (Landroid/content/Intent;I)V ",
+      "sec": 62,
+      "self": 0.0,
+      "total": 99.42
+    },
+    {
+      "method_name": "[1022] edu/umich/PowerTutor/components/Wifi$WifiData.init ()V ",
+      "sec": 61,
+      "self": 0.0,
+      "total": 99.43
+    },
+    {
+      "method_name": "[516] edu/umich/PowerTutor/components/CPU.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhoneConstants;)V ",
+      "sec": 60,
+      "self": 0.0,
+      "total": 99.43
+    },
+    {
+      "method_name": "[1024] edu/umich/PowerTutor/components/Wifi.getComponentName ()Ljava/lang/String; ",
+      "sec": 60,
+      "self": 0.0,
+      "total": 99.44
+    },
+    {
+      "method_name": "[1025] edu/umich/PowerTutor/phone/DreamPowerCalculator.getAudioPower (Ledu/umich/PowerTutor/components/Audio$AudioData;)D ",
+      "sec": 60,
+      "self": 0.0,
+      "total": 99.44
+    },
+    {
+      "method_name": "[1031] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.getCurrentStateLocked ()I ",
+      "sec": 59,
+      "self": 0.0,
+      "total": 99.45
+    },
+    {
+      "method_name": "[1037] edu/umich/PowerTutor/phone/PhoneSelector.\u003cclinit\u003e ()V ",
+      "sec": 58,
+      "self": 0.0,
+      "total": 99.46
+    },
+    {
+      "method_name": "[230] edu/umich/PowerTutor/ui/UMLogger$CounterServiceConnection.onServiceConnected (Landroid/content/ComponentName;Landroid/os/IBinder;)V ",
+      "sec": 58,
+      "self": 0.0,
+      "total": 99.46
+    },
+    {
+      "method_name": "[424] edu/umich/PowerTutor/util/NotificationService.getBatteryService ()Landroid/os/IBinder; ",
+      "sec": 58,
+      "self": 0.0,
+      "total": 99.46
+    },
+    {
+      "method_name": "[1043] edu/umich/PowerTutor/components/CPU.getComponentName ()Ljava/lang/String; ",
+      "sec": 57,
+      "self": 0.0,
+      "total": 99.47
+    },
+    {
+      "method_name": "[620] edu/umich/PowerTutor/util/SystemInfo.getMemInfo ([J)Z ",
+      "sec": 54,
+      "self": 0.0,
+      "total": 99.49
+    },
+    {
+      "method_name": "[867] edu/umich/PowerTutor/components/GPS$GpsData.\u003cclinit\u003e ()V ",
+      "sec": 53,
+      "self": 0.0,
+      "total": 99.49
+    },
+    {
+      "method_name": "[1073] edu/umich/PowerTutor/util/BatteryStats.hasCurrent ()Z ",
+      "sec": 51,
+      "self": 0.0,
+      "total": 99.52
+    },
+    {
+      "method_name": "[1077] edu/umich/PowerTutor/components/Audio.getComponentName ()Ljava/lang/String; ",
+      "sec": 49,
+      "self": 0.0,
+      "total": 99.53
+    },
+    {
+      "method_name": "[1079] edu/umich/PowerTutor/components/GPS.getComponentName ()Ljava/lang/String; ",
+      "sec": 48,
+      "self": 0.0,
+      "total": 99.54
+    },
+    {
+      "method_name": "[1096] edu/umich/PowerTutor/components/Threeg.getComponentName ()Ljava/lang/String; ",
+      "sec": 45,
+      "self": 0.0,
+      "total": 99.57
+    },
+    {
+      "method_name": "[1004] edu/umich/PowerTutor/components/LCD$LcdData.\u003cinit\u003e ()V ",
+      "sec": 44,
+      "self": 0.0,
+      "total": 99.58
+    },
+    {
+      "method_name": "[422] edu/umich/PowerTutor/util/NotificationService.available ()Z ",
+      "sec": 40,
+      "self": 0.0,
+      "total": 99.61
+    },
+    {
+      "method_name": "[773] edu/umich/PowerTutor/util/HistoryBuffer.\u003cinit\u003e (I)V ",
+      "sec": 39,
+      "self": 0.0,
+      "total": 99.62
+    },
+    {
+      "method_name": "[450] edu/umich/PowerTutor/util/SystemInfo.\u003cclinit\u003e ()V ",
+      "sec": 39,
+      "self": 0.0,
+      "total": 99.63
+    },
+    {
+      "method_name": "[757] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.\u003cinit\u003e (IJ)V ",
+      "sec": 34,
+      "self": 0.0,
+      "total": 99.67
+    },
+    {
+      "method_name": "[796] edu/umich/PowerTutor/util/SystemInfo.getProperty (Ljava/lang/String;)Ljava/lang/String; ",
+      "sec": 32,
+      "self": 0.0,
+      "total": 99.69
+    },
+    {
+      "method_name": "[1176] edu/umich/PowerTutor/components/Threeg.\u003cclinit\u003e ()V ",
+      "sec": 31,
+      "self": 0.0,
+      "total": 99.7
+    },
+    {
+      "method_name": "[1201] edu/umich/PowerTutor/service/UMLoggerService.access$0 (Ledu/umich/PowerTutor/service/UMLoggerService;)Ledu/umich/PowerTutor/service/PowerEstimator; ",
+      "sec": 28,
+      "self": 0.0,
+      "total": 99.73
+    },
+    {
+      "method_name": "[1214] edu/umich/PowerTutor/components/GPS.\u003cclinit\u003e ()V ",
+      "sec": 27,
+      "self": 0.0,
+      "total": 99.75
+    },
+    {
+      "method_name": "[1250] edu/umich/PowerTutor/phone/DreamConstants.\u003cclinit\u003e ()V ",
+      "sec": 23,
+      "self": 0.0,
+      "total": 99.79
+    },
+    {
+      "method_name": "[684] edu/umich/PowerTutor/service/IterationData.\u003cclinit\u003e ()V ",
+      "sec": 23,
+      "self": 0.0,
+      "total": 99.8
+    },
+    {
+      "method_name": "[1183] edu/umich/PowerTutor/components/GPS$GpsData.\u003cinit\u003e ()V ",
+      "sec": 22,
+      "self": 0.0,
+      "total": 99.81
+    },
+    {
+      "method_name": "[1257] edu/umich/PowerTutor/components/Wifi.\u003cclinit\u003e ()V ",
+      "sec": 22,
+      "self": 0.0,
+      "total": 99.81
+    },
+    {
+      "method_name": "[1271] edu/umich/PowerTutor/components/LCD.\u003cclinit\u003e ()V ",
+      "sec": 20,
+      "self": 0.0,
+      "total": 99.83
+    },
+    {
+      "method_name": "[1200] edu/umich/PowerTutor/service/ICounterService$Stub.asInterface (Landroid/os/IBinder;)Ledu/umich/PowerTutor/service/ICounterService; ",
+      "sec": 19,
+      "self": 0.0,
+      "total": 99.84
+    },
+    {
+      "method_name": "[647] edu/umich/PowerTutor/service/UMLoggerService$3.onCallStateChanged (ILjava/lang/String;)V ",
+      "sec": 19,
+      "self": 0.0,
+      "total": 99.84
+    },
+    {
+      "method_name": "[1215] edu/umich/PowerTutor/components/Wifi$WifiData.\u003cinit\u003e ()V ",
+      "sec": 18,
+      "self": 0.0,
+      "total": 99.85
+    },
+    {
+      "method_name": "[608] edu/umich/PowerTutor/service/UMLoggerService$3.onDataConnectionStateChanged (I)V ",
+      "sec": 18,
+      "self": 0.0,
+      "total": 99.85
+    },
+    {
+      "method_name": "[416] edu/umich/PowerTutor/util/BatteryStats.getInstance ()Ledu/umich/PowerTutor/util/BatteryStats; ",
+      "sec": 18,
+      "self": 0.0,
+      "total": 99.86
+    },
+    {
+      "method_name": "[1228] edu/umich/PowerTutor/components/Audio$AudioData.\u003cinit\u003e ()V ",
+      "sec": 17,
+      "self": 0.0,
+      "total": 99.86
+    },
+    {
+      "method_name": "[855] edu/umich/PowerTutor/components/CPU$CpuData.\u003cclinit\u003e ()V ",
+      "sec": 17,
+      "self": 0.0,
+      "total": 99.86
+    },
+    {
+      "method_name": "[966] edu/umich/PowerTutor/components/Threeg$ThreegData.\u003cclinit\u003e ()V ",
+      "sec": 17,
+      "self": 0.0,
+      "total": 99.86
+    },
+    {
+      "method_name": "[1315] edu/umich/PowerTutor/components/PowerComponent.init (JJ)V ",
+      "sec": 16,
+      "self": 0.0,
+      "total": 99.87
+    },
+    {
+      "method_name": "[1329] edu/umich/PowerTutor/widget/PowerWidget.\u003cclinit\u003e ()V ",
+      "sec": 15,
+      "self": 0.0,
+      "total": 99.88
+    },
+    {
+      "method_name": "[1335] edu/umich/PowerTutor/phone/DreamConstants.threegInterface ()Ljava/lang/String; ",
+      "sec": 14,
+      "self": 0.0,
+      "total": 99.89
+    },
+    {
+      "method_name": "[528] edu/umich/PowerTutor/phone/DreamPowerCalculator.\u003cinit\u003e (Landroid/content/Context;)V ",
+      "sec": 14,
+      "self": 0.0,
+      "total": 99.89
+    },
+    {
+      "method_name": "[520] edu/umich/PowerTutor/service/UMLoggerService$3.\u003cinit\u003e (Ledu/umich/PowerTutor/service/UMLoggerService;)V ",
+      "sec": 14,
+      "self": 0.0,
+      "total": 99.89
+    },
+    {
+      "method_name": "[1100] edu/umich/PowerTutor/components/LCD$LcdData.\u003cclinit\u003e ()V ",
+      "sec": 12,
+      "self": 0.0,
+      "total": 99.92
+    },
+    {
+      "method_name": "[998] edu/umich/PowerTutor/service/ICounterService$Stub.\u003cinit\u003e ()V ",
+      "sec": 12,
+      "self": 0.0,
+      "total": 99.92
+    },
+    {
+      "method_name": "[976] edu/umich/PowerTutor/PowerNotifications$Stub.\u003cinit\u003e ()V ",
+      "sec": 11,
+      "self": 0.0,
+      "total": 99.92
+    },
+    {
+      "method_name": "[1030] edu/umich/PowerTutor/components/Audio$AudioData.\u003cclinit\u003e ()V ",
+      "sec": 11,
+      "self": 0.0,
+      "total": 99.92
+    },
+    {
+      "method_name": "[1101] edu/umich/PowerTutor/components/Wifi$WifiData.\u003cclinit\u003e ()V ",
+      "sec": 11,
+      "self": 0.0,
+      "total": 99.93
+    },
+    {
+      "method_name": "[1316] edu/umich/PowerTutor/phone/DreamConstants.threegDchFachDelay (Ljava/lang/String;)I ",
+      "sec": 11,
+      "self": 0.0,
+      "total": 99.93
+    },
+    {
+      "method_name": "[1235] edu/umich/PowerTutor/service/UMLoggerService$2.\u003cinit\u003e (Ledu/umich/PowerTutor/service/UMLoggerService;)V ",
+      "sec": 11,
+      "self": 0.0,
+      "total": 99.93
+    },
+    {
+      "method_name": "[1340] edu/umich/PowerTutor/phone/DreamConstants.threegFachIdleDelay (Ljava/lang/String;)I ",
+      "sec": 9,
+      "self": 0.0,
+      "total": 99.95
+    },
+    {
+      "method_name": "[907] edu/umich/PowerTutor/util/NotificationService$NotificationForwarder.\u003cinit\u003e (Ledu/umich/PowerTutor/util/NotificationService$NotificationForwarder;)V ",
+      "sec": 9,
+      "self": 0.0,
+      "total": 99.95
+    },
+    {
+      "method_name": "[1423] edu/umich/PowerTutor/components/GPS$GpsStateKeeper.\u003cinit\u003e (IJJ)V ",
+      "sec": 8,
+      "self": 0.0,
+      "total": 99.96
+    },
+    {
+      "method_name": "[926] edu/umich/PowerTutor/util/NotificationService$NotificationForwarder.\u003cinit\u003e ()V ",
+      "sec": 8,
+      "self": 0.0,
+      "total": 99.96
+    },
+    {
+      "method_name": "[1426] edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry.\u003cclinit\u003e ()V ",
+      "sec": 8,
+      "self": 0.0,
+      "total": 99.96
+    },
+    {
+      "method_name": "[1384] edu/umich/PowerTutor/components/LCD$1.\u003cinit\u003e (Ledu/umich/PowerTutor/components/LCD;)V ",
+      "sec": 7,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[795] edu/umich/PowerTutor/util/BatteryStats.getTemp ()D ",
+      "sec": 7,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[971] edu/umich/PowerTutor/service/UMLoggerService$1.\u003cinit\u003e (Ledu/umich/PowerTutor/service/UMLoggerService;)V ",
+      "sec": 6,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[1452] edu/umich/PowerTutor/ui/UMLogger.access$0 (Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button; ",
+      "sec": 6,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[1425] edu/umich/PowerTutor/util/BatteryStats.hasCharge ()Z ",
+      "sec": 6,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[953] edu/umich/PowerTutor/util/NotificationService$DefaultReceiver.\u003cinit\u003e ()V ",
+      "sec": 6,
+      "self": 0.0,
+      "total": 99.97
+    },
+    {
+      "method_name": "[1424] edu/umich/PowerTutor/service/PowerEstimator.plug (Z)V ",
+      "sec": 5,
+      "self": 0.0,
+      "total": 99.98
+    },
+    {
+      "method_name": "[1469] edu/umich/PowerTutor/service/UMLoggerService.access$1 (Ledu/umich/PowerTutor/service/UMLoggerService;)Landroid/telephony/TelephonyManager; ",
+      "sec": 5,
+      "self": 0.0,
+      "total": 99.98
+    },
+    {
+      "method_name": "[1470] edu/umich/PowerTutor/util/BatteryStats.hasFullCapacity ()Z ",
+      "sec": 5,
+      "self": 0.0,
+      "total": 99.98
+    },
+    {
+      "method_name": "[1314] com/cerberus/Modules.start ()V ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1501] edu/umich/PowerTutor/phone/DreamConstants.gpsSleepTime ()D ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1502] edu/umich/PowerTutor/phone/DreamConstants.modelName ()Ljava/lang/String; ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1503] edu/umich/PowerTutor/phone/DreamConstants.wifiHighLowTransition ()D ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1504] edu/umich/PowerTutor/phone/PhoneSelector$2.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1505] edu/umich/PowerTutor/phone/PhoneSelector$4.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1506] edu/umich/PowerTutor/service/LogUploader.\u003cinit\u003e (Landroid/content/Context;)V ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1507] edu/umich/PowerTutor/ui/UMLogger.access$3 (Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/content/Intent; ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1508] edu/umich/PowerTutor/ui/UMLogger.access$6 (Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button; ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[432] edu/umich/PowerTutor/ui/UMLogger$3.onClick (Landroid/view/View;)V ",
+      "sec": 4,
+      "self": 0.0,
+      "total": 99.99
+    },
+    {
+      "method_name": "[1555] edu/umich/PowerTutor/components/GPS$1.\u003cinit\u003e (Ledu/umich/PowerTutor/components/GPS;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1556] edu/umich/PowerTutor/components/Wifi$WifiStateKeeper.\u003cinit\u003e (DD)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1557] edu/umich/PowerTutor/phone/DreamConstants.threegDownlinkQueue (Ljava/lang/String;)I ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1558] edu/umich/PowerTutor/phone/DreamConstants.threegUplinkQueue (Ljava/lang/String;)I ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1559] edu/umich/PowerTutor/phone/DreamConstants.wifiLowHighTransition ()D ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1560] edu/umich/PowerTutor/phone/DreamPowerCalculator.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhoneConstants;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1561] edu/umich/PowerTutor/phone/PhoneSelector$3.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1562] edu/umich/PowerTutor/phone/PhoneSelector$5.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1563] edu/umich/PowerTutor/phone/PhoneSelector$6.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1564] edu/umich/PowerTutor/phone/PhoneSelector$7.\u003cinit\u003e (Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1565] edu/umich/PowerTutor/service/LogUploader.plug (Z)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1566] edu/umich/PowerTutor/ui/UMLogger.access$5 (Ledu/umich/PowerTutor/ui/UMLogger;Ledu/umich/PowerTutor/service/ICounterService;)V ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1567] edu/umich/PowerTutor/ui/UMLogger.access$7 (Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button; ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1568] edu/umich/PowerTutor/util/BatteryStats.hasTemp ()Z ",
+      "sec": 3,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1593] edu/umich/PowerTutor/service/LogUploader.shouldUpload ()Z ",
+      "sec": 2,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1594] edu/umich/PowerTutor/service/LogUploader.upload (Ljava/lang/String;)V ",
+      "sec": 2,
+      "self": 0.0,
+      "total": 100.0
+    },
+    {
+      "method_name": "[1595] edu/umich/PowerTutor/service/UMLoggerService.onBind (Landroid/content/Intent;)Landroid/os/IBinder; ",
+      "sec": 2,
+      "self": 0.0,
+      "total": 100.0
+    }
+  ],
+  "METHOD_TREE": [],
+  "CLASS_DETAIL": [
+    {
+      "cycles": 142642,
+      "total": 5.0,
+      "self": 38.1,
+      "calls_recal": "599+0",
+      "name": "edu/umich/PowerTutor/components/CPU",
+      "methods": [
+        {
+          "cycles": 137183,
+          "total": 1008156,
+          "self": 96.2,
+          "acc_self": 96.2,
+          "calls_recal": "15+0",
+          "name": "[2]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 5076,
+          "total": 8203,
+          "self": 3.6,
+          "acc_self": 99.7,
+          "calls_recal": "553+0",
+          "name": "[209]predictAppUidState(Ledu/umich/PowerTutor/components/CPU$CpuData;DDD)V"
+        },
+        {
+          "cycles": 266,
+          "total": 5691,
+          "self": 0.2,
+          "acc_self": 99.9,
+          "calls_recal": "15+0",
+          "name": "[247]readCpuFreq(Ledu/umich/PowerTutor/util/SystemInfo;)D"
+        },
+        {
+          "cycles": 60,
+          "total": 765,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[516]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhoneConstants;)V"
+        },
+        {
+          "cycles": 57,
+          "total": 57,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "15+0",
+          "name": "[1043]getComponentName()Ljava/lang/String;"
+        }
+      ]
+    },
+    {
+      "cycles": 92620,
+      "total": 3.2,
+      "self": 45.3,
+      "calls_recal": "18842+0",
+      "name": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper",
+      "methods": [
+        {
+          "cycles": 14331,
+          "total": 20662,
+          "self": 15.5,
+          "acc_self": 15.5,
+          "calls_recal": "1838+0",
+          "name": "[123]getUsrPerc()D"
+        },
+        {
+          "cycles": 14153,
+          "total": 42578,
+          "self": 15.3,
+          "acc_self": 30.8,
+          "calls_recal": "1271+0",
+          "name": "[80]updateState(JJJJ)V"
+        },
+        {
+          "cycles": 12276,
+          "total": 18065,
+          "self": 13.3,
+          "acc_self": 44.0,
+          "calls_recal": "1838+0",
+          "name": "[135]getSysPerc()D"
+        },
+        {
+          "cycles": 11843,
+          "total": 11843,
+          "self": 12.8,
+          "acc_self": 56.8,
+          "calls_recal": "2771+0",
+          "name": "[163]isStale(J)Z"
+        },
+        {
+          "cycles": 10830,
+          "total": 10830,
+          "self": 11.7,
+          "acc_self": 68.5,
+          "calls_recal": "3040+0",
+          "name": "[177]getUid()I"
+        },
+        {
+          "cycles": 8521,
+          "total": 8521,
+          "self": 9.2,
+          "acc_self": 77.7,
+          "calls_recal": "2794+0",
+          "name": "[202]isAlive(J)Z"
+        },
+        {
+          "cycles": 7283,
+          "total": 7283,
+          "self": 7.9,
+          "acc_self": 85.6,
+          "calls_recal": "1920+0",
+          "name": "[220]absorb(Ledu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V"
+        },
+        {
+          "cycles": 5951,
+          "total": 5951,
+          "self": 6.4,
+          "acc_self": 92.0,
+          "calls_recal": "1515+0",
+          "name": "[242]updateIteration(JJ)V"
+        },
+        {
+          "cycles": 4650,
+          "total": 4650,
+          "self": 5.0,
+          "acc_self": 97.0,
+          "calls_recal": "1271+0",
+          "name": "[260]isInitialized()Z"
+        },
+        {
+          "cycles": 1838,
+          "total": 2782,
+          "self": 2.0,
+          "acc_self": 99.0,
+          "calls_recal": "292+0",
+          "name": "[310]\u003cinit\u003e(ILedu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V"
+        },
+        {
+          "cycles": 944,
+          "total": 944,
+          "self": 1.0,
+          "acc_self": 100.0,
+          "calls_recal": "292+0",
+          "name": "[473]\u003cinit\u003e(I)V"
+        }
+      ]
+    },
+    {
+      "cycles": 74243,
+      "total": 2.6,
+      "self": 53.8,
+      "calls_recal": "18+0",
+      "name": "edu/umich/PowerTutor/service/PowerEstimator",
+      "methods": [
+        {
+          "cycles": 73704,
+          "total": 930358,
+          "self": 99.3,
+          "acc_self": 99.3,
+          "calls_recal": "1+0",
+          "name": "[4]run()V"
+        },
+        {
+          "cycles": 223,
+          "total": 54065,
+          "self": 0.3,
+          "acc_self": 99.6,
+          "calls_recal": "1+0",
+          "name": "[67]\u003cinit\u003e(Ledu/umich/PowerTutor/service/UMLoggerService;)V"
+        },
+        {
+          "cycles": 198,
+          "total": 2513,
+          "self": 0.3,
+          "acc_self": 99.8,
+          "calls_recal": "1+0",
+          "name": "[330]openLog(Z)V"
+        },
+        {
+          "cycles": 113,
+          "total": 5365,
+          "self": 0.2,
+          "acc_self": 100.0,
+          "calls_recal": "14+0",
+          "name": "[252]writeToLog(Ljava/lang/String;)V"
+        },
+        {
+          "cycles": 5,
+          "total": 8,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1424]plug(Z)V"
+        }
+      ]
+    },
+    {
+      "cycles": 69413,
+      "total": 2.4,
+      "self": 56.3,
+      "calls_recal": "2730+0",
+      "name": "edu/umich/PowerTutor/util/SystemInfo",
+      "methods": [
+        {
+          "cycles": 40001,
+          "total": 429584,
+          "self": 57.6,
+          "acc_self": 57.6,
+          "calls_recal": "1256+0",
+          "name": "[7]getPidUsrSysTime(I[J)Z"
+        },
+        {
+          "cycles": 9630,
+          "total": 90493,
+          "self": 13.9,
+          "acc_self": 71.5,
+          "calls_recal": "504+0",
+          "name": "[38]readLongFromFile(Ljava/lang/String;)J"
+        },
+        {
+          "cycles": 8554,
+          "total": 205485,
+          "self": 12.3,
+          "acc_self": 83.8,
+          "calls_recal": "462+0",
+          "name": "[22]getUidForPid(I)I"
+        },
+        {
+          "cycles": 8160,
+          "total": 125839,
+          "self": 11.8,
+          "acc_self": 95.6,
+          "calls_recal": "384+0",
+          "name": "[33]getAppId(ILandroid/content/pm/PackageManager;)Ljava/lang/String;"
+        },
+        {
+          "cycles": 1689,
+          "total": 103596,
+          "self": 2.4,
+          "acc_self": 98.0,
+          "calls_recal": "37+0",
+          "name": "[37]getAppIdNoCache(ILandroid/content/pm/PackageManager;)Ljava/lang/String;"
+        },
+        {
+          "cycles": 387,
+          "total": 12115,
+          "self": 0.6,
+          "acc_self": 98.6,
+          "calls_recal": "15+0",
+          "name": "[160]getUsrSysTotalTime([J)Z"
+        },
+        {
+          "cycles": 297,
+          "total": 47305,
+          "self": 0.4,
+          "acc_self": 99.0,
+          "calls_recal": "15+0",
+          "name": "[77]getPids([I)[I"
+        },
+        {
+          "cycles": 236,
+          "total": 3557,
+          "self": 0.3,
+          "acc_self": 99.3,
+          "calls_recal": "15+0",
+          "name": "[291]getUids([I)[I"
+        },
+        {
+          "cycles": 183,
+          "total": 183,
+          "self": 0.3,
+          "acc_self": 99.6,
+          "calls_recal": "36+0",
+          "name": "[761]getInstance()Ledu/umich/PowerTutor/util/SystemInfo;"
+        },
+        {
+          "cycles": 151,
+          "total": 1089,
+          "self": 0.2,
+          "acc_self": 99.8,
+          "calls_recal": "1+0",
+          "name": "[457]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 54,
+          "total": 404,
+          "self": 0.1,
+          "acc_self": 99.9,
+          "calls_recal": "2+0",
+          "name": "[620]getMemInfo([J)Z"
+        },
+        {
+          "cycles": 39,
+          "total": 1128,
+          "self": 0.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[450]\u003cclinit\u003e()V"
+        },
+        {
+          "cycles": 32,
+          "total": 160,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "2+0",
+          "name": "[796]getProperty(Ljava/lang/String;)Ljava/lang/String;"
+        }
+      ]
+    },
+    {
+      "cycles": 33735,
+      "total": 1.2,
+      "self": 72.6,
+      "calls_recal": "4992+0",
+      "name": "edu/umich/PowerTutor/util/Counter$SingleCounter",
+      "methods": [
+        {
+          "cycles": 21093,
+          "total": 31700,
+          "self": 62.5,
+          "acc_self": 62.5,
+          "calls_recal": "2322+0",
+          "name": "[94]add(JJ)V"
+        },
+        {
+          "cycles": 10607,
+          "total": 10607,
+          "self": 31.4,
+          "acc_self": 94.0,
+          "calls_recal": "2322+0",
+          "name": "[179]wind(J)V"
+        },
+        {
+          "cycles": 2035,
+          "total": 2035,
+          "self": 6.0,
+          "acc_self": 100.0,
+          "calls_recal": "348+0",
+          "name": "[368]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 25360,
+      "total": 0.9,
+      "self": 79.4,
+      "calls_recal": "505+0",
+      "name": "edu/umich/PowerTutor/components/Threeg",
+      "methods": [
+        {
+          "cycles": 21390,
+          "total": 252445,
+          "self": 84.3,
+          "acc_self": 84.3,
+          "calls_recal": "15+0",
+          "name": "[11]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 3740,
+          "total": 84592,
+          "self": 14.7,
+          "acc_self": 99.1,
+          "calls_recal": "474+0",
+          "name": "[39]readLongFromFile(Ljava/lang/String;)J"
+        },
+        {
+          "cycles": 154,
+          "total": 1989,
+          "self": 0.6,
+          "acc_self": 99.7,
+          "calls_recal": "1+0",
+          "name": "[372]\u003cinit\u003e(Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V"
+        },
+        {
+          "cycles": 45,
+          "total": 45,
+          "self": 0.2,
+          "acc_self": 99.9,
+          "calls_recal": "14+0",
+          "name": "[1096]getComponentName()Ljava/lang/String;"
+        },
+        {
+          "cycles": 31,
+          "total": 31,
+          "self": 0.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1176]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 22467,
+      "total": 0.8,
+      "self": 82.7,
+      "calls_recal": "891+0",
+      "name": "edu/umich/PowerTutor/util/Counter",
+      "methods": [
+        {
+          "cycles": 19564,
+          "total": 60024,
+          "self": 87.1,
+          "acc_self": 87.1,
+          "calls_recal": "774+0",
+          "name": "[59]add(J)V"
+        },
+        {
+          "cycles": 2812,
+          "total": 6238,
+          "self": 12.5,
+          "acc_self": 99.6,
+          "calls_recal": "116+0",
+          "name": "[239]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 91,
+          "total": 181,
+          "self": 0.4,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[764]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 15625,
+      "total": 0.5,
+      "self": 86.0,
+      "calls_recal": "1156+0",
+      "name": "edu/umich/PowerTutor/phone/DreamPowerCalculator",
+      "methods": [
+        {
+          "cycles": 12016,
+          "total": 24689,
+          "self": 76.9,
+          "acc_self": 76.9,
+          "calls_recal": "532+0",
+          "name": "[111]getCpuPower(Ledu/umich/PowerTutor/components/CPU$CpuData;)D"
+        },
+        {
+          "cycles": 2469,
+          "total": 2469,
+          "self": 15.8,
+          "acc_self": 92.7,
+          "calls_recal": "532+0",
+          "name": "[334]upperBound([DD)I"
+        },
+        {
+          "cycles": 593,
+          "total": 846,
+          "self": 3.8,
+          "acc_self": 96.5,
+          "calls_recal": "28+0",
+          "name": "[496]getLcdPower(Ledu/umich/PowerTutor/components/LCD$LcdData;)D"
+        },
+        {
+          "cycles": 239,
+          "total": 505,
+          "self": 1.5,
+          "acc_self": 98.0,
+          "calls_recal": "20+0",
+          "name": "[583]getThreeGPower(Ledu/umich/PowerTutor/components/Threeg$ThreegData;)D"
+        },
+        {
+          "cycles": 158,
+          "total": 221,
+          "self": 1.0,
+          "acc_self": 99.0,
+          "calls_recal": "14+0",
+          "name": "[725]getGpsPower(Ledu/umich/PowerTutor/components/GPS$GpsData;)D"
+        },
+        {
+          "cycles": 73,
+          "total": 73,
+          "self": 0.5,
+          "acc_self": 99.5,
+          "calls_recal": "14+0",
+          "name": "[970]getWifiPower(Ledu/umich/PowerTutor/components/Wifi$WifiData;)D"
+        },
+        {
+          "cycles": 60,
+          "total": 60,
+          "self": 0.4,
+          "acc_self": 99.9,
+          "calls_recal": "14+0",
+          "name": "[1025]getAudioPower(Ledu/umich/PowerTutor/components/Audio$AudioData;)D"
+        },
+        {
+          "cycles": 14,
+          "total": 706,
+          "self": 0.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[528]\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1560]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhoneConstants;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 13787,
+      "total": 0.5,
+      "self": 86.5,
+      "calls_recal": "1189+0",
+      "name": "edu/umich/PowerTutor/service/IterationData",
+      "methods": [
+        {
+          "cycles": 6192,
+          "total": 23801,
+          "self": 44.9,
+          "acc_self": 44.9,
+          "calls_recal": "79+0",
+          "name": "[113]recycle()V"
+        },
+        {
+          "cycles": 4102,
+          "total": 12390,
+          "self": 29.8,
+          "acc_self": 74.7,
+          "calls_recal": "665+0",
+          "name": "[157]addUidPowerData(ILedu/umich/PowerTutor/service/PowerData;)V"
+        },
+        {
+          "cycles": 1340,
+          "total": 3708,
+          "self": 9.7,
+          "acc_self": 84.4,
+          "calls_recal": "88+0",
+          "name": "[289]setPowerData(Ledu/umich/PowerTutor/service/PowerData;)V"
+        },
+        {
+          "cycles": 1052,
+          "total": 4529,
+          "self": 7.6,
+          "acc_self": 92.0,
+          "calls_recal": "90+0",
+          "name": "[262]obtain()Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 927,
+          "total": 927,
+          "self": 6.7,
+          "acc_self": 98.7,
+          "calls_recal": "248+0",
+          "name": "[477]getUidPowerData()Landroid/util/SparseArray;"
+        },
+        {
+          "cycles": 151,
+          "total": 839,
+          "self": 1.1,
+          "acc_self": 99.8,
+          "calls_recal": "18+0",
+          "name": "[498]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 23,
+          "total": 274,
+          "self": 0.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[684]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 13390,
+      "total": 0.5,
+      "self": 87.4,
+      "calls_recal": "1676+0",
+      "name": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper",
+      "methods": [
+        {
+          "cycles": 7446,
+          "total": 15379,
+          "self": 55.6,
+          "acc_self": 55.6,
+          "calls_recal": "600+0",
+          "name": "[139]isStale()Z"
+        },
+        {
+          "cycles": 2578,
+          "total": 5775,
+          "self": 19.3,
+          "acc_self": 74.9,
+          "calls_recal": "222+0",
+          "name": "[246]updateState(JJJJIIII)V"
+        },
+        {
+          "cycles": 897,
+          "total": 897,
+          "self": 6.7,
+          "acc_self": 81.6,
+          "calls_recal": "222+0",
+          "name": "[483]isInitialized()Z"
+        },
+        {
+          "cycles": 799,
+          "total": 799,
+          "self": 6.0,
+          "acc_self": 87.5,
+          "calls_recal": "190+0",
+          "name": "[506]getUplinkBytes()J"
+        },
+        {
+          "cycles": 727,
+          "total": 727,
+          "self": 5.4,
+          "acc_self": 93.0,
+          "calls_recal": "190+0",
+          "name": "[525]getDownlinkBytes()J"
+        },
+        {
+          "cycles": 724,
+          "total": 724,
+          "self": 5.4,
+          "acc_self": 98.4,
+          "calls_recal": "188+0",
+          "name": "[526]getPowerState()I"
+        },
+        {
+          "cycles": 127,
+          "total": 127,
+          "self": 0.9,
+          "acc_self": 99.3,
+          "calls_recal": "41+0",
+          "name": "[847]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 92,
+          "total": 92,
+          "self": 0.7,
+          "acc_self": 100.0,
+          "calls_recal": "23+0",
+          "name": "[914]getPackets()J"
+        }
+      ]
+    },
+    {
+      "cycles": 13077,
+      "total": 0.5,
+      "self": 87.9,
+      "calls_recal": "629+0",
+      "name": "edu/umich/PowerTutor/util/HistoryBuffer",
+      "methods": [
+        {
+          "cycles": 13038,
+          "total": 104903,
+          "self": 99.7,
+          "acc_self": 99.7,
+          "calls_recal": "622+0",
+          "name": "[36]add(IJI)V"
+        },
+        {
+          "cycles": 39,
+          "total": 173,
+          "self": 0.3,
+          "acc_self": 100.0,
+          "calls_recal": "7+0",
+          "name": "[773]\u003cinit\u003e(I)V"
+        }
+      ]
+    },
+    {
+      "cycles": 11392,
+      "total": 0.4,
+      "self": 89.6,
+      "calls_recal": "1417+0",
+      "name": "edu/umich/PowerTutor/util/Recycler",
+      "methods": [
+        {
+          "cycles": 6108,
+          "total": 10430,
+          "self": 53.6,
+          "acc_self": 53.6,
+          "calls_recal": "655+0",
+          "name": "[182]recycle(Ljava/lang/Object;)V"
+        },
+        {
+          "cycles": 5184,
+          "total": 11300,
+          "self": 45.5,
+          "acc_self": 99.1,
+          "calls_recal": "755+0",
+          "name": "[171]obtain()Ljava/lang/Object;"
+        },
+        {
+          "cycles": 100,
+          "total": 372,
+          "self": 0.9,
+          "acc_self": 100.0,
+          "calls_recal": "7+0",
+          "name": "[636]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 10110,
+      "total": 0.4,
+      "self": 90.3,
+      "calls_recal": "1799+0",
+      "name": "edu/umich/PowerTutor/components/CPU$CpuData",
+      "methods": [
+        {
+          "cycles": 4135,
+          "total": 12195,
+          "self": 40.9,
+          "acc_self": 40.9,
+          "calls_recal": "567+0",
+          "name": "[159]obtain()Ledu/umich/PowerTutor/components/CPU$CpuData;"
+        },
+        {
+          "cycles": 2791,
+          "total": 10369,
+          "self": 27.6,
+          "acc_self": 68.5,
+          "calls_recal": "492+0",
+          "name": "[183]recycle()V"
+        },
+        {
+          "cycles": 1624,
+          "total": 1624,
+          "self": 16.1,
+          "acc_self": 84.6,
+          "calls_recal": "567+0",
+          "name": "[402]init(DDD)V"
+        },
+        {
+          "cycles": 886,
+          "total": 1319,
+          "self": 8.8,
+          "acc_self": 93.3,
+          "calls_recal": "159+0",
+          "name": "[433]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 657,
+          "total": 12987,
+          "self": 6.5,
+          "acc_self": 99.8,
+          "calls_recal": "13+0",
+          "name": "[151]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 17,
+          "total": 124,
+          "self": 0.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[855]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 8429,
+      "total": 0.3,
+      "self": 91.3,
+      "calls_recal": "16+0",
+      "name": "edu/umich/PowerTutor/util/ForegroundDetector",
+      "methods": [
+        {
+          "cycles": 8355,
+          "total": 346198,
+          "self": 99.1,
+          "acc_self": 99.1,
+          "calls_recal": "15+0",
+          "name": "[9]getForegroundUid()I"
+        },
+        {
+          "cycles": 74,
+          "total": 519,
+          "self": 0.9,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[577]\u003cinit\u003e(Landroid/app/ActivityManager;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 6664,
+      "total": 0.2,
+      "self": 92.8,
+      "calls_recal": "1721+0",
+      "name": "edu/umich/PowerTutor/phone/DreamConstants",
+      "methods": [
+        {
+          "cycles": 3658,
+          "total": 3658,
+          "self": 54.9,
+          "acc_self": 54.9,
+          "calls_recal": "1085+0",
+          "name": "[290]cpuFreqs()[D"
+        },
+        {
+          "cycles": 2231,
+          "total": 2231,
+          "self": 33.5,
+          "acc_self": 88.4,
+          "calls_recal": "532+0",
+          "name": "[350]cpuPowerRatios()[D"
+        },
+        {
+          "cycles": 207,
+          "total": 19797,
+          "self": 3.1,
+          "acc_self": 91.5,
+          "calls_recal": "3+0",
+          "name": "[130]\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        {
+          "cycles": 133,
+          "total": 133,
+          "self": 2.0,
+          "acc_self": 93.5,
+          "calls_recal": "28+0",
+          "name": "[836]lcdBrightness()D"
+        },
+        {
+          "cycles": 120,
+          "total": 120,
+          "self": 1.8,
+          "acc_self": 95.3,
+          "calls_recal": "28+0",
+          "name": "[859]lcdBacklight()D"
+        },
+        {
+          "cycles": 93,
+          "total": 148,
+          "self": 1.4,
+          "acc_self": 96.7,
+          "calls_recal": "10+0",
+          "name": "[812]threegDchPower(Ljava/lang/String;)D"
+        },
+        {
+          "cycles": 81,
+          "total": 118,
+          "self": 1.2,
+          "acc_self": 97.9,
+          "calls_recal": "10+0",
+          "name": "[863]threegFachPower(Ljava/lang/String;)D"
+        },
+        {
+          "cycles": 63,
+          "total": 63,
+          "self": 0.9,
+          "acc_self": 98.8,
+          "calls_recal": "14+0",
+          "name": "[1017]gpsStatePower()[D"
+        },
+        {
+          "cycles": 23,
+          "total": 23,
+          "self": 0.3,
+          "acc_self": 99.2,
+          "calls_recal": "1+0",
+          "name": "[1250]\u003cclinit\u003e()V"
+        },
+        {
+          "cycles": 14,
+          "total": 14,
+          "self": 0.2,
+          "acc_self": 99.4,
+          "calls_recal": "2+0",
+          "name": "[1335]threegInterface()Ljava/lang/String;"
+        },
+        {
+          "cycles": 11,
+          "total": 16,
+          "self": 0.2,
+          "acc_self": 99.5,
+          "calls_recal": "1+0",
+          "name": "[1316]threegDchFachDelay(Ljava/lang/String;)I"
+        },
+        {
+          "cycles": 9,
+          "total": 13,
+          "self": 0.1,
+          "acc_self": 99.7,
+          "calls_recal": "1+0",
+          "name": "[1340]threegFachIdleDelay(Ljava/lang/String;)I"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 0.1,
+          "acc_self": 99.7,
+          "calls_recal": "1+0",
+          "name": "[1501]gpsSleepTime()D"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 0.1,
+          "acc_self": 99.8,
+          "calls_recal": "1+0",
+          "name": "[1502]modelName()Ljava/lang/String;"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 0.1,
+          "acc_self": 99.9,
+          "calls_recal": "1+0",
+          "name": "[1503]wifiHighLowTransition()D"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.0,
+          "acc_self": 99.9,
+          "calls_recal": "1+0",
+          "name": "[1557]threegDownlinkQueue(Ljava/lang/String;)I"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1558]threegUplinkQueue(Ljava/lang/String;)I"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1559]wifiLowHighTransition()D"
+        }
+      ]
+    },
+    {
+      "cycles": 4814,
+      "total": 0.2,
+      "self": 93.8,
+      "calls_recal": "1391+0",
+      "name": "edu/umich/PowerTutor/service/PowerData",
+      "methods": [
+        {
+          "cycles": 2555,
+          "total": 2555,
+          "self": 53.1,
+          "acc_self": 53.1,
+          "calls_recal": "622+0",
+          "name": "[326]setCachedPower(I)V"
+        },
+        {
+          "cycles": 1738,
+          "total": 1738,
+          "self": 36.1,
+          "acc_self": 89.2,
+          "calls_recal": "585+0",
+          "name": "[390]getCachedPower()I"
+        },
+        {
+          "cycles": 521,
+          "total": 521,
+          "self": 10.8,
+          "acc_self": 100.0,
+          "calls_recal": "184+0",
+          "name": "[575]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 4522,
+      "total": 0.2,
+      "self": 94.7,
+      "calls_recal": "1190+0",
+      "name": "edu/umich/PowerTutor/util/SystemInfo$UidCacheEntry",
+      "methods": [
+        {
+          "cycles": 2707,
+          "total": 2707,
+          "self": 59.9,
+          "acc_self": 59.9,
+          "calls_recal": "731+0",
+          "name": "[314]getAppId()Ljava/lang/String;"
+        },
+        {
+          "cycles": 1544,
+          "total": 1544,
+          "self": 34.1,
+          "acc_self": 94.0,
+          "calls_recal": "384+0",
+          "name": "[412]clearIfExpired()V"
+        },
+        {
+          "cycles": 135,
+          "total": 135,
+          "self": 3.0,
+          "acc_self": 97.0,
+          "calls_recal": "37+0",
+          "name": "[832]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 128,
+          "total": 128,
+          "self": 2.8,
+          "acc_self": 99.8,
+          "calls_recal": "37+0",
+          "name": "[845]setAppId(Ljava/lang/String;)V"
+        },
+        {
+          "cycles": 8,
+          "total": 8,
+          "self": 0.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1426]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 4385,
+      "total": 0.2,
+      "self": 94.9,
+      "calls_recal": "533+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$3",
+      "methods": [
+        {
+          "cycles": 4382,
+          "total": 29071,
+          "self": 99.9,
+          "acc_self": 99.9,
+          "calls_recal": "532+0",
+          "name": "[97]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1561]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 3881,
+      "total": 0.1,
+      "self": 95.3,
+      "calls_recal": "102+0",
+      "name": "edu/umich/PowerTutor/components/PowerComponent",
+      "methods": [
+        {
+          "cycles": 3253,
+          "total": 1663756,
+          "self": 83.8,
+          "acc_self": 83.8,
+          "calls_recal": "6+0",
+          "name": "[1]run()V"
+        },
+        {
+          "cycles": 547,
+          "total": 547,
+          "self": 14.1,
+          "acc_self": 97.9,
+          "calls_recal": "84+0",
+          "name": "[568]getData(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 65,
+          "total": 1801,
+          "self": 1.7,
+          "acc_self": 99.6,
+          "calls_recal": "6+0",
+          "name": "[387]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 16,
+          "total": 16,
+          "self": 0.4,
+          "acc_self": 100.0,
+          "calls_recal": "6+0",
+          "name": "[1315]init(JJ)V"
+        }
+      ]
+    },
+    {
+      "cycles": 3509,
+      "total": 0.1,
+      "self": 95.6,
+      "calls_recal": "16+0",
+      "name": "edu/umich/PowerTutor/service/UMLoggerService",
+      "methods": [
+        {
+          "cycles": 2839,
+          "total": 6868,
+          "self": 80.9,
+          "acc_self": 80.9,
+          "calls_recal": "1+0",
+          "name": "[228]showNotification()V"
+        },
+        {
+          "cycles": 350,
+          "total": 3858,
+          "self": 10.0,
+          "acc_self": 90.9,
+          "calls_recal": "1+0",
+          "name": "[281]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 223,
+          "total": 58126,
+          "self": 6.4,
+          "acc_self": 97.2,
+          "calls_recal": "1+0",
+          "name": "[65]onCreate()V"
+        },
+        {
+          "cycles": 62,
+          "total": 7496,
+          "self": 1.8,
+          "acc_self": 99.0,
+          "calls_recal": "1+0",
+          "name": "[217]onStart(Landroid/content/Intent;I)V"
+        },
+        {
+          "cycles": 28,
+          "total": 28,
+          "self": 0.8,
+          "acc_self": 99.8,
+          "calls_recal": "9+0",
+          "name": "[1201]access$0(Ledu/umich/PowerTutor/service/UMLoggerService;)Ledu/umich/PowerTutor/service/PowerEstimator;"
+        },
+        {
+          "cycles": 5,
+          "total": 5,
+          "self": 0.1,
+          "acc_self": 99.9,
+          "calls_recal": "2+0",
+          "name": "[1469]access$1(Ledu/umich/PowerTutor/service/UMLoggerService;)Landroid/telephony/TelephonyManager;"
+        },
+        {
+          "cycles": 2,
+          "total": 2,
+          "self": 0.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1595]onBind(Landroid/content/Intent;)Landroid/os/IBinder;"
+        }
+      ]
+    },
+    {
+      "cycles": 1384,
+      "total": 0.0,
+      "self": 97.1,
+      "calls_recal": "85+0",
+      "name": "edu/umich/PowerTutor/components/Threeg$ThreegData",
+      "methods": [
+        {
+          "cycles": 746,
+          "total": 11044,
+          "self": 53.9,
+          "acc_self": 53.9,
+          "calls_recal": "12+0",
+          "name": "[174]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 306,
+          "total": 775,
+          "self": 22.1,
+          "acc_self": 76.0,
+          "calls_recal": "23+0",
+          "name": "[513]obtain()Ledu/umich/PowerTutor/components/Threeg$ThreegData;"
+        },
+        {
+          "cycles": 137,
+          "total": 416,
+          "self": 9.9,
+          "acc_self": 85.9,
+          "calls_recal": "17+0",
+          "name": "[614]recycle()V"
+        },
+        {
+          "cycles": 104,
+          "total": 104,
+          "self": 7.5,
+          "acc_self": 93.4,
+          "calls_recal": "23+0",
+          "name": "[884]init(JJJILjava/lang/String;)V"
+        },
+        {
+          "cycles": 74,
+          "total": 115,
+          "self": 5.3,
+          "acc_self": 98.8,
+          "calls_recal": "9+0",
+          "name": "[868]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 17,
+          "total": 74,
+          "self": 1.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[966]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1291,
+      "total": 0.0,
+      "self": 97.2,
+      "calls_recal": "304+0",
+      "name": "edu/umich/PowerTutor/util/HistoryBuffer$HistoryDatum",
+      "methods": [
+        {
+          "cycles": 672,
+          "total": 672,
+          "self": 52.1,
+          "acc_self": 52.1,
+          "calls_recal": "152+0",
+          "name": "[532]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 619,
+          "total": 619,
+          "self": 47.9,
+          "acc_self": 100.0,
+          "calls_recal": "152+0",
+          "name": "[548]init(JI)V"
+        }
+      ]
+    },
+    {
+      "cycles": 1252,
+      "total": 0.0,
+      "self": 97.2,
+      "calls_recal": "110+0",
+      "name": "edu/umich/PowerTutor/components/LCD$LcdData",
+      "methods": [
+        {
+          "cycles": 538,
+          "total": 9995,
+          "self": 43.0,
+          "acc_self": 43.0,
+          "calls_recal": "14+0",
+          "name": "[187]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 337,
+          "total": 922,
+          "self": 26.9,
+          "acc_self": 69.9,
+          "calls_recal": "30+0",
+          "name": "[479]obtain()Ledu/umich/PowerTutor/components/LCD$LcdData;"
+        },
+        {
+          "cycles": 203,
+          "total": 794,
+          "self": 16.2,
+          "acc_self": 86.1,
+          "calls_recal": "28+0",
+          "name": "[510]recycle()V"
+        },
+        {
+          "cycles": 118,
+          "total": 118,
+          "self": 9.4,
+          "acc_self": 95.5,
+          "calls_recal": "30+0",
+          "name": "[862]init(IZ)V"
+        },
+        {
+          "cycles": 44,
+          "total": 66,
+          "self": 3.5,
+          "acc_self": 99.0,
+          "calls_recal": "7+0",
+          "name": "[1004]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 12,
+          "total": 44,
+          "self": 1.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1100]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1148,
+      "total": 0.0,
+      "self": 97.5,
+      "calls_recal": "32+0",
+      "name": "edu/umich/PowerTutor/components/LCD",
+      "methods": [
+        {
+          "cycles": 886,
+          "total": 356989,
+          "self": 77.2,
+          "acc_self": 77.2,
+          "calls_recal": "15+0",
+          "name": "[8]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 179,
+          "total": 3778,
+          "self": 15.6,
+          "acc_self": 92.8,
+          "calls_recal": "1+0",
+          "name": "[285]\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        {
+          "cycles": 63,
+          "total": 63,
+          "self": 5.5,
+          "acc_self": 98.3,
+          "calls_recal": "15+0",
+          "name": "[1016]getComponentName()Ljava/lang/String;"
+        },
+        {
+          "cycles": 20,
+          "total": 20,
+          "self": 1.7,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1271]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1133,
+      "total": 0.0,
+      "self": 97.5,
+      "calls_recal": "12+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector",
+      "methods": [
+        {
+          "cycles": 538,
+          "total": 48957,
+          "self": 47.5,
+          "acc_self": 47.5,
+          "calls_recal": "1+0",
+          "name": "[71]generateComponents(Landroid/content/Context;Ljava/util/List;Ljava/util/List;)V"
+        },
+        {
+          "cycles": 216,
+          "total": 20984,
+          "self": 19.1,
+          "acc_self": 66.5,
+          "calls_recal": "2+0",
+          "name": "[119]getConstants(Landroid/content/Context;)Ledu/umich/PowerTutor/phone/PhoneConstants;"
+        },
+        {
+          "cycles": 132,
+          "total": 244,
+          "self": 11.7,
+          "acc_self": 78.2,
+          "calls_recal": "4+0",
+          "name": "[701]hasOled()Z"
+        },
+        {
+          "cycles": 125,
+          "total": 322,
+          "self": 11.0,
+          "acc_self": 89.2,
+          "calls_recal": "3+0",
+          "name": "[657]getPhoneType()I"
+        },
+        {
+          "cycles": 64,
+          "total": 1689,
+          "self": 5.6,
+          "acc_self": 94.9,
+          "calls_recal": "1+0",
+          "name": "[396]getCalculator(Landroid/content/Context;)Ledu/umich/PowerTutor/phone/PhonePowerCalculator;"
+        },
+        {
+          "cycles": 58,
+          "total": 58,
+          "self": 5.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1037]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1048,
+      "total": 0.0,
+      "self": 97.7,
+      "calls_recal": "60+0",
+      "name": "edu/umich/PowerTutor/components/GPS$GpsData",
+      "methods": [
+        {
+          "cycles": 628,
+          "total": 12209,
+          "self": 59.9,
+          "acc_self": 59.9,
+          "calls_recal": "13+0",
+          "name": "[158]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 181,
+          "total": 628,
+          "self": 17.3,
+          "acc_self": 77.2,
+          "calls_recal": "15+0",
+          "name": "[545]obtain()Ledu/umich/PowerTutor/components/GPS$GpsData;"
+        },
+        {
+          "cycles": 84,
+          "total": 312,
+          "self": 8.0,
+          "acc_self": 85.2,
+          "calls_recal": "13+0",
+          "name": "[661]recycle()V"
+        },
+        {
+          "cycles": 80,
+          "total": 80,
+          "self": 7.6,
+          "acc_self": 92.8,
+          "calls_recal": "15+0",
+          "name": "[945]init([DI)V"
+        },
+        {
+          "cycles": 53,
+          "total": 115,
+          "self": 5.1,
+          "acc_self": 97.9,
+          "calls_recal": "1+0",
+          "name": "[867]\u003cclinit\u003e()V"
+        },
+        {
+          "cycles": 22,
+          "total": 30,
+          "self": 2.1,
+          "acc_self": 100.0,
+          "calls_recal": "3+0",
+          "name": "[1183]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1040,
+      "total": 0.0,
+      "self": 97.8,
+      "calls_recal": "58+0",
+      "name": "edu/umich/PowerTutor/util/HistoryBuffer$UidData",
+      "methods": [
+        {
+          "cycles": 1040,
+          "total": 10144,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "58+0",
+          "name": "[184]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 1008,
+      "total": 0.0,
+      "self": 97.8,
+      "calls_recal": "31+0",
+      "name": "edu/umich/PowerTutor/components/GPS",
+      "methods": [
+        {
+          "cycles": 693,
+          "total": 3844,
+          "self": 68.8,
+          "acc_self": 68.8,
+          "calls_recal": "15+0",
+          "name": "[282]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 240,
+          "total": 8843,
+          "self": 23.8,
+          "acc_self": 92.6,
+          "calls_recal": "1+0",
+          "name": "[197]\u003cinit\u003e(Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V"
+        },
+        {
+          "cycles": 48,
+          "total": 48,
+          "self": 4.8,
+          "acc_self": 97.3,
+          "calls_recal": "14+0",
+          "name": "[1079]getComponentName()Ljava/lang/String;"
+        },
+        {
+          "cycles": 27,
+          "total": 27,
+          "self": 2.7,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1214]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 983,
+      "total": 0.0,
+      "self": 97.9,
+      "calls_recal": "31+0",
+      "name": "edu/umich/PowerTutor/components/Wifi",
+      "methods": [
+        {
+          "cycles": 719,
+          "total": 8636,
+          "self": 73.1,
+          "acc_self": 73.1,
+          "calls_recal": "15+0",
+          "name": "[201]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 182,
+          "total": 4447,
+          "self": 18.5,
+          "acc_self": 91.7,
+          "calls_recal": "1+0",
+          "name": "[263]\u003cinit\u003e(Landroid/content/Context;Ledu/umich/PowerTutor/phone/PhoneConstants;)V"
+        },
+        {
+          "cycles": 60,
+          "total": 60,
+          "self": 6.1,
+          "acc_self": 97.8,
+          "calls_recal": "14+0",
+          "name": "[1024]getComponentName()Ljava/lang/String;"
+        },
+        {
+          "cycles": 22,
+          "total": 22,
+          "self": 2.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1257]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 687,
+      "total": 0.0,
+      "self": 98.4,
+      "calls_recal": "60+0",
+      "name": "edu/umich/PowerTutor/components/Wifi$WifiData",
+      "methods": [
+        {
+          "cycles": 331,
+          "total": 5938,
+          "self": 48.2,
+          "acc_self": 48.2,
+          "calls_recal": "13+0",
+          "name": "[243]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 187,
+          "total": 522,
+          "self": 27.2,
+          "acc_self": 75.4,
+          "calls_recal": "15+0",
+          "name": "[574]obtain()Ledu/umich/PowerTutor/components/Wifi$WifiData;"
+        },
+        {
+          "cycles": 79,
+          "total": 300,
+          "self": 11.5,
+          "acc_self": 86.9,
+          "calls_recal": "13+0",
+          "name": "[666]recycle()V"
+        },
+        {
+          "cycles": 61,
+          "total": 61,
+          "self": 8.9,
+          "acc_self": 95.8,
+          "calls_recal": "15+0",
+          "name": "[1022]init()V"
+        },
+        {
+          "cycles": 18,
+          "total": 27,
+          "self": 2.6,
+          "acc_self": 98.4,
+          "calls_recal": "3+0",
+          "name": "[1215]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 11,
+          "total": 44,
+          "self": 1.6,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1101]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 648,
+      "total": 0.0,
+      "self": 98.5,
+      "calls_recal": "30+0",
+      "name": "edu/umich/PowerTutor/components/Audio",
+      "methods": [
+        {
+          "cycles": 530,
+          "total": 6455,
+          "self": 81.8,
+          "acc_self": 81.8,
+          "calls_recal": "15+0",
+          "name": "[233]calculateIteration(J)Ledu/umich/PowerTutor/service/IterationData;"
+        },
+        {
+          "cycles": 69,
+          "total": 1013,
+          "self": 10.6,
+          "acc_self": 92.4,
+          "calls_recal": "1+0",
+          "name": "[464]\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        {
+          "cycles": 49,
+          "total": 49,
+          "self": 7.6,
+          "acc_self": 100.0,
+          "calls_recal": "14+0",
+          "name": "[1077]getComponentName()Ljava/lang/String;"
+        }
+      ]
+    },
+    {
+      "cycles": 607,
+      "total": 0.0,
+      "self": 98.5,
+      "calls_recal": "60+0",
+      "name": "edu/umich/PowerTutor/components/Audio$AudioData",
+      "methods": [
+        {
+          "cycles": 260,
+          "total": 5625,
+          "self": 42.8,
+          "acc_self": 42.8,
+          "calls_recal": "13+0",
+          "name": "[248]writeLogDataInfo(Ljava/io/OutputStreamWriter;)V"
+        },
+        {
+          "cycles": 168,
+          "total": 516,
+          "self": 27.7,
+          "acc_self": 70.5,
+          "calls_recal": "15+0",
+          "name": "[578]obtain()Ledu/umich/PowerTutor/components/Audio$AudioData;"
+        },
+        {
+          "cycles": 79,
+          "total": 288,
+          "self": 13.0,
+          "acc_self": 83.5,
+          "calls_recal": "13+0",
+          "name": "[673]recycle()V"
+        },
+        {
+          "cycles": 72,
+          "total": 72,
+          "self": 11.9,
+          "acc_self": 95.4,
+          "calls_recal": "15+0",
+          "name": "[977]init(Z)V"
+        },
+        {
+          "cycles": 17,
+          "total": 25,
+          "self": 2.8,
+          "acc_self": 98.2,
+          "calls_recal": "3+0",
+          "name": "[1228]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 11,
+          "total": 59,
+          "self": 1.8,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1030]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 570,
+      "total": 0.0,
+      "self": 98.6,
+      "calls_recal": "62+0",
+      "name": "edu/umich/PowerTutor/components/GPS$GpsStateKeeper",
+      "methods": [
+        {
+          "cycles": 234,
+          "total": 561,
+          "self": 41.1,
+          "acc_self": 41.1,
+          "calls_recal": "15+0",
+          "name": "[566]updateTimesLocked()V"
+        },
+        {
+          "cycles": 169,
+          "total": 730,
+          "self": 29.6,
+          "acc_self": 70.7,
+          "calls_recal": "15+0",
+          "name": "[524]getStateTimesLocked()[D"
+        },
+        {
+          "cycles": 66,
+          "total": 66,
+          "self": 11.6,
+          "acc_self": 82.3,
+          "calls_recal": "15+0",
+          "name": "[1003]resetTimesLocked()V"
+        },
+        {
+          "cycles": 59,
+          "total": 59,
+          "self": 10.4,
+          "acc_self": 92.6,
+          "calls_recal": "15+0",
+          "name": "[1031]getCurrentStateLocked()I"
+        },
+        {
+          "cycles": 34,
+          "total": 185,
+          "self": 6.0,
+          "acc_self": 98.6,
+          "calls_recal": "1+0",
+          "name": "[757]\u003cinit\u003e(IJ)V"
+        },
+        {
+          "cycles": 8,
+          "total": 8,
+          "self": 1.4,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1423]\u003cinit\u003e(IJJ)V"
+        }
+      ]
+    },
+    {
+      "cycles": 503,
+      "total": 0.0,
+      "self": 98.7,
+      "calls_recal": "36+0",
+      "name": "edu/umich/PowerTutor/util/BatteryStats",
+      "methods": [
+        {
+          "cycles": 161,
+          "total": 4224,
+          "self": 32.0,
+          "acc_self": 32.0,
+          "calls_recal": "14+0",
+          "name": "[270]getCurrent()D"
+        },
+        {
+          "cycles": 136,
+          "total": 136,
+          "self": 27.0,
+          "acc_self": 59.0,
+          "calls_recal": "1+0",
+          "name": "[831]\u003cclinit\u003e()V"
+        },
+        {
+          "cycles": 116,
+          "total": 1477,
+          "self": 23.1,
+          "acc_self": 82.1,
+          "calls_recal": "1+0",
+          "name": "[417]\u003cinit\u003e()V"
+        },
+        {
+          "cycles": 51,
+          "total": 51,
+          "self": 10.1,
+          "acc_self": 92.2,
+          "calls_recal": "14+0",
+          "name": "[1073]hasCurrent()Z"
+        },
+        {
+          "cycles": 18,
+          "total": 1495,
+          "self": 3.6,
+          "acc_self": 95.8,
+          "calls_recal": "1+0",
+          "name": "[416]getInstance()Ledu/umich/PowerTutor/util/BatteryStats;"
+        },
+        {
+          "cycles": 7,
+          "total": 160,
+          "self": 1.4,
+          "acc_self": 97.2,
+          "calls_recal": "1+0",
+          "name": "[795]getTemp()D"
+        },
+        {
+          "cycles": 6,
+          "total": 8,
+          "self": 1.2,
+          "acc_self": 98.4,
+          "calls_recal": "1+0",
+          "name": "[1425]hasCharge()Z"
+        },
+        {
+          "cycles": 5,
+          "total": 5,
+          "self": 1.0,
+          "acc_self": 99.4,
+          "calls_recal": "2+0",
+          "name": "[1470]hasFullCapacity()Z"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 0.6,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1568]hasTemp()Z"
+        }
+      ]
+    },
+    {
+      "cycles": 303,
+      "total": 0.0,
+      "self": 99.0,
+      "calls_recal": "29+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$2",
+      "methods": [
+        {
+          "cycles": 299,
+          "total": 1145,
+          "self": 98.7,
+          "acc_self": 98.7,
+          "calls_recal": "28+0",
+          "name": "[447]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 1.3,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1504]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 281,
+      "total": 0.0,
+      "self": 99.0,
+      "calls_recal": "11+0",
+      "name": "edu/umich/PowerTutor/util/NotificationService",
+      "methods": [
+        {
+          "cycles": 183,
+          "total": 2015,
+          "self": 65.1,
+          "acc_self": 65.1,
+          "calls_recal": "1+0",
+          "name": "[369]\u003cclinit\u003e()V"
+        },
+        {
+          "cycles": 58,
+          "total": 1412,
+          "self": 20.6,
+          "acc_self": 85.8,
+          "calls_recal": "5+0",
+          "name": "[424]getBatteryService()Landroid/os/IBinder;"
+        },
+        {
+          "cycles": 40,
+          "total": 1452,
+          "self": 14.2,
+          "acc_self": 100.0,
+          "calls_recal": "5+0",
+          "name": "[422]available()Z"
+        }
+      ]
+    },
+    {
+      "cycles": 247,
+      "total": 0.0,
+      "self": 99.1,
+      "calls_recal": "7+0",
+      "name": "edu/umich/PowerTutor/service/UMLoggerService$3",
+      "methods": [
+        {
+          "cycles": 114,
+          "total": 1826,
+          "self": 46.2,
+          "acc_self": 46.2,
+          "calls_recal": "3+0",
+          "name": "[384]onSignalStrengthChanged(I)V"
+        },
+        {
+          "cycles": 82,
+          "total": 2113,
+          "self": 33.2,
+          "acc_self": 79.4,
+          "calls_recal": "1+0",
+          "name": "[361]onServiceStateChanged(Landroid/telephony/ServiceState;)V"
+        },
+        {
+          "cycles": 19,
+          "total": 344,
+          "self": 7.7,
+          "acc_self": 87.0,
+          "calls_recal": "1+0",
+          "name": "[647]onCallStateChanged(ILjava/lang/String;)V"
+        },
+        {
+          "cycles": 18,
+          "total": 430,
+          "self": 7.3,
+          "acc_self": 94.3,
+          "calls_recal": "1+0",
+          "name": "[608]onDataConnectionStateChanged(I)V"
+        },
+        {
+          "cycles": 14,
+          "total": 747,
+          "self": 5.7,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[520]\u003cinit\u003e(Ledu/umich/PowerTutor/service/UMLoggerService;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 176,
+      "total": 0.0,
+      "self": 99.2,
+      "calls_recal": "2+0",
+      "name": "edu/umich/PowerTutor/service/UMLoggerService$2",
+      "methods": [
+        {
+          "cycles": 165,
+          "total": 2632,
+          "self": 93.8,
+          "acc_self": 93.8,
+          "calls_recal": "1+0",
+          "name": "[318]onReceive(Landroid/content/Context;Landroid/content/Intent;)V"
+        },
+        {
+          "cycles": 11,
+          "total": 24,
+          "self": 6.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1235]\u003cinit\u003e(Ledu/umich/PowerTutor/service/UMLoggerService;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 169,
+      "total": 0.0,
+      "self": 99.2,
+      "calls_recal": "21+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$5",
+      "methods": [
+        {
+          "cycles": 166,
+          "total": 671,
+          "self": 98.2,
+          "acc_self": 98.2,
+          "calls_recal": "20+0",
+          "name": "[533]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 1.8,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1562]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 155,
+      "total": 0.0,
+      "self": 99.3,
+      "calls_recal": "16+0",
+      "name": "edu/umich/PowerTutor/components/Wifi$WifiStateKeeper",
+      "methods": [
+        {
+          "cycles": 152,
+          "total": 371,
+          "self": 98.1,
+          "acc_self": 98.1,
+          "calls_recal": "15+0",
+          "name": "[637]interfaceOff()V"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 1.9,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1556]\u003cinit\u003e(DD)V"
+        }
+      ]
+    },
+    {
+      "cycles": 146,
+      "total": 0.0,
+      "self": 99.3,
+      "calls_recal": "15+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$4",
+      "methods": [
+        {
+          "cycles": 142,
+          "total": 215,
+          "self": 97.3,
+          "acc_self": 97.3,
+          "calls_recal": "14+0",
+          "name": "[733]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 2.7,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1505]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 133,
+      "total": 0.0,
+      "self": 99.3,
+      "calls_recal": "15+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$6",
+      "methods": [
+        {
+          "cycles": 130,
+          "total": 351,
+          "self": 97.7,
+          "acc_self": 97.7,
+          "calls_recal": "14+0",
+          "name": "[641]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 2.3,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1563]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 131,
+      "total": 0.0,
+      "self": 99.3,
+      "calls_recal": "15+0",
+      "name": "edu/umich/PowerTutor/phone/PhoneSelector$7",
+      "methods": [
+        {
+          "cycles": 128,
+          "total": 188,
+          "self": 97.7,
+          "acc_self": 97.7,
+          "calls_recal": "14+0",
+          "name": "[753]calculate(Ledu/umich/PowerTutor/service/PowerData;)D"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 2.3,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1564]\u003cinit\u003e(Ledu/umich/PowerTutor/phone/PhonePowerCalculator;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 80,
+      "total": 0.0,
+      "self": 99.4,
+      "calls_recal": "2+0",
+      "name": "edu/umich/PowerTutor/widget/PowerWidget",
+      "methods": [
+        {
+          "cycles": 65,
+          "total": 1466,
+          "self": 81.2,
+          "acc_self": 81.2,
+          "calls_recal": "1+0",
+          "name": "[418]updateWidget(Landroid/content/Context;Ledu/umich/PowerTutor/service/PowerEstimator;)V"
+        },
+        {
+          "cycles": 15,
+          "total": 15,
+          "self": 18.8,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1329]\u003cclinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 58,
+      "total": 0.0,
+      "self": 99.4,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/ui/UMLogger$CounterServiceConnection",
+      "methods": [
+        {
+          "cycles": 58,
+          "total": 6743,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[230]onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 31,
+      "total": 0.0,
+      "self": 99.5,
+      "calls_recal": "2+0",
+      "name": "edu/umich/PowerTutor/service/ICounterService$Stub",
+      "methods": [
+        {
+          "cycles": 19,
+          "total": 28,
+          "self": 61.3,
+          "acc_self": 61.3,
+          "calls_recal": "1+0",
+          "name": "[1200]asInterface(Landroid/os/IBinder;)Ledu/umich/PowerTutor/service/ICounterService;"
+        },
+        {
+          "cycles": 12,
+          "total": 67,
+          "self": 38.7,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[998]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 20,
+      "total": 0.0,
+      "self": 99.5,
+      "calls_recal": "6+0",
+      "name": "edu/umich/PowerTutor/ui/UMLogger",
+      "methods": [
+        {
+          "cycles": 6,
+          "total": 6,
+          "self": 30.0,
+          "acc_self": 30.0,
+          "calls_recal": "2+0",
+          "name": "[1452]access$0(Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button;"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 20.0,
+          "acc_self": 50.0,
+          "calls_recal": "1+0",
+          "name": "[1507]access$3(Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/content/Intent;"
+        },
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 20.0,
+          "acc_self": 70.0,
+          "calls_recal": "1+0",
+          "name": "[1508]access$6(Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button;"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 15.0,
+          "acc_self": 85.0,
+          "calls_recal": "1+0",
+          "name": "[1566]access$5(Ledu/umich/PowerTutor/ui/UMLogger;Ledu/umich/PowerTutor/service/ICounterService;)V"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 15.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1567]access$7(Ledu/umich/PowerTutor/ui/UMLogger;)Landroid/widget/Button;"
+        }
+      ]
+    },
+    {
+      "cycles": 17,
+      "total": 0.0,
+      "self": 99.5,
+      "calls_recal": "2+0",
+      "name": "edu/umich/PowerTutor/util/NotificationService$NotificationForwarder",
+      "methods": [
+        {
+          "cycles": 9,
+          "total": 95,
+          "self": 52.9,
+          "acc_self": 52.9,
+          "calls_recal": "1+0",
+          "name": "[907]\u003cinit\u003e(Ledu/umich/PowerTutor/util/NotificationService$NotificationForwarder;)V"
+        },
+        {
+          "cycles": 8,
+          "total": 86,
+          "self": 47.1,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[926]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 11,
+      "total": 0.0,
+      "self": 99.5,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/PowerNotifications$Stub",
+      "methods": [
+        {
+          "cycles": 11,
+          "total": 72,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[976]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 11,
+      "total": 0.0,
+      "self": 99.5,
+      "calls_recal": "4+0",
+      "name": "edu/umich/PowerTutor/service/LogUploader",
+      "methods": [
+        {
+          "cycles": 4,
+          "total": 4,
+          "self": 36.4,
+          "acc_self": 36.4,
+          "calls_recal": "1+0",
+          "name": "[1506]\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 27.3,
+          "acc_self": 63.6,
+          "calls_recal": "1+0",
+          "name": "[1565]plug(Z)V"
+        },
+        {
+          "cycles": 2,
+          "total": 2,
+          "self": 18.2,
+          "acc_self": 81.8,
+          "calls_recal": "1+0",
+          "name": "[1593]shouldUpload()Z"
+        },
+        {
+          "cycles": 2,
+          "total": 2,
+          "self": 18.2,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1594]upload(Ljava/lang/String;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 7,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/components/LCD$1",
+      "methods": [
+        {
+          "cycles": 7,
+          "total": 10,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1384]\u003cinit\u003e(Ledu/umich/PowerTutor/components/LCD;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 6,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/service/UMLoggerService$1",
+      "methods": [
+        {
+          "cycles": 6,
+          "total": 73,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[971]\u003cinit\u003e(Ledu/umich/PowerTutor/service/UMLoggerService;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 6,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/util/NotificationService$DefaultReceiver",
+      "methods": [
+        {
+          "cycles": 6,
+          "total": 78,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[953]\u003cinit\u003e()V"
+        }
+      ]
+    },
+    {
+      "cycles": 4,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "com/cerberus/Modules",
+      "methods": [
+        {
+          "cycles": 4,
+          "total": 16,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1314]start()V"
+        }
+      ]
+    },
+    {
+      "cycles": 4,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/ui/UMLogger$3",
+      "methods": [
+        {
+          "cycles": 4,
+          "total": 1321,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[432]onClick(Landroid/view/View;)V"
+        }
+      ]
+    },
+    {
+      "cycles": 3,
+      "total": 0.0,
+      "self": 99.6,
+      "calls_recal": "1+0",
+      "name": "edu/umich/PowerTutor/components/GPS$1",
+      "methods": [
+        {
+          "cycles": 3,
+          "total": 3,
+          "self": 100.0,
+          "acc_self": 100.0,
+          "calls_recal": "1+0",
+          "name": "[1555]\u003cinit\u003e(Ledu/umich/PowerTutor/components/GPS;)V"
+        }
+      ]
+    }
+  ],
+  "METHOD_DETAIL": []
+}

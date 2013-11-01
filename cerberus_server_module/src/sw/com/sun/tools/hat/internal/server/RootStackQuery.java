@@ -34,10 +34,8 @@ package sw.com.sun.tools.hat.internal.server;
 
 
 import sw.com.sun.tools.hat.internal.model.*;
-
-import sw.com.sun.tools.hat.internal.model.Root;
-import sw.com.sun.tools.hat.internal.model.StackTrace;
 import sw.com.sun.tools.hat.internal.server.QueryHandler;
+import sw.gson.MainObject;
 
 /**
  * Query to show the StackTrace for a given root
@@ -69,5 +67,11 @@ class RootStackQuery extends QueryHandler {
         out.println("</p>");
         endHtml();
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

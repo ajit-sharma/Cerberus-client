@@ -43,6 +43,7 @@ import java.util.Enumeration;
 import sw.com.sun.tools.hat.internal.model.*;
 import sw.com.sun.tools.hat.internal.util.ArraySorter;
 import sw.com.sun.tools.hat.internal.util.Comparer;
+import sw.gson.MainObject;
 
 /**
  *
@@ -191,6 +192,12 @@ class ClassQuery extends QueryHandler {
         out.print("\">");
         out.println("Objects reachable from here</a><br>");
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 
 }

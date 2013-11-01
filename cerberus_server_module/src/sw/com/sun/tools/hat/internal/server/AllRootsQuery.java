@@ -37,10 +37,10 @@ import java.util.Vector;
 import sw.com.sun.tools.hat.internal.model.*;
 import sw.com.sun.tools.hat.internal.util.ArraySorter;
 import sw.com.sun.tools.hat.internal.util.Comparer;
-
 import sw.com.sun.tools.hat.internal.model.JavaThing;
 import sw.com.sun.tools.hat.internal.model.Root;
 import sw.com.sun.tools.hat.internal.server.QueryHandler;
+import sw.gson.MainObject;
 
 /**
  *
@@ -109,4 +109,10 @@ class AllRootsQuery extends QueryHandler {
 
         endHtml();
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

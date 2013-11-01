@@ -38,6 +38,7 @@ import sw.com.sun.tools.hat.internal.server.QueryHandler;
 import java.util.*;
 
 import sw.com.sun.tools.hat.internal.model.*;
+import sw.gson.MainObject;
 
 public class FinalizerObjectsQuery extends QueryHandler {
     public void run() {
@@ -55,4 +56,10 @@ public class FinalizerObjectsQuery extends QueryHandler {
 
         endHtml();
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

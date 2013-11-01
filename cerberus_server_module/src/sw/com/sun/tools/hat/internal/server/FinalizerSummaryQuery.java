@@ -40,6 +40,7 @@ import sw.com.sun.tools.hat.internal.server.QueryHandler;
 import java.util.*;
 
 import sw.com.sun.tools.hat.internal.model.*;
+import sw.gson.MainObject;
 
 public class FinalizerSummaryQuery extends QueryHandler {
     public void run() {
@@ -131,4 +132,10 @@ public class FinalizerSummaryQuery extends QueryHandler {
         }
         out.println("</table>");
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

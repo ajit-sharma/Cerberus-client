@@ -1,6 +1,7 @@
 package sw.gson.trace;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class MainTree {
 	
@@ -8,6 +9,34 @@ public class MainTree {
 	private IndexFactory index_node = new IndexNode();
 	private ArrayList<ChildFactory> childset = new ArrayList<ChildFactory>();
 	private int whois; // To check start and end of indexnode
+	
+
+	public Nodes ConvertNode(IndexFactory indexnode)
+	{
+		Nodes node = new Nodes();
+		node.setNode(indexnode.getIndex(), indexnode.getTotal(), indexnode.getCalls(), indexnode.getUsec()
+				, indexnode.getMethodName());
+		return node;
+	}
+	
+	public ArrayList<Integer> getChildIndex()
+	{
+		ArrayList<Integer> childindex = new ArrayList<Integer>();
+		Iterator<ChildFactory> iter = this.childset.iterator();
+		while(iter.hasNext())
+		{
+			childindex.add(iter.next().getIndex());
+		}
+		return childindex;
+	}
+	public IndexFactory getIndexNode()
+	{
+		return this.index_node;
+	}
+	public int getIndex()
+	{
+		return this.index_node.getIndex();
+	}
 	
 	public void setParent(ParentFactory _parent)
 	{
@@ -32,6 +61,11 @@ public class MainTree {
 	public int getWhois()
 	{
 		return whois;
+	}
+	
+	public String getIndexClass()
+	{
+		return this.index_node.getClsName();
 	}
 
 

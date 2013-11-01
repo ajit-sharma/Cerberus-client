@@ -33,11 +33,8 @@
 package sw.com.sun.tools.hat.internal.server;
 
 import sw.com.sun.tools.hat.internal.model.*;
-
-import sw.com.sun.tools.hat.internal.model.JavaHeapObject;
-import sw.com.sun.tools.hat.internal.model.JavaThing;
-import sw.com.sun.tools.hat.internal.model.ReachableObjects;
 import sw.com.sun.tools.hat.internal.server.QueryHandler;
+import sw.gson.MainObject;
 
 /**
  *
@@ -92,4 +89,10 @@ class ReachableQuery extends QueryHandler {
             out.println("<br>");
         }
     }
+
+	@Override
+	MainObject run(MainObject mainobject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

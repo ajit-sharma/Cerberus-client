@@ -1,0 +1,1085 @@
+{
+  "index": 1,
+  "total": "58.4%",
+  "calls": "6+0",
+  "usec": 1663756,
+  "methodName": "edu/umich/PowerTutor/components/PowerComponent.run ()V",
+  "child_index": [
+    {
+      "index": 2,
+      "total": "35.4%",
+      "calls": "15+0",
+      "usec": 1008156,
+      "methodName": "edu/umich/PowerTutor/components/CPU.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 7,
+          "total": "15.1%",
+          "calls": "1256+0",
+          "usec": 429584,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getPidUsrSysTime (I[J)Z",
+          "child_index": []
+        },
+        {
+          "index": 22,
+          "total": "7.2%",
+          "calls": "462+0",
+          "usec": 205485,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getUidForPid (I)I",
+          "child_index": []
+        },
+        {
+          "index": 77,
+          "total": "1.7%",
+          "calls": "15+0",
+          "usec": 47305,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getPids ([I)[I",
+          "child_index": []
+        },
+        {
+          "index": 80,
+          "total": "1.5%",
+          "calls": "1271+0",
+          "usec": 42578,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.updateState (JJJJ)V",
+          "child_index": [
+            {
+              "index": 123,
+              "total": "0.7%",
+              "calls": "1838+0",
+              "usec": 20662,
+              "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getUsrPerc ()D",
+              "child_index": []
+            },
+            {
+              "index": 135,
+              "total": "0.6%",
+              "calls": "1838+0",
+              "usec": 18065,
+              "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getSysPerc ()D",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 159,
+          "total": "0.4%",
+          "calls": "567+0",
+          "usec": 12195,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuData.obtain ()Ledu/umich/PowerTutor/components/CPU$CpuData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 433,
+              "total": "0.0%",
+              "calls": "159+0",
+              "usec": 1319,
+              "methodName": "edu/umich/PowerTutor/components/CPU$CpuData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 160,
+          "total": "0.4%",
+          "calls": "15+0",
+          "usec": 12115,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getUsrSysTotalTime ([J)Z",
+          "child_index": []
+        },
+        {
+          "index": 163,
+          "total": "0.4%",
+          "calls": "2771+0",
+          "usec": 11843,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isStale (J)Z",
+          "child_index": []
+        },
+        {
+          "index": 177,
+          "total": "0.4%",
+          "calls": "3040+0",
+          "usec": 10830,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getUid ()I",
+          "child_index": []
+        },
+        {
+          "index": 157,
+          "total": "0.4%",
+          "calls": "665+0",
+          "usec": 12390,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": []
+        },
+        {
+          "index": 202,
+          "total": "0.3%",
+          "calls": "2794+0",
+          "usec": 8521,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isAlive (J)Z",
+          "child_index": []
+        },
+        {
+          "index": 209,
+          "total": "0.3%",
+          "calls": "553+0",
+          "usec": 8203,
+          "methodName": "edu/umich/PowerTutor/components/CPU.predictAppUidState (Ledu/umich/PowerTutor/components/CPU$CpuData;DDD)V",
+          "child_index": [
+            {
+              "index": 290,
+              "total": "0.1%",
+              "calls": "1085+0",
+              "usec": 3658,
+              "methodName": "edu/umich/PowerTutor/phone/DreamConstants.cpuFreqs ()[D",
+              "child_index": []
+            },
+            {
+              "index": 402,
+              "total": "0.1%",
+              "calls": "567+0",
+              "usec": 1624,
+              "methodName": "edu/umich/PowerTutor/components/CPU$CpuData.init (DDD)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 220,
+          "total": "0.3%",
+          "calls": "1920+0",
+          "usec": 7283,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.absorb (Ledu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V",
+          "child_index": []
+        },
+        {
+          "index": 242,
+          "total": "0.2%",
+          "calls": "1515+0",
+          "usec": 5951,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.updateIteration (JJ)V",
+          "child_index": []
+        },
+        {
+          "index": 247,
+          "total": "0.2%",
+          "calls": "15+0",
+          "usec": 5691,
+          "methodName": "edu/umich/PowerTutor/components/CPU.readCpuFreq (Ledu/umich/PowerTutor/util/SystemInfo;)D",
+          "child_index": [
+            {
+              "index": 38,
+              "total": "3.2%",
+              "calls": "504+0",
+              "usec": 90493,
+              "methodName": "edu/umich/PowerTutor/util/SystemInfo.readLongFromFile (Ljava/lang/String;)J",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 123,
+          "total": "0.7%",
+          "calls": "1838+0",
+          "usec": 20662,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getUsrPerc ()D",
+          "child_index": []
+        },
+        {
+          "index": 135,
+          "total": "0.6%",
+          "calls": "1838+0",
+          "usec": 18065,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.getSysPerc ()D",
+          "child_index": []
+        },
+        {
+          "index": 260,
+          "total": "0.2%",
+          "calls": "1271+0",
+          "usec": 4650,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.isInitialized ()Z",
+          "child_index": []
+        },
+        {
+          "index": 310,
+          "total": "0.1%",
+          "calls": "292+0",
+          "usec": 2782,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.\u003cinit\u003e (ILedu/umich/PowerTutor/components/CPU$CpuStateKeeper;)V",
+          "child_index": [
+            {
+              "index": 473,
+              "total": "0.0%",
+              "calls": "292+0",
+              "usec": 944,
+              "methodName": "edu/umich/PowerTutor/components/CPU$CpuStateKeeper.\u003cinit\u003e (I)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 855,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 124,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 761,
+          "total": "0.0%",
+          "calls": "36+0",
+          "usec": 183,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getInstance ()Ledu/umich/PowerTutor/util/SystemInfo;",
+          "child_index": []
+        },
+        {
+          "index": 402,
+          "total": "0.1%",
+          "calls": "567+0",
+          "usec": 1624,
+          "methodName": "edu/umich/PowerTutor/components/CPU$CpuData.init (DDD)V",
+          "child_index": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "total": "12.5%",
+      "calls": "15+0",
+      "usec": 356989,
+      "methodName": "edu/umich/PowerTutor/components/LCD.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 9,
+          "total": "12.1%",
+          "calls": "15+0",
+          "usec": 346198,
+          "methodName": "edu/umich/PowerTutor/util/ForegroundDetector.getForegroundUid ()I",
+          "child_index": [
+            {
+              "index": 22,
+              "total": "7.2%",
+              "calls": "462+0",
+              "usec": 205485,
+              "methodName": "edu/umich/PowerTutor/util/SystemInfo.getUidForPid (I)I",
+              "child_index": []
+            },
+            {
+              "index": 761,
+              "total": "0.0%",
+              "calls": "36+0",
+              "usec": 183,
+              "methodName": "edu/umich/PowerTutor/util/SystemInfo.getInstance ()Ledu/umich/PowerTutor/util/SystemInfo;",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 479,
+          "total": "0.0%",
+          "calls": "30+0",
+          "usec": 922,
+          "methodName": "edu/umich/PowerTutor/components/LCD$LcdData.obtain ()Ledu/umich/PowerTutor/components/LCD$LcdData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 1004,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 66,
+              "methodName": "edu/umich/PowerTutor/components/LCD$LcdData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 157,
+          "total": "0.4%",
+          "calls": "665+0",
+          "usec": 12390,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": []
+        },
+        {
+          "index": 684,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 274,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 862,
+          "total": "0.0%",
+          "calls": "30+0",
+          "usec": 118,
+          "methodName": "edu/umich/PowerTutor/components/LCD$LcdData.init (IZ)V",
+          "child_index": []
+        },
+        {
+          "index": 1100,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 44,
+          "methodName": "edu/umich/PowerTutor/components/LCD$LcdData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "total": "8.9%",
+      "calls": "15+0",
+      "usec": 252445,
+      "methodName": "edu/umich/PowerTutor/components/Threeg.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 39,
+          "total": "3.0%",
+          "calls": "474+0",
+          "usec": 84592,
+          "methodName": "edu/umich/PowerTutor/components/Threeg.readLongFromFile (Ljava/lang/String;)J",
+          "child_index": [
+            {
+              "index": 38,
+              "total": "3.2%",
+              "calls": "504+0",
+              "usec": 90493,
+              "methodName": "edu/umich/PowerTutor/util/SystemInfo.readLongFromFile (Ljava/lang/String;)J",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 139,
+          "total": "0.5%",
+          "calls": "600+0",
+          "usec": 15379,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.isStale ()Z",
+          "child_index": []
+        },
+        {
+          "index": 246,
+          "total": "0.2%",
+          "calls": "222+0",
+          "usec": 5775,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.updateState (JJJJIIII)V",
+          "child_index": []
+        },
+        {
+          "index": 291,
+          "total": "0.1%",
+          "calls": "15+0",
+          "usec": 3557,
+          "methodName": "edu/umich/PowerTutor/util/SystemInfo.getUids ([I)[I",
+          "child_index": []
+        },
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 483,
+          "total": "0.0%",
+          "calls": "222+0",
+          "usec": 897,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.isInitialized ()Z",
+          "child_index": []
+        },
+        {
+          "index": 506,
+          "total": "0.0%",
+          "calls": "190+0",
+          "usec": 799,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getUplinkBytes ()J",
+          "child_index": []
+        },
+        {
+          "index": 513,
+          "total": "0.0%",
+          "calls": "23+0",
+          "usec": 775,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegData.obtain ()Ledu/umich/PowerTutor/components/Threeg$ThreegData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 868,
+              "total": "0.0%",
+              "calls": "9+0",
+              "usec": 115,
+              "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 525,
+          "total": "0.0%",
+          "calls": "190+0",
+          "usec": 727,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getDownlinkBytes ()J",
+          "child_index": []
+        },
+        {
+          "index": 526,
+          "total": "0.0%",
+          "calls": "188+0",
+          "usec": 724,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getPowerState ()I",
+          "child_index": []
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 157,
+          "total": "0.4%",
+          "calls": "665+0",
+          "usec": 12390,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": []
+        },
+        {
+          "index": 847,
+          "total": "0.0%",
+          "calls": "41+0",
+          "usec": 127,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.\u003cinit\u003e ()V",
+          "child_index": []
+        },
+        {
+          "index": 884,
+          "total": "0.0%",
+          "calls": "23+0",
+          "usec": 104,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegData.init (JJJILjava/lang/String;)V",
+          "child_index": []
+        },
+        {
+          "index": 914,
+          "total": "0.0%",
+          "calls": "23+0",
+          "usec": 92,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegStateKeeper.getPackets ()J",
+          "child_index": []
+        },
+        {
+          "index": 966,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 74,
+          "methodName": "edu/umich/PowerTutor/components/Threeg$ThreegData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 1316,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 16,
+          "methodName": "edu/umich/PowerTutor/phone/DreamConstants.threegDchFachDelay (Ljava/lang/String;)I",
+          "child_index": []
+        },
+        {
+          "index": 1340,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 13,
+          "methodName": "edu/umich/PowerTutor/phone/DreamConstants.threegFachIdleDelay (Ljava/lang/String;)I",
+          "child_index": []
+        },
+        {
+          "index": 1557,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 3,
+          "methodName": "edu/umich/PowerTutor/phone/DreamConstants.threegDownlinkQueue (Ljava/lang/String;)I",
+          "child_index": []
+        },
+        {
+          "index": 1558,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 3,
+          "methodName": "edu/umich/PowerTutor/phone/DreamConstants.threegUplinkQueue (Ljava/lang/String;)I",
+          "child_index": []
+        }
+      ]
+    },
+    {
+      "index": 201,
+      "total": "0.3%",
+      "calls": "15+0",
+      "usec": 8636,
+      "methodName": "edu/umich/PowerTutor/components/Wifi.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 574,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 522,
+          "methodName": "edu/umich/PowerTutor/components/Wifi$WifiData.obtain ()Ledu/umich/PowerTutor/components/Wifi$WifiData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 1215,
+              "total": "0.0%",
+              "calls": "3+0",
+              "usec": 27,
+              "methodName": "edu/umich/PowerTutor/components/Wifi$WifiData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 637,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 371,
+          "methodName": "edu/umich/PowerTutor/components/Wifi$WifiStateKeeper.interfaceOff ()V",
+          "child_index": []
+        },
+        {
+          "index": 1022,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 61,
+          "methodName": "edu/umich/PowerTutor/components/Wifi$WifiData.init ()V",
+          "child_index": []
+        },
+        {
+          "index": 1101,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 44,
+          "methodName": "edu/umich/PowerTutor/components/Wifi$WifiData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "total": "0.2%",
+      "calls": "15+0",
+      "usec": 6455,
+      "methodName": "edu/umich/PowerTutor/components/Audio.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 578,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 516,
+          "methodName": "edu/umich/PowerTutor/components/Audio$AudioData.obtain ()Ledu/umich/PowerTutor/components/Audio$AudioData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 1228,
+              "total": "0.0%",
+              "calls": "3+0",
+              "usec": 25,
+              "methodName": "edu/umich/PowerTutor/components/Audio$AudioData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 977,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 72,
+          "methodName": "edu/umich/PowerTutor/components/Audio$AudioData.init (Z)V",
+          "child_index": []
+        },
+        {
+          "index": 1030,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 59,
+          "methodName": "edu/umich/PowerTutor/components/Audio$AudioData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "total": "0.1%",
+      "calls": "15+0",
+      "usec": 3844,
+      "methodName": "edu/umich/PowerTutor/components/GPS.calculateIteration (J)Ledu/umich/PowerTutor/service/IterationData;",
+      "child_index": [
+        {
+          "index": 524,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 730,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsStateKeeper.getStateTimesLocked ()[D",
+          "child_index": [
+            {
+              "index": 566,
+              "total": "0.0%",
+              "calls": "15+0",
+              "usec": 561,
+              "methodName": "edu/umich/PowerTutor/components/GPS$GpsStateKeeper.updateTimesLocked ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 262,
+          "total": "0.2%",
+          "calls": "90+0",
+          "usec": 4529,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.obtain ()Ledu/umich/PowerTutor/service/IterationData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 498,
+              "total": "0.0%",
+              "calls": "18+0",
+              "usec": 839,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 545,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 628,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsData.obtain ()Ledu/umich/PowerTutor/components/GPS$GpsData;",
+          "child_index": [
+            {
+              "index": 171,
+              "total": "0.4%",
+              "calls": "755+0",
+              "usec": 11300,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.obtain ()Ljava/lang/Object;",
+              "child_index": []
+            },
+            {
+              "index": 1183,
+              "total": "0.0%",
+              "calls": "3+0",
+              "usec": 30,
+              "methodName": "edu/umich/PowerTutor/components/GPS$GpsData.\u003cinit\u003e ()V",
+              "child_index": [
+                {
+                  "index": 575,
+                  "total": "0.0%",
+                  "calls": "184+0",
+                  "usec": 521,
+                  "methodName": "edu/umich/PowerTutor/service/PowerData.\u003cinit\u003e ()V",
+                  "child_index": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 289,
+          "total": "0.1%",
+          "calls": "88+0",
+          "usec": 3708,
+          "methodName": "edu/umich/PowerTutor/service/IterationData.setPowerData (Ledu/umich/PowerTutor/service/PowerData;)V",
+          "child_index": [
+            {
+              "index": 157,
+              "total": "0.4%",
+              "calls": "665+0",
+              "usec": 12390,
+              "methodName": "edu/umich/PowerTutor/service/IterationData.addUidPowerData (ILedu/umich/PowerTutor/service/PowerData;)V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 867,
+          "total": "0.0%",
+          "calls": "1+0",
+          "usec": 115,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsData.\u003cclinit\u003e ()V",
+          "child_index": [
+            {
+              "index": 636,
+              "total": "0.0%",
+              "calls": "7+0",
+              "usec": 372,
+              "methodName": "edu/umich/PowerTutor/util/Recycler.\u003cinit\u003e ()V",
+              "child_index": []
+            }
+          ]
+        },
+        {
+          "index": 945,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 80,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsData.init ([DI)V",
+          "child_index": []
+        },
+        {
+          "index": 1003,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 66,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsStateKeeper.resetTimesLocked ()V",
+          "child_index": []
+        },
+        {
+          "index": 1031,
+          "total": "0.0%",
+          "calls": "15+0",
+          "usec": 59,
+          "methodName": "edu/umich/PowerTutor/components/GPS$GpsStateKeeper.getCurrentStateLocked ()I",
+          "child_index": []
+        }
+      ]
+    }
+  ]
+}
